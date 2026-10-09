@@ -10,6 +10,13 @@ Read README.md, llms.txt and docs/design.md (§11 logs every decision; add an en
 - Ask before a debatable API change. No `if`/`for` DSL (`unsafeRaw` is the escape hatch); files
   only as `path('literal')` or `unsafePath`.
 - Commit small checkpoints. After an API change, `pnpm build` (local consumers may link `dist/`).
+- A new way to make a function value or a binding keeps the rules on files and readers of
+  SECURITY.md (`call`, `.with`, `let_` were the gaps), with its case in `test/security.test.ts`.
+- Names printed from data (named-argument keys, labels in markup) are ASCII: Node knows a newer
+  Unicode than Typst.
+- Printing stays linear: no regular expression that can backtrack on data, no copy per merge.
+- The repository is public: no internal names or process notes, no session links, no detail on how
+  the security review was done, and no Typst bug described before it is reported upstream.
 
 ## Checks
 
@@ -35,4 +42,6 @@ Typst `a.b.c` is package version `a.b.(c × 100 + r)` (`0.15.100`). Note API cha
 Releases: commit messages follow Conventional Commits (`fix:`, `feat:`, `docs:`, `chore:`…).
 release-please (`.github/workflows/release-please.yml`) opens a release PR for `fix:` and `feat:`
 commits, always bumping `r` (patch); merging it tags the release and stages it on npm (trusted
-publishing, with provenance), where the maintainer approves it. For a new Typst version, add a `Release-As: a.b.(c × 100)` footer to a commit.
+publishing, with provenance), where the maintainer approves it. For a new Typst version, add a
+`Release-As: a.b.(c × 100)` footer to a commit. If merging the release PR starts no `Release Please`
+run on `main`, push an empty `ci:` commit.
