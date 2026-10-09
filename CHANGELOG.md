@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.15.100](https://github.com/onparallel/typed-typst/compare/v0.15.99...v0.15.100) (2026-10-09)
+
+
+### Miscellaneous Chores
+
+* release 0.15.100 through release-please ([5d3c161](https://github.com/onparallel/typed-typst/commit/5d3c1618d120314bc16df345ef6fd88ec4d210c3))
+
+## Changelog
+
 Versions name the Typst version of the bindings: Typst `a.b.c` is
 `a.b.(c × 100 + r)`, where `r` counts the releases for that Typst version
 (see the README). Each entry says whether it changes the library's API.
