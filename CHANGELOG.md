@@ -4,9 +4,9 @@ Versions name the Typst version of the bindings: Typst `a.b.c` is
 `a.b.(c × 100 + r)`, where `r` counts the releases for that Typst version
 (see the README). Each entry says whether it changes the library's API.
 
-## 0.15.100 (2026-10-09)
+## Unreleased
 
-The first release, for Typst 0.15.1: the bindings of Typst 0.15.1's standard
+The first release, 0.15.100, for Typst 0.15.1: the bindings of Typst 0.15.1's standard
 library, the markup and scripting API, `unsafeRaw`, `typed-typst/node` (`check`,
 `checkTypstVersion`) and the ESLint plugin `typed-typst/eslint`.
 

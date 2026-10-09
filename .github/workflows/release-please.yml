@@ -3,15 +3,12 @@ name: Release Please
 on:
   push:
     branches: [main]
-  # A first release, or a publish to retry: publishes the version in package.json.
-  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   release-please:
-    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -27,13 +24,11 @@ jobs:
 
   publish:
     needs: release-please
-    if: >-
-      always() &&
-      (needs.release-please.outputs.release_created == 'true' || github.event_name == 'workflow_dispatch')
+    if: needs.release-please.outputs.release_created == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      # npm trusted publishing and provenance.
+      # npm trusted publishing (OIDC), which also signs the provenance.
       id-token: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -45,8 +40,5 @@ jobs:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
       - run: pnpm install --frozen-lockfile
-      # `prepack` builds dist/. Trusted publishing (OIDC) needs no token; NPM_TOKEN, if set, is used
-      # instead (a first release, before the package exists on npm).
-      - run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # `prepack` builds dist/. The version is staged: the maintainer approves it on npm (2FA).
+      - run: npm stage publish --access public

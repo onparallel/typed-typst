@@ -34,5 +34,5 @@ Read README.md, llms.txt and docs/design.md (§11 logs every decision; add an en
 Typst `a.b.c` is package version `a.b.(c × 100 + r)` (`0.15.100`). Note API changes in CHANGELOG.md.
 Releases: commit messages follow Conventional Commits (`fix:`, `feat:`, `docs:`, `chore:`…).
 release-please (`.github/workflows/release-please.yml`) opens a release PR for `fix:` and `feat:`
-commits, always bumping `r` (patch); merging it tags the release and publishes to npm with
-provenance. For a new Typst version, add a `Release-As: a.b.(c × 100)` footer to a commit.
+commits, always bumping `r` (patch); merging it tags the release and stages it on npm (trusted
+publishing, with provenance), where the maintainer approves it. For a new Typst version, add a `Release-As: a.b.(c × 100)` footer to a commit.

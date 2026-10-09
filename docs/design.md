@@ -748,6 +748,5 @@ rules, `let`, `context`, labels, references, imports of a `.typ`, `unsafeRaw` an
   SECURITY.md lists the rest.
 - **Releases:** release-please on `main`, as in the other packages of the organization: Conventional
   Commits, a release PR for `fix:` and `feat:`, always a patch bump (`r` in `a.b.(c × 100 + r)`;
-  a new Typst version is a `Release-As:` footer), and a publish job with npm trusted publishing and
-  provenance. `workflow_dispatch` publishes the version in `package.json`, for the first release
-  (with an `NPM_TOKEN` secret, before the package exists on npm) or a retry.
+  a new Typst version is a `Release-As:` footer), and a publish job that stages the version with
+  npm trusted publishing (OIDC, with provenance); the maintainer approves it on npm.
