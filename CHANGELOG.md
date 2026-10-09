@@ -4,6 +4,13 @@ Versions name the Typst version of the bindings: Typst `a.b.c` is
 `a.b.(c × 100 + r)`, where `r` counts the releases for that Typst version
 (see the README). Each entry says whether it changes the library's API.
 
+## [0.15.101](https://github.com/onparallel/typed-typst/compare/v0.15.100...v0.15.101) (2026-10-09)
+
+
+### Miscellaneous Chores
+
+* release 0.15.101, the first one published from CI with provenance ([38abb06](https://github.com/onparallel/typed-typst/commit/38abb06ff2adef3714cf6e2d030c35d3f677d49e))
+
 ## [0.15.100](https://github.com/onparallel/typed-typst/releases/tag/v0.15.100) (2026-10-09)
 
 The first release, for Typst 0.15.1: the bindings of Typst 0.15.1's standard
