@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "node",
+  "include-v-in-tag": true,
+  "include-component-in-tag": false,
+  "bootstrap-sha": "263c47b6ea78f04bb631ebb6d8778c4d6c9bd304",
+  "packages": {
+    ".": {
+      "package-name": "typed-typst",
+      "changelog-path": "CHANGELOG.md",
+      "versioning": "always-bump-patch"
+    }
+  }
+}
