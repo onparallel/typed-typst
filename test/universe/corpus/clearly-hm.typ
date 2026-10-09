@@ -1,0 +1,14 @@
+// Typst Universe template @preview/clearly-hm:0.1.1, slides.typ.
+// By its authors, MIT (https://typst.app/universe/package/clearly-hm).
+#import "@preview/polylux:0.4.0": *
+#import "@preview/clearly-hm:0.1.1" as hm: *
+
+#show: hm.setup.with(
+  title: "The Title",
+  author: "From You",
+)
+
+#title-slide()
+
+#slide-vertical("First Page Title")[
+]

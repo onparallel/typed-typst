@@ -1,0 +1,29 @@
+// Typst 0.15.1 test suite: tests/suite/text/raw.typ, case raw-highlight-typc.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// Highlighting for Typst code
+#set page(width: auto)
+```typ
+#set hello()
+#set hello()
+#set hello.world()
+#set hello.my.world()
+#let foo(x) = x * 2
+#show heading: func
+#show module.func: func
+#show module.func: it => {}
+#foo(ident: ident)
+#hello
+#hello()
+#box[]
+#hello.world
+#hello.world()
+#hello().world()
+#hello.my.world
+#hello.my.world()
+#hello.my().world
+#hello.my().world()
+#{ hello }
+#{ hello() }
+#{ hello.world() }
+#if foo []
+```

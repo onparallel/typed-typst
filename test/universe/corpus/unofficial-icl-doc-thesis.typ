@@ -1,0 +1,31 @@
+// Typst Universe template @preview/unofficial-icl-doc-thesis:0.1.0, main.typ.
+// By its authors, MIT (https://typst.app/universe/package/unofficial-icl-doc-thesis).
+#import "@preview/unofficial-icl-doc-thesis:0.1.0": project, back-matter
+#import "@preview/unofficial-icl-doc-thesis:0.1.0": *
+
+#show: project.with(
+  title: "Your Project Title",
+  author: "Your Name",
+  supervisor: "Supervisor Name",
+  report-type: "MEng Individual Project",
+  degree: "Master of Engineering (MEng)",
+  abstract: [
+    Write your abstract here.
+  ],
+  // logo: "figures/your-logo.svg",  // replace with your institution logo
+)
+
+= Introduction
+
+Your introduction here.
+
+= Background
+
+= Contribution
+
+= Experimental Results
+
+= Conclusion
+
+#back-matter()
+#bibliography("references.bib", style: "elsevier-vancouver")

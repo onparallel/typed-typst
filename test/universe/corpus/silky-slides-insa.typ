@@ -1,0 +1,32 @@
+// Typst Universe template @preview/silky-slides-insa:0.2.0, main.typ.
+// By its authors, MIT (https://typst.app/universe/package/silky-slides-insa).
+#import "@preview/silky-slides-insa:0.2.0": *
+
+#show: insa-slides.with(
+  title: "Titre du diaporama",
+  title-visual: none,
+  subtitle: "Sous-titre (noms et prénoms ?)",
+  insa: "rennes",
+)
+
+= Titre de section
+
+== Titre d'une slide
+
+- Liste
+  - dans
+    - une liste
+
+On peut aussi faire un #text(fill: insa-colors.secondary)[texte] avec les #text(fill: insa-colors.primary)[couleurs de l'INSA] !
+
+== Une autre slide
+
+Du texte
+
+#pause
+
+Et un autre texte qui apparaît plus tard !
+
+#section-slide([Une autre section], description: [Avec une petite description])
+
+Coucou

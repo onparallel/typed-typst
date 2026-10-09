@@ -1,0 +1,5181 @@
+[
+ {
+  "name": "abiding-ifacconf",
+  "status": "snippets",
+  "escapes": 30,
+  "fallbacks": []
+ },
+ {
+  "name": "abntly",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "academi-notes-gr",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": []
+ },
+ {
+  "name": "academic-alt",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "academicv",
+  "status": "snippets",
+  "escapes": 12,
+  "fallbacks": [
+   "ForLoop",
+   "field access on a binding of unknown type",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "operator =",
+   "operator =",
+   "operator =",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "acadennial-cv",
+  "status": "snippets",
+  "escapes": 24,
+  "fallbacks": [
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "spread into a function that is not the standard library's",
+   "field access on a binding of unknown type",
+   "name employment-head-item bound by a snippet",
+   "name employment-head-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name pub-item-list bound by a snippet",
+   "name pub-item-list bound by a snippet",
+   "name pub-item-list bound by a snippet",
+   "name pub-item-list bound by a snippet",
+   "name pub-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet",
+   "name meta-entry-item-list bound by a snippet"
+  ]
+ },
+ {
+  "name": "acorn-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "adaptable-pset",
+  "status": "snippets",
+  "escapes": 31,
+  "fallbacks": []
+ },
+ {
+  "name": "aero-check",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "aero-dhbw",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "aero-navigator",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "agregyst",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "aio-studi-and-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "algotel",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "almost-tud-letter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "altacv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ambivalent-amcis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "anr-aapg-fanmade",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "apa7-ish",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ape",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "appreciated-letter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "approximate-acmsmall",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "call of a Parenthesized"
+  ]
+ },
+ {
+  "name": "appunti",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "araby-book",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "arkheion",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "aspirationally",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "athena-tu-darmstadt-exercise",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "operator in"
+  ]
+ },
+ {
+  "name": "athena-tu-darmstadt-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "ats-friendly-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "atsthetic-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "awesome-mff-cuni",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "axiomst",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "azubinachweis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "badformer",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bamdone-aiaa",
+  "status": "snippets",
+  "escapes": 17,
+  "fallbacks": []
+ },
+ {
+  "name": "bamdone-ieeeconf",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "bamdone-rebuttal",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bananote",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "* import of names the document does not use"
+  ]
+ },
+ {
+  "name": "barcala",
+  "status": "snippets",
+  "escapes": 26,
+  "fallbacks": [
+   "Conditional",
+   "import from a value",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "name Vm bound by a snippet",
+   "method on a value of unknown type",
+   "call of an unknown name",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "name Vm bound by a snippet",
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "basic-academic-letter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "basic-cv-with-photo",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "basic-document-props",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "basic-polylux",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "basic-postcard",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "spread before the variadic arguments"
+  ]
+ },
+ {
+  "name": "basic-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "basic-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "beago-suite",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "bean-upm",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "beautiful-abs",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "benplate",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bhs-school-bundle",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bht-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "biz-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bizu-sheet",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "black-angular-frame",
+  "status": "snippets",
+  "escapes": 146,
+  "fallbacks": [
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "Conditional",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "let inside a closure or context",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "ForLoop",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "Conditional",
+   "Conditional",
+   "let inside a closure or context",
+   "Conditional",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "ForLoop",
+   "ForLoop",
+   "ForLoop",
+   "Conditional",
+   "ForLoop",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "blind-cvpr",
+  "status": "snippets",
+  "escapes": 21,
+  "fallbacks": [
+   "where on an unknown field",
+   "field access on a binding of unknown type",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "bloated-neurips",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "bluenote-ist",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "bme-vik-azslab-thesis",
+  "status": "snippets",
+  "escapes": 13,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type"
+  ]
+ },
+ {
+  "name": "bone-resume",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "import from a value",
+   "ForLoop",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "bookly",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "boxed-sheet",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "breezy-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "briefs",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "brilliant-cv",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "name profile bound by a snippet",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "bubble-sysu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bubble-zju",
+  "status": "snippets",
+  "escapes": 13,
+  "fallbacks": [
+   "* import of names the document does not use",
+   "import as a module with items",
+   "import from a value",
+   "name node bound by a snippet",
+   "name node bound by a snippet",
+   "name diagram bound by a snippet"
+  ]
+ },
+ {
+  "name": "bubble",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "butterick-resume",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "bye-ubc",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "bypst",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "caidan",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "calligraphics",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "calmly-touying",
+  "status": "snippets",
+  "escapes": 15,
+  "fallbacks": []
+ },
+ {
+  "name": "campanile",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "cardinal-su-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "casson-uom-thesis",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "casual-szu-report",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "catiche",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "celluloid",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cereal-words",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cetramed-polylux",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "charged-ieee",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "charged-pace",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "charged-vde",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "chatter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "check-six",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cheda-seu-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "chef-cookbook",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "chengsi",
+  "status": "snippets",
+  "escapes": 52,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "name epigraph bound by a snippet",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "name epigraph bound by a snippet",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "name appendix bound by a snippet",
+   "name appendix bound by a snippet"
+  ]
+ },
+ {
+  "name": "chicv-ripoff",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "chicv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "chordish",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "clari-docs",
+  "status": "snippets",
+  "escapes": 43,
+  "fallbacks": []
+ },
+ {
+  "name": "classic-aau-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "classic-jmlr",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "classic-msc-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "classic-ppgsi",
+  "status": "snippets",
+  "escapes": 14,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "classic-tud-math-thesis",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": []
+ },
+ {
+  "name": "classic-uni-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "classicthesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "classy-german-invoice",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "classy-tudelft-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "* import of names the document does not use"
+  ]
+ },
+ {
+  "name": "clean-acmart",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "clean-agh-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-barm",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "clean-cnam-template",
+  "status": "snippets",
+  "escapes": 32,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-dhbw",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-ensam",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-esi",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-fuh",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-hda",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-htl",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-hwr",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "clean-math-paper",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-math-presentation",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-math-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-othaw",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-print-cv",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type"
+  ]
+ },
+ {
+  "name": "clean-ualberta-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "clean-uoft-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cleanified-hpi-research-proposal",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cleanified-hpi-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "clear-tub",
+  "status": "snippets",
+  "escapes": 14,
+  "fallbacks": []
+ },
+ {
+  "name": "clearly-hm",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "* import of names the document does not use",
+   "import as a module with items",
+   "method on a value of unknown type",
+   "name title-slide bound by a snippet",
+   "name slide-vertical bound by a snippet"
+  ]
+ },
+ {
+  "name": "clickworthy-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cobalt-cv",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "ForLoop",
+   "ForLoop",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "cogsci-conference",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "community-cnam-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "dictionary key"
+  ]
+ },
+ {
+  "name": "community-fmi-jena-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "community-gzqy-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "community-itu-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "community-ostfalia-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "community-pens-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "community-urban-housing-lease-contract",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "comozeidex",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "complete-unsaac",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": []
+ },
+ {
+  "name": "conch",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "conforming-uio-master",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "coquille-st-jacques",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "coral-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "covered-cs-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cram-snap",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "crisp-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cthesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "curriculo-acad",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cv-soft-and-hard",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "cyberschool-errorteaplate",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "cycle-ensaj",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "dashing-dept-news",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "deal-us-tfc-template",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "definitely-not-isec-slides",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "definitely-not-isec-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "definitely-not-tue-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "Conditional",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "definitely-not-tuw-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "delegis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "desk-tagger",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "dhbw-oderso",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "diatypst",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "diprint",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "dmi-basilea-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "documenting-tbre",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "dudi-colorful-slides",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "dvdtyp",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "easy-abi-ausarbeitung",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "easy-hgb-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "easy-paper",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "easy-wi-hwr",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "econ-working-paper",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "efter-plugget",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "import as a module with items",
+   "field access on a binding of unknown type",
+   "name toprule bound by a snippet",
+   "name midrule bound by a snippet",
+   "name bottomrule bound by a snippet"
+  ]
+ },
+ {
+  "name": "electify",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "electrocentrale",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "elegant-culsc-record",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "elsearticle",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": []
+ },
+ {
+  "name": "elsevier-replica",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "elspub",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "endfield-doc",
+  "status": "snippets",
+  "escapes": 13,
+  "fallbacks": []
+ },
+ {
+  "name": "ens-rennes-presentation",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "enseeiht-internship-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ensl-internship",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "enunciado-facil-fcfm",
+  "status": "snippets",
+  "escapes": 20,
+  "fallbacks": [
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "epsi-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "eskd-drafting",
+  "status": "snippets",
+  "escapes": 27,
+  "fallbacks": []
+ },
+ {
+  "name": "ethz-cadmo-inspired-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ethz-iis-assignment",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "ethz-iis-dissertation",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ethz-iis-research-plan",
+  "status": "snippets",
+  "escapes": 15,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "import from a value"
+  ]
+ },
+ {
+  "name": "ethz-iis-thesis",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "etykett",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "parameter pattern",
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "euler-math",
+  "status": "snippets",
+  "escapes": 24,
+  "fallbacks": []
+ },
+ {
+  "name": "examify",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "examine-ib",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "examora",
+  "status": "snippets",
+  "escapes": 38,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "exm",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "exp-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "exzellenz-tum-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "Conditional",
+   "field access on an unknown name"
+  ]
+ },
+ {
+  "name": "faithful-acmart",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "fancy-cookbook",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fdu-bubble",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "fei-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fernmind",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "fh-joanneum-iit-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fine-lncs",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "finely-crafted-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fireside",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "flow-way",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "flyingcircus",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "Conditional",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "folklore",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fom-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "formal",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "formalettre",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "forum-acusticum-2026",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "fsb-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fubell",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "fun-article",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "fuzzy-cnoi-statement",
+  "status": "snippets",
+  "escapes": 27,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "snippet inside a closure",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "g-exam",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "gakusyun-doc",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "gallus-hsg",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "gbt9704-gongwen",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "german-fx-invoice",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "gh-minimal-slides",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "* import of names the document does not use"
+  ]
+ },
+ {
+  "name": "gibz-script",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "gloat",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "golixp-resume-zh-cn",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "govern",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "graceful-genetics",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "grape-suite",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "grid-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "grotesk-cv",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "ForLoop",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "gru",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "guided-resume-starter-cgc",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "guido",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "gwanak-snu-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "gzu-thesis-unofficial",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "ForLoop",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "h-brs-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "habaneraa-one-page-resume-zh",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "hadronic-rirekisho",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "hand-in",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "hanko-kitei",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "hannes-thesis",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": [
+   "Conditional",
+   "Conditional",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "hanqing",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "hanzi-calligraphy",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "harvard-gsas-thesis-oat",
+  "status": "snippets",
+  "escapes": 15,
+  "fallbacks": []
+ },
+ {
+  "name": "heading-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "hei-synd-report",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "hei-synd-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "hetvid",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "hitec",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "homiework",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "hsmz-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "htlium",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "* import of names the document does not use",
+   "let inside a closure or context"
+  ]
+ },
+ {
+  "name": "htlwienwest-da",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "humanistically",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "humble-dtu-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "husky-uw-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "iarticle",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "icicle",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ieee-vgtc",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "ijimai",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ },
+ {
+  "name": "ilm",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "impaginato",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "imprecv",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "operator =",
+   "operator =",
+   "operator ="
+  ]
+ },
+ {
+  "name": "impressive-impression",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "let inside a closure or context"
+  ]
+ },
+ {
+  "name": "inboisu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "inelegant-note",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ineris-print",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ineris-slide",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "infodoc-unr10",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "innovative-skoltech-slides",
+  "status": "snippets",
+  "escapes": 21,
+  "fallbacks": []
+ },
+ {
+  "name": "invicta-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "invoice-maker",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "invoice-pro",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ioppub",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "isc-hei-bthesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "isc-hei-document",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "isc-hei-exec-summary",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "import from a value",
+   "import from a value"
+  ]
+ },
+ {
+  "name": "isc-hei-poster",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "isc-hei-report",
+  "status": "snippets",
+  "escapes": 24,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "isc-hei-tb-assignment",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "iut-orsay-report-flat",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "jabiz",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "jaconf-mscs",
+  "status": "snippets",
+  "escapes": 13,
+  "fallbacks": []
+ },
+ {
+  "name": "jaconf",
+  "status": "snippets",
+  "escapes": 14,
+  "fallbacks": []
+ },
+ {
+  "name": "jastylest-zh",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "jastylest",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "jiangcai-jufe-master-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "jilid",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "jotter-polylux",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "js",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "jsume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "juti",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "spread into a function that is not the standard library's",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "kamk-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "kdl-unofficial-template",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "call of a FuncCall",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "kinetic-kit",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "kiresume",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "klaro-ifsc-sj",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "knowledge-key",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "kthesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "kunskap",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "kzn-ma",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional",
+   "include of a value",
+   "include of a value"
+  ]
+ },
+ {
+  "name": "labtyp",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "lacy-ubc-math-project",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "import from a value",
+   "field access on an unknown name",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "lambda-notes",
+  "status": "snippets",
+  "escapes": 12,
+  "fallbacks": []
+ },
+ {
+  "name": "lambda",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "laskutys",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "latexy-book",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": []
+ },
+ {
+  "name": "lavandula",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ledger-rail",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "leetcode-livebook",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "leonux",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "letter-pro",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "letterloom",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "light-cv",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type"
+  ]
+ },
+ {
+  "name": "light-report-uia",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "linedx2-sjtu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ling",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "operator ==",
+   "name mode bound by a snippet",
+   "name handout bound by a snippet"
+  ]
+ },
+ {
+  "name": "linked-cv",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "lion-ecl",
+  "status": "snippets",
+  "escapes": 19,
+  "fallbacks": [
+   "ForLoop",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type"
+  ]
+ },
+ {
+  "name": "lumen",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "luminar-cv",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "lyceum",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "field access on a FuncCall",
+   "name self-bib bound by a snippet"
+  ]
+ },
+ {
+  "name": "machiatto",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "field access on an unknown name",
+   "field access on an unknown name"
+  ]
+ },
+ {
+  "name": "magic-isprs",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "operator ==",
+   "name anonymous bound by a snippet"
+  ]
+ },
+ {
+  "name": "magnificent-misq",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "mahou-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "malos-book-style",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "malos-presets",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "manuscr-ismin",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "marina-uol-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "marius-dhbw-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "master-piece-ntnu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "may",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "measured-jair",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "medieval-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "meppp",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "import from a value",
+   "call of an unknown name",
+   "snippet inside a closure",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "meridian-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "metronic",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "metropolis-polylux",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": [
+   "import from a value",
+   "call of an unknown name",
+   "call of an unknown name",
+   "unknown name focus"
+  ]
+ },
+ {
+  "name": "metropolyst",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "min-book",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type"
+  ]
+ },
+ {
+  "name": "min-manual",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "min-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "min-writing",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minerva-report-fcfm",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "unknown name meta"
+  ]
+ },
+ {
+  "name": "minerva-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minicise",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimal-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimal-note",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "minimal-presentation",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimal-thesis-luebeck",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimal-unilim-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimalbc",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimalistic-latex-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "minimalyst-academic-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "mkuipers-ulusofona",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-acad-cv",
+  "status": "snippets",
+  "escapes": 21,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "ForLoop",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "Conditional",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "modern-bnu-course-paper",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-buaa-thesis",
+  "status": "snippets",
+  "escapes": 31,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-class-presentation",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-cug-report",
+  "status": "snippets",
+  "escapes": 14,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-cug-thesis",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-ecnu-thesis",
+  "status": "snippets",
+  "escapes": 10,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "Conditional",
+   "Conditional",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "modern-fzu-thesis",
+  "status": "snippets",
+  "escapes": 10,
+  "fallbacks": [
+   "positional after ..rest",
+   "name place-sign bound by a snippet",
+   "name place-sign bound by a snippet",
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-hfut-report",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "import as a module with items"
+  ]
+ },
+ {
+  "name": "modern-hkust-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-hsh-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-innopolis-thesis",
+  "status": "snippets",
+  "escapes": 18,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-ipsy-thesis",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-iu-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-jakarta-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-mla",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-nenu-thesis",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "modern-nju-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-npu-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "modern-pku-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-project-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-report-umfds",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-ruc-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-scut-thesis",
+  "status": "snippets",
+  "escapes": 72,
+  "fallbacks": [
+   "import from a value",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-se-kul-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "spread before the variadic arguments"
+  ]
+ },
+ {
+  "name": "modern-shu-thesis",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": [
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "modern-sjtu-report",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-sjtu-thesis",
+  "status": "snippets",
+  "escapes": 93,
+  "fallbacks": [
+   "spread into a function that is not the standard library's",
+   "import as a module with items",
+   "import from a value",
+   "name diagram bound by a snippet",
+   "method on a value of unknown type",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-sustech-thesis",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-swjtu-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-sysu-thesis",
+  "status": "snippets",
+  "escapes": 22,
+  "fallbacks": [
+   "import from a value",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "unknown name appendix",
+   "call of an unknown name",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "modern-sysu-touying",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-szu-slides",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-szu-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-tongji-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "operator =="
+  ]
+ },
+ {
+  "name": "modern-tud-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-tust-thesis",
+  "status": "snippets",
+  "escapes": 94,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "spread into a function that is not the standard library's",
+   "import as a module with items",
+   "import from a value",
+   "name diagram bound by a snippet",
+   "method on a value of unknown type",
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "modern-ucas-thesis",
+  "status": "snippets",
+  "escapes": 34,
+  "fallbacks": [
+   "ForLoop",
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "modern-uestc-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-um-thesis",
+  "status": "snippets",
+  "escapes": 73,
+  "fallbacks": [
+   "* import of names the document does not use",
+   "import as a module with items",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "name diagram bound by a snippet"
+  ]
+ },
+ {
+  "name": "modern-unimib-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-upc-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "ForLoop",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "modern-whs-assignment",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modern-whs-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "unknown name abstract",
+   "unknown name appendix"
+  ]
+ },
+ {
+  "name": "modern-wku-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-xdu-thesis",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "modern-xmu-thesis",
+  "status": "snippets",
+  "escapes": 22,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "modern-zhaw-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "moderner-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modernpro-coverletter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "modernpro-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "moin-uni-slides",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "monofolio",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "mousse-notes",
+  "status": "snippets",
+  "escapes": 38,
+  "fallbacks": []
+ },
+ {
+  "name": "mrbogo-cv",
+  "status": "snippets",
+  "escapes": 30,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "import from a value",
+   "name lang bound by a snippet",
+   "unknown name author",
+   "unknown name title-about",
+   "unknown name about-me",
+   "unknown name title-contact",
+   "unknown name title-skills",
+   "unknown name skills-technical",
+   "unknown name skills-soft",
+   "unknown name skills-languages-spoken",
+   "unknown name title-intro",
+   "unknown name intro-text",
+   "unknown name title-experience",
+   "unknown name experiences",
+   "unknown name title-projects",
+   "unknown name projects",
+   "unknown name title-education",
+   "unknown name education",
+   "unknown name title-certifications",
+   "unknown name certifications",
+   "unknown name title-publications",
+   "unknown name publications"
+  ]
+ },
+ {
+  "name": "muddy-mit-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "muw-community-templates",
+  "status": "snippets",
+  "escapes": 17,
+  "fallbacks": [
+   "import from a value",
+   "method on a value of unknown type",
+   "call of an unknown name",
+   "call of an unknown name",
+   "method on a value of unknown type",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "muw-touying-community",
+  "status": "snippets",
+  "escapes": 5,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "mythographer-5e",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "nabcv",
+  "status": "snippets",
+  "escapes": 20,
+  "fallbacks": [
+   "field access on a FuncCall",
+   "field access on a binding of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "ncku-later",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "neat-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "neat-tu-dublin",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ },
+ {
+  "name": "nidaros-ntnu-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "nifty-ntnu-thesis",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "nikonova",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "non-boring-notes",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "normale-internship",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "not-jku-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "let inside a closure or context"
+  ]
+ },
+ {
+  "name": "not-tudabeamer-2023",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "noteworks",
+  "status": "snippets",
+  "escapes": 40,
+  "fallbacks": []
+ },
+ {
+  "name": "noteworthy",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "nova-pset",
+  "status": "snippets",
+  "escapes": 17,
+  "fallbacks": []
+ },
+ {
+  "name": "now-radboud-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ntnu-physics-report-replica",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "ntust-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "obelisk",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "obsidius",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "october",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ohdsi-symposium-submission",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "onyx-itu-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "optimal-ovgu-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "orange-book",
+  "status": "snippets",
+  "escapes": 36,
+  "fallbacks": [
+   "call of a FuncCall"
+  ]
+ },
+ {
+  "name": "ori",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "orionotes",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ost-ifs-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ostfriesen-layout",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "owl-lst-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ox-scholar",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "parcio-slides",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "parcio-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "paris-saclay-thesis-flat",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "Conditional",
+   "let inside a closure or context",
+   "let inside a closure or context",
+   "snippet inside a closure",
+   "field access on a binding of unknown type",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "field access on a binding of unknown type",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "pasquino",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pc-letter",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized"
+  ]
+ },
+ {
+  "name": "peace-of-posters",
+  "status": "snippets",
+  "escapes": 10,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "field access on a FieldAccess",
+   "method on a value of unknown type",
+   "field access on a FieldAccess",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "name hba bound by a snippet",
+   "name bba bound by a snippet",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "pepentation",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pesha",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pg-thesis-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pioneering-rlj",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "pku-thesis-pass",
+  "status": "snippets",
+  "escapes": 17,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized",
+   "call of a Parenthesized"
+  ]
+ },
+ {
+  "name": "placard",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "playwright",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pmetrika",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "politemplate",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "polito-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pollux",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": []
+ },
+ {
+  "name": "polycv",
+  "status": "snippets",
+  "escapes": 12,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "name data-file bound by a snippet",
+   "Conditional",
+   "snippet inside a closure",
+   "method on a value of unknown type",
+   "field access on a binding of unknown type",
+   "method on a value of unknown type",
+   "Conditional",
+   "ForLoop",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "Conditional",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "porygon",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "name path_json bound by a snippet"
+  ]
+ },
+ {
+  "name": "precis-upb-cs",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "preprintx",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "pretty-hdm-thesis",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "primeone",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pro-academic-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "pro-letter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "problemst",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "project-isi-zac",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "prometeu-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "let inside a closure or context",
+   "snippet inside a closure",
+   "let inside a closure or context",
+   "snippet inside a closure",
+   "Conditional",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "psl-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "put-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "qooklet",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "* import of names the document does not use"
+  ]
+ },
+ {
+  "name": "quest",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": [
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "quic-style",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "quick-minutes",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "quick-sip",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "quill-assignment",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "quizforge",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "quizst",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rasko-europass",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "ready-acm-dtu-ux",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rectangles-polylux",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "red-agora",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "remetente",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rendercv",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "reprobe",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "resumania",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "resume-ng",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "resume-ofa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rewind-note",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rezvan-chalmers-cse-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rirekisho-ofa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "rubber-article",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "rut-physica-labs",
+  "status": "snippets",
+  "escapes": 66,
+  "fallbacks": []
+ },
+ {
+  "name": "s6t5-page-bordering",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "sano-presentation-template",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "import as a module with items"
+  ]
+ },
+ {
+  "name": "scarif",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "scholarly-epfl-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "scholarly-tauthesis",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "ModuleImport",
+   "unknown name glossaryDict",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "scholia",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "sci-brain-slides",
+  "status": "snippets",
+  "escapes": 12,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "method on a value of unknown type",
+   "name twocol bound by a snippet",
+   "name hero bound by a snippet",
+   "name spread bound by a snippet",
+   "name cards bound by a snippet",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "positional text argument of unknown type"
+  ]
+ },
+ {
+  "name": "screen-scripted",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "let pattern",
+   "name char5 bound by a snippet",
+   "name char5 bound by a snippet",
+   "name char5 bound by a snippet"
+  ]
+ },
+ {
+  "name": "scribbling-hm",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "scripst",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "shane-hhu-thesis",
+  "status": "snippets",
+  "escapes": 11,
+  "fallbacks": []
+ },
+ {
+  "name": "sheetstorm",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "shit-journal",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "shokumu-keirekisho-ofa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "shuimu-touying",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "shuosc-shu-bachelor-thesis",
+  "status": "snippets",
+  "escapes": 18,
+  "fallbacks": [
+   "spread into a function that is not the standard library's",
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "signal-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "silky-letter-insa",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "silky-report-insa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "silky-slides-insa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "silver-dev-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-bupt-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-cheatsheet",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-cvut-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-handout",
+  "status": "snippets",
+  "escapes": 15,
+  "fallbacks": [
+   "let pattern",
+   "name meta bound by a snippet",
+   "name fonts-display bound by a snippet",
+   "name cover bound by a snippet",
+   "name doc bound by a snippet",
+   "name front-matter bound by a snippet",
+   "name preface bound by a snippet",
+   "name outline-wrapper bound by a snippet",
+   "name main-matter bound by a snippet",
+   "name back-matter bound by a snippet",
+   "name notation bound by a snippet",
+   "name figure-list bound by a snippet",
+   "name table-list bound by a snippet",
+   "name equation-list bound by a snippet",
+   "name bilingual-bibliography bound by a snippet"
+  ]
+ },
+ {
+  "name": "simple-hust-report",
+  "status": "snippets",
+  "escapes": 13,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-inria-touying-theme",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-nwu-year-paper",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-preavis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-research-poster",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-soc-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-technical-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-thesis-ger-host",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-ve-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simple-xd-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "simply-ysu-touying",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "sleek-university-assignment",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "sleiden-lei",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "spread before the variadic arguments"
+  ]
+ },
+ {
+  "name": "slydekit",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": [
+   "import as a module with items",
+   "import from a value",
+   "let inside a closure or context"
+  ]
+ },
+ {
+  "name": "slydst",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "smooth-tmlr",
+  "status": "snippets",
+  "escapes": 136,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "sns-polylux-template",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "let inside a closure or context"
+  ]
+ },
+ {
+  "name": "solo-lu-df",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "soviet-matrix",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "spicky",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "splendid-mdpi",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "ssrn-scribe",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "stagehand",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "starchy-junia",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "starry-ulfg",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "starter-journal-article",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "std-sjtu-bachelor-thesis-midterm",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "std-sjtu-bachelor-thesis-proposal",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "std-sjtu-doctoral-annual-progress",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "std-sjtu-graduate-thesis-proposal",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "std-sjtu-master-midterm-report",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "steady-rvl-slides",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "stellar-iac",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ },
+ {
+  "name": "stellar-springer-nature",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "storytiles",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "strangelion",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "strath-maestrum",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "strict-modern-uestc-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "dictionary key"
+  ]
+ },
+ {
+  "name": "structured-mse-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "structured-uib",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "stux-assignment",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "stv-vub-huisstijl",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "sudo-docs",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "summy",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "sunny-orasis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "superb-pci",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "supercharged-dhbw",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": []
+ },
+ {
+  "name": "swe-cv",
+  "status": "snippets",
+  "escapes": 13,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "ForLoop",
+   "ForLoop",
+   "ForLoop",
+   "ForLoop",
+   "ForLoop",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "swec-slides",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "import as a module with items",
+   "method on a value of unknown type",
+   "name title-slide bound by a snippet",
+   "name slide bound by a snippet"
+  ]
+ },
+ {
+  "name": "sweet-graduate-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tapestry",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tatras-ieee",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "telepresentation",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "* import of names the document does not use"
+  ]
+ },
+ {
+  "name": "telereport",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "texam",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ },
+ {
+  "name": "texst",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tfgei",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "tfguf",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "tgm-hit-protocol",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "tgm-hit-sew-lecture",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "import from a value",
+   "import from a value"
+  ]
+ },
+ {
+  "name": "tgm-hit-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "Conditional"
+  ]
+ },
+ {
+  "name": "thesist",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "thusliding",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "thwildau-telematics",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tidbit-uoc",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tiefcars",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tieffiction",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tiefletter",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tieflied",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tlacuache-thesis-fc-unam",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tlacuache-thesis-msc-pcm-unam",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "toffee-tufte",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tonguetoquill-usaf-memo",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on an unknown name",
+   "positional text argument of unknown type"
+  ]
+ },
+ {
+  "name": "touying-aqua",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "import from a value",
+   "method on a value of unknown type",
+   "call of an unknown name",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "touying-au-community",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-brandred-uobristol",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-buaa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-dids",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-endfield",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "touying-greyc-ambrosia",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-htwk-stripes",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-liu-nyckel",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": [
+   "nested import item",
+   "name fit-to-height bound by a snippet",
+   "name fit-to-height bound by a snippet"
+  ]
+ },
+ {
+  "name": "touying-matcha",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-ppt-hustvn",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-quarto-clean",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-quick",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-cau",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-cnu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-ecnu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-hkustgz",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-neu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-nudt",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-sjtu",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpl-swufe",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-simpres",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "import from a value"
+  ]
+ },
+ {
+  "name": "touying-ufac-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-unistra-pristine",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "touying-wave-hhu",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "toy-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tracl",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "* import of names the document does not use"
+  ]
+ },
+ {
+  "name": "tressym-dnd",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "triple-aaai",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ttq-classic-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ttuile",
+  "status": "snippets",
+  "escapes": 10,
+  "fallbacks": [
+   "Conditional",
+   "snippet inside a closure",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "tud-corporate-design-slides",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tudelft-prime-presentation",
+  "status": "snippets",
+  "escapes": 197,
+  "fallbacks": [
+   "import as a module with items",
+   "import from a value",
+   "name diagram bound by a snippet",
+   "name diagram bound by a snippet"
+  ]
+ },
+ {
+  "name": "tufted",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tum-tastic-thesis",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": [
+   "import from a value",
+   "import from a value",
+   "field access on an unknown name",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "tuwien-geo-masterthesis",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "dictionary key",
+   "name info bound by a snippet",
+   "name info bound by a snippet",
+   "name info bound by a snippet",
+   "spread into a function that is not the standard library's"
+  ]
+ },
+ {
+  "name": "twilight-book",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "tyniverse",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "typographic-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "typographix-polytechnique-reports",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "typographix-polytechnique-slides",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "Conditional",
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "typsidian",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "typxidian",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ },
+ {
+  "name": "u3tudo",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ucpc-solutions",
+  "status": "snippets",
+  "escapes": 8,
+  "fallbacks": [
+   "import from a value",
+   "import from a value",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "ucph-nielsine-touying",
+  "status": "snippets",
+  "escapes": 6,
+  "fallbacks": [
+   "import from a value",
+   "field access on a FieldAccess",
+   "method on a value of unknown type",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess"
+  ]
+ },
+ {
+  "name": "uepg-tcc-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ufpr-unofficial",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "ufscholar",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "ugm-presentation-unofficial",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "ukw-bipg-unofficial-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unequivocal-ams",
+  "status": "snippets",
+  "escapes": 23,
+  "fallbacks": []
+ },
+ {
+  "name": "uni-ms-pres-schloss",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "unified-uia-thesis",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": []
+ },
+ {
+  "name": "unilab",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "universal-hit-thesis",
+  "status": "snippets",
+  "escapes": 27,
+  "fallbacks": [
+   "import from a value",
+   "method on a value of unknown type",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name",
+   "call of an unknown name"
+  ]
+ },
+ {
+  "name": "universal-jlu-thesis",
+  "status": "snippets",
+  "escapes": 71,
+  "fallbacks": []
+ },
+ {
+  "name": "universal-tongji-thesis",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "method on a value of unknown type",
+   "method on a value of unknown type",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "unofficial-cambridge-polylux-theme",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": [
+   "* import of names the document does not use",
+   "import as a module with items"
+  ]
+ },
+ {
+  "name": "unofficial-cambridge-thesis",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-cityu-phd-thesis",
+  "status": "snippets",
+  "escapes": 14,
+  "fallbacks": [
+   "import from a value",
+   "field access on a binding of unknown type",
+   "unknown name frontmatter",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "name individual bound by a snippet",
+   "field access on a FieldAccess",
+   "name individual bound by a snippet",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "unknown name mainmatter",
+   "name individual bound by a snippet",
+   "name individual bound by a snippet"
+  ]
+ },
+ {
+  "name": "unofficial-cityuhk-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-eirb-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-fhict-document-template",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-fhs-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-fontys-paper-template",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-hka-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-hso-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-icl-doc-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-iitkgp-thesis",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": [
+   "Conditional",
+   "snippet inside a closure"
+  ]
+ },
+ {
+  "name": "unofficial-jascome-34j",
+  "status": "snippets",
+  "escapes": 14,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-kth-thesis-proposal",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-monash-touying",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-ouc-bachelor-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-sdu-lab-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-sdu-thesis",
+  "status": "snippets",
+  "escapes": 38,
+  "fallbacks": [
+   "spread into a function that is not the standard library's",
+   "field access on an unknown name"
+  ]
+ },
+ {
+  "name": "unofficial-sorbonne-presentation",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-stu-bachelor-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-tyut-thesis",
+  "status": "snippets",
+  "escapes": 18,
+  "fallbacks": [
+   "closure parameter",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "unofficial-ucy-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-ukim-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-ulb-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-uninsubria-thesis",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "unofficial-uo-dissertation-2024",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "Conditional",
+   "Conditional",
+   "Conditional"
+  ]
+ },
+ {
+  "name": "unofficial-whu-lab-report",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "upb-cn-templates",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "upb-corporate-design-slides",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "field access on a FieldAccess",
+   "snippet inside a closure",
+   "import as a module with items",
+   "import from a value"
+  ]
+ },
+ {
+  "name": "utfpr-tcc-unofficial",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "import from a value",
+   "import from a value",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "vanilla",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "versatile-apa",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "vibrant-color",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": []
+ },
+ {
+  "name": "vienna-tech",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "vintage-fiit-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "field access on an unknown name"
+  ]
+ },
+ {
+  "name": "visillos-excelencia",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "vivid-cv",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "vocabulo",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "volt-internship-ensea",
+  "status": "snippets",
+  "escapes": 2,
+  "fallbacks": []
+ },
+ {
+  "name": "volt-lab-ensea",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "wenyuan-campaign",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "wired-ieee",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "wonderous-book",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "wut-thesis",
+  "status": "snippets",
+  "escapes": 1,
+  "fallbacks": [
+   "import from a value"
+  ]
+ },
+ {
+  "name": "xmdjy-simple-report-template",
+  "status": "snippets",
+  "escapes": 4,
+  "fallbacks": []
+ },
+ {
+  "name": "xwysyy",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "yaes",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "yuan-resume",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "yuuko-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "zen-utbm-report",
+  "status": "api",
+  "escapes": 0,
+  "fallbacks": []
+ },
+ {
+  "name": "zen-zine",
+  "status": "snippets",
+  "escapes": 3,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "snippet inside a closure",
+   "method on a value of unknown type"
+  ]
+ },
+ {
+  "name": "zettyp-core",
+  "status": "snippets",
+  "escapes": 7,
+  "fallbacks": [
+   "field access on a binding of unknown type",
+   "field access on a FieldAccess",
+   "field access on a FieldAccess",
+   "field access on a binding of unknown type",
+   "field access on a binding of unknown type",
+   "Conditional",
+   "ForLoop"
+  ]
+ },
+ {
+  "name": "zhaji",
+  "status": "snippets",
+  "escapes": 9,
+  "fallbacks": []
+ }
+]

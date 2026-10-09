@@ -1,0 +1,14 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/index.ts", "src/node.ts", "src/eslint.ts"],
+  "tsconfig": "tsconfig.build.json",
+  "out": "docs/api",
+  "name": "typed-typst",
+  "readme": "none",
+  "defaultCategory": "Library",
+  "categoryOrder": ["Library", "Standard library", "Standard library signatures"],
+  "highlightLanguages": ["typescript", "typst", "js", "sh"],
+  "validation": { "notExported": false, "invalidLink": true, "notDocumented": false },
+  "disableSources": true,
+  "treatWarningsAsErrors": true
+}

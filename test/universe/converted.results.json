@@ -1,0 +1,2129 @@
+{
+ "abiding-ifacconf": {
+  "status": "pass"
+ },
+ "abntly": {
+  "status": "pass"
+ },
+ "academi-notes-gr": {
+  "status": "pass"
+ },
+ "academic-alt": {
+  "status": "pass"
+ },
+ "academicv": {
+  "status": "pass"
+ },
+ "acadennial-cv": {
+  "status": "pass"
+ },
+ "acorn-resume": {
+  "status": "pass"
+ },
+ "adaptable-pset": {
+  "status": "pass"
+ },
+ "aero-check": {
+  "status": "pass"
+ },
+ "aero-dhbw": {
+  "status": "pass"
+ },
+ "aero-navigator": {
+  "status": "pass"
+ },
+ "agregyst": {
+  "status": "pass"
+ },
+ "aio-studi-and-thesis": {
+  "status": "pass"
+ },
+ "algotel": {
+  "status": "pass"
+ },
+ "almost-tud-letter": {
+  "status": "pass"
+ },
+ "altacv": {
+  "status": "pass"
+ },
+ "ambivalent-amcis": {
+  "status": "pass"
+ },
+ "anr-aapg-fanmade": {
+  "status": "pass"
+ },
+ "apa7-ish": {
+  "status": "pass"
+ },
+ "ape": {
+  "status": "pass"
+ },
+ "appreciated-letter": {
+  "status": "pass"
+ },
+ "approximate-acmsmall": {
+  "status": "pass"
+ },
+ "appunti": {
+  "status": "pass"
+ },
+ "araby-book": {
+  "status": "pass"
+ },
+ "arkheion": {
+  "status": "pass"
+ },
+ "aspirationally": {
+  "status": "pass"
+ },
+ "athena-tu-darmstadt-exercise": {
+  "status": "pass"
+ },
+ "athena-tu-darmstadt-thesis": {
+  "status": "pass"
+ },
+ "ats-friendly-resume": {
+  "status": "pass"
+ },
+ "atsthetic-cv": {
+  "status": "pass"
+ },
+ "awesome-mff-cuni": {
+  "status": "pass"
+ },
+ "axiomst": {
+  "status": "pass"
+ },
+ "azubinachweis": {
+  "status": "pass"
+ },
+ "badformer": {
+  "status": "pass"
+ },
+ "bamdone-aiaa": {
+  "status": "pass"
+ },
+ "bamdone-ieeeconf": {
+  "status": "pass"
+ },
+ "bamdone-rebuttal": {
+  "status": "pass"
+ },
+ "bananote": {
+  "status": "pass"
+ },
+ "barcala": {
+  "status": "pass"
+ },
+ "basic-academic-letter": {
+  "status": "pass"
+ },
+ "basic-cv-with-photo": {
+  "status": "pass"
+ },
+ "basic-document-props": {
+  "status": "pass"
+ },
+ "basic-polylux": {
+  "status": "pass"
+ },
+ "basic-postcard": {
+  "status": "pass"
+ },
+ "basic-report": {
+  "status": "pass"
+ },
+ "basic-resume": {
+  "status": "pass"
+ },
+ "beago-suite": {
+  "status": "pass"
+ },
+ "bean-upm": {
+  "status": "pass"
+ },
+ "beautiful-abs": {
+  "status": "pass"
+ },
+ "benplate": {
+  "status": "pass"
+ },
+ "bhs-school-bundle": {
+  "status": "pass"
+ },
+ "bht-thesis-unofficial": {
+  "status": "pass"
+ },
+ "biz-report": {
+  "status": "pass"
+ },
+ "bizu-sheet": {
+  "status": "pass"
+ },
+ "black-angular-frame": {
+  "status": "pass"
+ },
+ "blind-cvpr": {
+  "status": "pass"
+ },
+ "bloated-neurips": {
+  "status": "pass"
+ },
+ "bluenote-ist": {
+  "status": "pass"
+ },
+ "bme-vik-azslab-thesis": {
+  "status": "pass"
+ },
+ "bone-resume": {
+  "status": "pass"
+ },
+ "bookly": {
+  "status": "pass"
+ },
+ "boxed-sheet": {
+  "status": "pass"
+ },
+ "breezy-report": {
+  "status": "pass"
+ },
+ "briefs": {
+  "status": "pass"
+ },
+ "brilliant-cv": {
+  "status": "pass"
+ },
+ "bubble": {
+  "status": "pass"
+ },
+ "bubble-sysu": {
+  "status": "pass"
+ },
+ "bubble-zju": {
+  "status": "pass"
+ },
+ "butterick-resume": {
+  "status": "pass"
+ },
+ "bye-ubc": {
+  "status": "pass"
+ },
+ "bypst": {
+  "status": "pass"
+ },
+ "caidan": {
+  "status": "pass"
+ },
+ "calligraphics": {
+  "status": "pass"
+ },
+ "calmly-touying": {
+  "status": "pass"
+ },
+ "campanile": {
+  "status": "pass"
+ },
+ "cardinal-su-thesis": {
+  "status": "pass"
+ },
+ "casson-uom-thesis": {
+  "status": "pass"
+ },
+ "casual-szu-report": {
+  "status": "pass"
+ },
+ "catiche": {
+  "status": "pass"
+ },
+ "celluloid": {
+  "status": "pass"
+ },
+ "cereal-words": {
+  "status": "pass"
+ },
+ "cetramed-polylux": {
+  "status": "pass"
+ },
+ "charged-ieee": {
+  "status": "pass"
+ },
+ "charged-pace": {
+  "status": "pass"
+ },
+ "charged-vde": {
+  "status": "pass"
+ },
+ "chatter": {
+  "status": "pass"
+ },
+ "check-six": {
+  "status": "pass"
+ },
+ "cheda-seu-thesis": {
+  "status": "pass"
+ },
+ "chef-cookbook": {
+  "status": "pass"
+ },
+ "chengsi": {
+  "status": "pass"
+ },
+ "chicv": {
+  "status": "pass"
+ },
+ "chicv-ripoff": {
+  "status": "pass"
+ },
+ "chordish": {
+  "status": "pass"
+ },
+ "clari-docs": {
+  "status": "pass"
+ },
+ "classic-aau-report": {
+  "status": "pass"
+ },
+ "classic-jmlr": {
+  "status": "pass"
+ },
+ "classic-msc-thesis": {
+  "status": "pass"
+ },
+ "classic-ppgsi": {
+  "status": "pass"
+ },
+ "classic-tud-math-thesis": {
+  "status": "pass"
+ },
+ "classic-uni-thesis": {
+  "status": "pass"
+ },
+ "classicthesis": {
+  "status": "pass"
+ },
+ "classy-german-invoice": {
+  "status": "pass"
+ },
+ "classy-tudelft-thesis": {
+  "status": "pass"
+ },
+ "clean-acmart": {
+  "status": "pass"
+ },
+ "clean-agh-thesis": {
+  "status": "pass"
+ },
+ "clean-barm": {
+  "status": "pass"
+ },
+ "clean-cnam-template": {
+  "status": "pass"
+ },
+ "clean-dhbw": {
+  "status": "pass"
+ },
+ "clean-ensam": {
+  "status": "pass"
+ },
+ "clean-esi": {
+  "status": "pass"
+ },
+ "clean-fuh": {
+  "status": "pass"
+ },
+ "clean-hda": {
+  "status": "pass"
+ },
+ "clean-htl": {
+  "status": "pass"
+ },
+ "clean-hwr": {
+  "status": "pass"
+ },
+ "clean-math-paper": {
+  "status": "pass"
+ },
+ "clean-math-presentation": {
+  "status": "pass"
+ },
+ "clean-math-thesis": {
+  "status": "pass"
+ },
+ "clean-othaw": {
+  "status": "pass"
+ },
+ "clean-print-cv": {
+  "status": "pass"
+ },
+ "clean-ualberta-thesis": {
+  "status": "pass"
+ },
+ "clean-uoft-thesis": {
+  "status": "pass"
+ },
+ "cleanified-hpi-research-proposal": {
+  "status": "pass"
+ },
+ "cleanified-hpi-thesis": {
+  "status": "pass"
+ },
+ "clear-tub": {
+  "status": "pass"
+ },
+ "clearly-hm": {
+  "status": "pass"
+ },
+ "clickworthy-resume": {
+  "status": "pass"
+ },
+ "cobalt-cv": {
+  "status": "pass"
+ },
+ "cogsci-conference": {
+  "status": "pass"
+ },
+ "community-cnam-thesis": {
+  "status": "pass"
+ },
+ "community-fmi-jena-thesis": {
+  "status": "pass"
+ },
+ "community-gzqy-thesis": {
+  "status": "pass"
+ },
+ "community-itu-thesis": {
+  "status": "pass"
+ },
+ "community-ostfalia-thesis": {
+  "status": "pass"
+ },
+ "community-pens-report": {
+  "status": "pass"
+ },
+ "community-urban-housing-lease-contract": {
+  "status": "pass"
+ },
+ "comozeidex": {
+  "status": "pass"
+ },
+ "complete-unsaac": {
+  "status": "pass"
+ },
+ "conch": {
+  "status": "pass"
+ },
+ "conforming-uio-master": {
+  "status": "pass"
+ },
+ "coquille-st-jacques": {
+  "status": "pass"
+ },
+ "coral-cv": {
+  "status": "pass"
+ },
+ "covered-cs-thesis": {
+  "status": "pass"
+ },
+ "cram-snap": {
+  "status": "pass"
+ },
+ "crisp-cv": {
+  "status": "pass"
+ },
+ "cthesis": {
+  "status": "pass"
+ },
+ "curriculo-acad": {
+  "status": "pass"
+ },
+ "cv-soft-and-hard": {
+  "status": "pass"
+ },
+ "cyberschool-errorteaplate": {
+  "status": "pass"
+ },
+ "cycle-ensaj": {
+  "status": "pass"
+ },
+ "dashing-dept-news": {
+  "status": "pass"
+ },
+ "deal-us-tfc-template": {
+  "status": "pass"
+ },
+ "definitely-not-isec-slides": {
+  "status": "pass"
+ },
+ "definitely-not-isec-thesis": {
+  "status": "pass"
+ },
+ "definitely-not-tue-thesis": {
+  "status": "pass"
+ },
+ "definitely-not-tuw-thesis": {
+  "status": "pass"
+ },
+ "delegis": {
+  "status": "pass"
+ },
+ "desk-tagger": {
+  "status": "pass"
+ },
+ "dhbw-oderso": {
+  "status": "pass"
+ },
+ "diatypst": {
+  "status": "pass"
+ },
+ "diprint": {
+  "status": "pass"
+ },
+ "dmi-basilea-thesis": {
+  "status": "pass"
+ },
+ "documenting-tbre": {
+  "status": "pass"
+ },
+ "dudi-colorful-slides": {
+  "status": "pass"
+ },
+ "dvdtyp": {
+  "status": "pass"
+ },
+ "easy-abi-ausarbeitung": {
+  "status": "pass"
+ },
+ "easy-hgb-thesis": {
+  "status": "pass"
+ },
+ "easy-paper": {
+  "status": "pass"
+ },
+ "easy-wi-hwr": {
+  "status": "pass"
+ },
+ "econ-working-paper": {
+  "status": "pass"
+ },
+ "efter-plugget": {
+  "status": "pass"
+ },
+ "electify": {
+  "status": "pass"
+ },
+ "electrocentrale": {
+  "status": "pass"
+ },
+ "elegant-culsc-record": {
+  "status": "pass"
+ },
+ "elsearticle": {
+  "status": "pass"
+ },
+ "elsevier-replica": {
+  "status": "pass"
+ },
+ "elspub": {
+  "status": "pass"
+ },
+ "endfield-doc": {
+  "status": "pass"
+ },
+ "ens-rennes-presentation": {
+  "status": "pass"
+ },
+ "enseeiht-internship-report": {
+  "status": "pass"
+ },
+ "ensl-internship": {
+  "status": "pass"
+ },
+ "enunciado-facil-fcfm": {
+  "status": "pass"
+ },
+ "epsi-thesis": {
+  "status": "pass"
+ },
+ "eskd-drafting": {
+  "status": "pass"
+ },
+ "ethz-cadmo-inspired-thesis": {
+  "status": "pass"
+ },
+ "ethz-iis-assignment": {
+  "status": "pass"
+ },
+ "ethz-iis-dissertation": {
+  "status": "pass"
+ },
+ "ethz-iis-research-plan": {
+  "status": "pass"
+ },
+ "ethz-iis-thesis": {
+  "status": "pass"
+ },
+ "etykett": {
+  "status": "pass"
+ },
+ "euler-math": {
+  "status": "pass"
+ },
+ "examify": {
+  "status": "pass"
+ },
+ "examine-ib": {
+  "status": "pass"
+ },
+ "examora": {
+  "status": "pass"
+ },
+ "exm": {
+  "status": "pass"
+ },
+ "exp-resume": {
+  "status": "pass"
+ },
+ "exzellenz-tum-thesis": {
+  "status": "pass"
+ },
+ "faithful-acmart": {
+  "status": "pass"
+ },
+ "fancy-cookbook": {
+  "status": "pass"
+ },
+ "fdu-bubble": {
+  "status": "pass"
+ },
+ "fei-thesis": {
+  "status": "pass"
+ },
+ "fernmind": {
+  "status": "pass"
+ },
+ "fh-joanneum-iit-thesis": {
+  "status": "pass"
+ },
+ "fine-lncs": {
+  "status": "pass"
+ },
+ "finely-crafted-cv": {
+  "status": "pass"
+ },
+ "fireside": {
+  "status": "pass"
+ },
+ "flow-way": {
+  "status": "pass"
+ },
+ "flyingcircus": {
+  "status": "pass"
+ },
+ "folklore": {
+  "status": "pass"
+ },
+ "fom-thesis-unofficial": {
+  "status": "pass"
+ },
+ "formal": {
+  "status": "pass"
+ },
+ "formalettre": {
+  "status": "pass"
+ },
+ "forum-acusticum-2026": {
+  "status": "pass"
+ },
+ "fsb-thesis-unofficial": {
+  "status": "pass"
+ },
+ "fubell": {
+  "status": "pass"
+ },
+ "fun-article": {
+  "status": "pass"
+ },
+ "fuzzy-cnoi-statement": {
+  "status": "pass"
+ },
+ "g-exam": {
+  "status": "pass"
+ },
+ "gakusyun-doc": {
+  "status": "pass"
+ },
+ "gallus-hsg": {
+  "status": "pass"
+ },
+ "gbt9704-gongwen": {
+  "status": "pass"
+ },
+ "german-fx-invoice": {
+  "status": "pass"
+ },
+ "gh-minimal-slides": {
+  "status": "pass"
+ },
+ "gibz-script": {
+  "status": "pass"
+ },
+ "gloat": {
+  "status": "pass"
+ },
+ "golixp-resume-zh-cn": {
+  "status": "pass"
+ },
+ "govern": {
+  "status": "pass"
+ },
+ "graceful-genetics": {
+  "status": "pass"
+ },
+ "grape-suite": {
+  "status": "pass"
+ },
+ "grid-cv": {
+  "status": "pass"
+ },
+ "grotesk-cv": {
+  "status": "pass"
+ },
+ "gru": {
+  "status": "pass"
+ },
+ "guided-resume-starter-cgc": {
+  "status": "pass"
+ },
+ "guido": {
+  "status": "pass"
+ },
+ "gwanak-snu-thesis": {
+  "status": "pass"
+ },
+ "gzu-thesis-unofficial": {
+  "status": "pass"
+ },
+ "h-brs-thesis-unofficial": {
+  "status": "pass"
+ },
+ "habaneraa-one-page-resume-zh": {
+  "status": "pass"
+ },
+ "hadronic-rirekisho": {
+  "status": "pass"
+ },
+ "hand-in": {
+  "status": "pass"
+ },
+ "hanko-kitei": {
+  "status": "pass"
+ },
+ "hannes-thesis": {
+  "status": "pass"
+ },
+ "hanqing": {
+  "status": "pass"
+ },
+ "hanzi-calligraphy": {
+  "status": "pass"
+ },
+ "harvard-gsas-thesis-oat": {
+  "status": "pass"
+ },
+ "heading-resume": {
+  "status": "pass"
+ },
+ "hei-synd-report": {
+  "status": "pass"
+ },
+ "hei-synd-thesis": {
+  "status": "pass"
+ },
+ "hetvid": {
+  "status": "pass"
+ },
+ "hitec": {
+  "status": "pass"
+ },
+ "homiework": {
+  "status": "pass"
+ },
+ "hsmz-thesis-unofficial": {
+  "status": "pass"
+ },
+ "htlium": {
+  "status": "pass"
+ },
+ "htlwienwest-da": {
+  "status": "pass"
+ },
+ "humanistically": {
+  "status": "pass"
+ },
+ "humble-dtu-thesis": {
+  "status": "pass"
+ },
+ "husky-uw-thesis": {
+  "status": "pass"
+ },
+ "iarticle": {
+  "status": "pass"
+ },
+ "icicle": {
+  "status": "pass"
+ },
+ "ieee-vgtc": {
+  "status": "pass"
+ },
+ "ijimai": {
+  "status": "pass"
+ },
+ "ilm": {
+  "status": "pass"
+ },
+ "impaginato": {
+  "status": "pass"
+ },
+ "imprecv": {
+  "status": "pass"
+ },
+ "impressive-impression": {
+  "status": "pass"
+ },
+ "inboisu": {
+  "status": "pass"
+ },
+ "inelegant-note": {
+  "status": "pass"
+ },
+ "ineris-print": {
+  "status": "pass"
+ },
+ "ineris-slide": {
+  "status": "pass"
+ },
+ "infodoc-unr10": {
+  "status": "pass"
+ },
+ "innovative-skoltech-slides": {
+  "status": "pass"
+ },
+ "invicta-thesis": {
+  "status": "pass"
+ },
+ "invoice-maker": {
+  "status": "pass"
+ },
+ "invoice-pro": {
+  "status": "pass"
+ },
+ "ioppub": {
+  "status": "pass"
+ },
+ "isc-hei-bthesis": {
+  "status": "pass"
+ },
+ "isc-hei-document": {
+  "status": "pass"
+ },
+ "isc-hei-exec-summary": {
+  "status": "pass"
+ },
+ "isc-hei-poster": {
+  "status": "pass"
+ },
+ "isc-hei-report": {
+  "status": "pass"
+ },
+ "isc-hei-tb-assignment": {
+  "status": "pass"
+ },
+ "iut-orsay-report-flat": {
+  "status": "pass"
+ },
+ "jabiz": {
+  "status": "pass"
+ },
+ "jaconf": {
+  "status": "pass"
+ },
+ "jaconf-mscs": {
+  "status": "pass"
+ },
+ "jastylest": {
+  "status": "pass"
+ },
+ "jastylest-zh": {
+  "status": "pass"
+ },
+ "jiangcai-jufe-master-thesis": {
+  "status": "pass"
+ },
+ "jilid": {
+  "status": "pass"
+ },
+ "jotter-polylux": {
+  "status": "pass"
+ },
+ "js": {
+  "status": "pass"
+ },
+ "jsume": {
+  "status": "pass"
+ },
+ "juti": {
+  "status": "pass"
+ },
+ "kamk-thesis": {
+  "status": "pass"
+ },
+ "kdl-unofficial-template": {
+  "status": "pass"
+ },
+ "kinetic-kit": {
+  "status": "pass"
+ },
+ "kiresume": {
+  "status": "pass"
+ },
+ "klaro-ifsc-sj": {
+  "status": "pass"
+ },
+ "knowledge-key": {
+  "status": "pass"
+ },
+ "kthesis": {
+  "status": "pass"
+ },
+ "kunskap": {
+  "status": "pass"
+ },
+ "kzn-ma": {
+  "status": "pass"
+ },
+ "labtyp": {
+  "status": "pass"
+ },
+ "lacy-ubc-math-project": {
+  "status": "pass"
+ },
+ "lambda": {
+  "status": "pass"
+ },
+ "lambda-notes": {
+  "status": "pass"
+ },
+ "laskutys": {
+  "status": "pass"
+ },
+ "latexy-book": {
+  "status": "pass"
+ },
+ "lavandula": {
+  "status": "pass"
+ },
+ "ledger-rail": {
+  "status": "pass"
+ },
+ "leetcode-livebook": {
+  "status": "pass"
+ },
+ "leonux": {
+  "status": "pass"
+ },
+ "letter-pro": {
+  "status": "pass"
+ },
+ "letterloom": {
+  "status": "pass"
+ },
+ "light-cv": {
+  "status": "pass"
+ },
+ "light-report-uia": {
+  "status": "pass"
+ },
+ "linedx2-sjtu": {
+  "status": "pass"
+ },
+ "ling": {
+  "status": "pass"
+ },
+ "linked-cv": {
+  "status": "pass"
+ },
+ "lion-ecl": {
+  "status": "pass"
+ },
+ "lumen": {
+  "status": "pass"
+ },
+ "luminar-cv": {
+  "status": "pass"
+ },
+ "lyceum": {
+  "status": "pass"
+ },
+ "machiatto": {
+  "status": "pass"
+ },
+ "magic-isprs": {
+  "status": "pass"
+ },
+ "magnificent-misq": {
+  "status": "pass"
+ },
+ "mahou-cv": {
+  "status": "pass"
+ },
+ "malos-book-style": {
+  "status": "pass"
+ },
+ "malos-presets": {
+  "status": "pass"
+ },
+ "manuscr-ismin": {
+  "status": "pass"
+ },
+ "marina-uol-thesis": {
+  "status": "pass"
+ },
+ "marius-dhbw-thesis": {
+  "status": "pass"
+ },
+ "master-piece-ntnu": {
+  "status": "pass"
+ },
+ "may": {
+  "status": "pass"
+ },
+ "measured-jair": {
+  "status": "pass"
+ },
+ "medieval-resume": {
+  "status": "pass"
+ },
+ "meppp": {
+  "status": "pass"
+ },
+ "meridian-cv": {
+  "status": "pass"
+ },
+ "metronic": {
+  "status": "pass"
+ },
+ "metropolis-polylux": {
+  "status": "pass"
+ },
+ "metropolyst": {
+  "status": "pass"
+ },
+ "min-book": {
+  "status": "pass"
+ },
+ "min-manual": {
+  "status": "pass"
+ },
+ "min-resume": {
+  "status": "pass"
+ },
+ "min-writing": {
+  "status": "pass"
+ },
+ "minerva-report-fcfm": {
+  "status": "pass"
+ },
+ "minerva-thesis": {
+  "status": "pass"
+ },
+ "minicise": {
+  "status": "pass"
+ },
+ "minimal-cv": {
+  "status": "pass"
+ },
+ "minimal-note": {
+  "status": "pass"
+ },
+ "minimal-presentation": {
+  "status": "pass"
+ },
+ "minimal-thesis-luebeck": {
+  "status": "pass"
+ },
+ "minimal-unilim-thesis": {
+  "status": "pass"
+ },
+ "minimalbc": {
+  "status": "pass"
+ },
+ "minimalistic-latex-cv": {
+  "status": "pass"
+ },
+ "minimalyst-academic-report": {
+  "status": "pass"
+ },
+ "mkuipers-ulusofona": {
+  "status": "pass"
+ },
+ "modern-acad-cv": {
+  "status": "pass"
+ },
+ "modern-bnu-course-paper": {
+  "status": "pass"
+ },
+ "modern-buaa-thesis": {
+  "status": "pass"
+ },
+ "modern-class-presentation": {
+  "status": "pass"
+ },
+ "modern-cug-report": {
+  "status": "pass"
+ },
+ "modern-cug-thesis": {
+  "status": "pass"
+ },
+ "modern-cv": {
+  "status": "pass"
+ },
+ "modern-ecnu-thesis": {
+  "status": "pass"
+ },
+ "modern-fzu-thesis": {
+  "status": "pass"
+ },
+ "modern-hfut-report": {
+  "status": "pass"
+ },
+ "modern-hkust-thesis": {
+  "status": "pass"
+ },
+ "modern-hsh-thesis": {
+  "status": "pass"
+ },
+ "modern-innopolis-thesis": {
+  "status": "pass"
+ },
+ "modern-ipsy-thesis": {
+  "status": "pass"
+ },
+ "modern-iu-thesis": {
+  "status": "pass"
+ },
+ "modern-jakarta-cv": {
+  "status": "pass"
+ },
+ "modern-mla": {
+  "status": "pass"
+ },
+ "modern-nenu-thesis": {
+  "status": "pass"
+ },
+ "modern-nju-thesis": {
+  "status": "pass"
+ },
+ "modern-npu-thesis": {
+  "status": "pass"
+ },
+ "modern-pku-thesis": {
+  "status": "pass"
+ },
+ "modern-project-report": {
+  "status": "pass"
+ },
+ "modern-report-umfds": {
+  "status": "pass"
+ },
+ "modern-resume": {
+  "status": "pass"
+ },
+ "modern-ruc-thesis": {
+  "status": "pass"
+ },
+ "modern-scut-thesis": {
+  "status": "pass"
+ },
+ "modern-se-kul-thesis": {
+  "status": "pass"
+ },
+ "modern-shu-thesis": {
+  "status": "pass"
+ },
+ "modern-sjtu-report": {
+  "status": "pass"
+ },
+ "modern-sjtu-thesis": {
+  "status": "pass"
+ },
+ "modern-sustech-thesis": {
+  "status": "pass"
+ },
+ "modern-swjtu-thesis": {
+  "status": "pass"
+ },
+ "modern-sysu-thesis": {
+  "status": "pass"
+ },
+ "modern-sysu-touying": {
+  "status": "pass"
+ },
+ "modern-szu-slides": {
+  "status": "pass"
+ },
+ "modern-szu-thesis": {
+  "status": "pass"
+ },
+ "modern-tongji-thesis": {
+  "status": "pass"
+ },
+ "modern-tud-thesis": {
+  "status": "pass"
+ },
+ "modern-tust-thesis": {
+  "status": "pass"
+ },
+ "modern-ucas-thesis": {
+  "status": "pass"
+ },
+ "modern-uestc-thesis": {
+  "status": "pass"
+ },
+ "modern-um-thesis": {
+  "status": "pass"
+ },
+ "modern-unimib-thesis": {
+  "status": "pass"
+ },
+ "modern-upc-thesis": {
+  "status": "pass"
+ },
+ "modern-whs-assignment": {
+  "status": "pass"
+ },
+ "modern-whs-thesis": {
+  "status": "pass"
+ },
+ "modern-wku-thesis": {
+  "status": "pass"
+ },
+ "modern-xdu-thesis": {
+  "status": "pass"
+ },
+ "modern-xmu-thesis": {
+  "status": "pass"
+ },
+ "modern-zhaw-thesis": {
+  "status": "pass"
+ },
+ "moderner-cv": {
+  "status": "pass"
+ },
+ "modernpro-coverletter": {
+  "status": "pass"
+ },
+ "modernpro-cv": {
+  "status": "pass"
+ },
+ "moin-uni-slides": {
+  "status": "pass"
+ },
+ "monofolio": {
+  "status": "pass"
+ },
+ "mousse-notes": {
+  "status": "pass"
+ },
+ "mrbogo-cv": {
+  "status": "pass"
+ },
+ "muddy-mit-thesis": {
+  "status": "pass"
+ },
+ "muw-community-templates": {
+  "status": "pass"
+ },
+ "muw-touying-community": {
+  "status": "pass"
+ },
+ "mythographer-5e": {
+  "status": "pass"
+ },
+ "nabcv": {
+  "status": "pass"
+ },
+ "ncku-later": {
+  "status": "pass"
+ },
+ "neat-cv": {
+  "status": "pass"
+ },
+ "neat-tu-dublin": {
+  "status": "pass"
+ },
+ "nidaros-ntnu-thesis": {
+  "status": "pass"
+ },
+ "nifty-ntnu-thesis": {
+  "status": "pass"
+ },
+ "nikonova": {
+  "status": "pass"
+ },
+ "non-boring-notes": {
+  "status": "pass"
+ },
+ "normale-internship": {
+  "status": "pass"
+ },
+ "not-jku-thesis": {
+  "status": "pass"
+ },
+ "not-tudabeamer-2023": {
+  "status": "pass"
+ },
+ "noteworks": {
+  "status": "pass"
+ },
+ "noteworthy": {
+  "status": "pass"
+ },
+ "nova-pset": {
+  "status": "pass"
+ },
+ "now-radboud-thesis": {
+  "status": "pass"
+ },
+ "ntnu-physics-report-replica": {
+  "status": "pass"
+ },
+ "ntust-thesis-unofficial": {
+  "status": "pass"
+ },
+ "obelisk": {
+  "status": "pass"
+ },
+ "obsidius": {
+  "status": "pass"
+ },
+ "october": {
+  "status": "pass"
+ },
+ "ohdsi-symposium-submission": {
+  "status": "pass"
+ },
+ "onyx-itu-unofficial": {
+  "status": "pass"
+ },
+ "optimal-ovgu-thesis": {
+  "status": "pass"
+ },
+ "orange-book": {
+  "status": "differs"
+ },
+ "ori": {
+  "status": "pass"
+ },
+ "orionotes": {
+  "status": "pass"
+ },
+ "ost-ifs-thesis": {
+  "status": "pass"
+ },
+ "ostfriesen-layout": {
+  "status": "pass"
+ },
+ "owl-lst-thesis": {
+  "status": "pass"
+ },
+ "ox-scholar": {
+  "status": "pass"
+ },
+ "parcio-slides": {
+  "status": "pass"
+ },
+ "parcio-thesis": {
+  "status": "pass"
+ },
+ "paris-saclay-thesis-flat": {
+  "status": "pass"
+ },
+ "pasquino": {
+  "status": "pass"
+ },
+ "pc-letter": {
+  "status": "pass"
+ },
+ "peace-of-posters": {
+  "status": "pass"
+ },
+ "pepentation": {
+  "status": "pass"
+ },
+ "pesha": {
+  "status": "pass"
+ },
+ "pg-thesis-unofficial": {
+  "status": "pass"
+ },
+ "pioneering-rlj": {
+  "status": "pass"
+ },
+ "pku-thesis-pass": {
+  "status": "pass"
+ },
+ "placard": {
+  "status": "pass"
+ },
+ "playwright": {
+  "status": "pass"
+ },
+ "pmetrika": {
+  "status": "pass"
+ },
+ "politemplate": {
+  "status": "pass"
+ },
+ "polito-thesis": {
+  "status": "pass"
+ },
+ "pollux": {
+  "status": "pass"
+ },
+ "polycv": {
+  "status": "pass"
+ },
+ "porygon": {
+  "status": "pass"
+ },
+ "precis-upb-cs": {
+  "status": "pass"
+ },
+ "preprintx": {
+  "status": "pass"
+ },
+ "pretty-hdm-thesis": {
+  "status": "pass"
+ },
+ "primeone": {
+  "status": "pass"
+ },
+ "pro-academic-cv": {
+  "status": "pass"
+ },
+ "pro-letter": {
+  "status": "pass"
+ },
+ "problemst": {
+  "status": "pass"
+ },
+ "project-isi-zac": {
+  "status": "pass"
+ },
+ "prometeu-thesis": {
+  "status": "pass"
+ },
+ "psl-thesis": {
+  "status": "pass"
+ },
+ "put-thesis": {
+  "status": "pass"
+ },
+ "qooklet": {
+  "status": "pass"
+ },
+ "quest": {
+  "status": "pass"
+ },
+ "quic-style": {
+  "status": "pass"
+ },
+ "quick-minutes": {
+  "status": "pass"
+ },
+ "quick-sip": {
+  "status": "pass"
+ },
+ "quill-assignment": {
+  "status": "pass"
+ },
+ "quizforge": {
+  "status": "pass"
+ },
+ "quizst": {
+  "status": "pass"
+ },
+ "rasko-europass": {
+  "status": "pass"
+ },
+ "ready-acm-dtu-ux": {
+  "status": "pass"
+ },
+ "rectangles-polylux": {
+  "status": "pass"
+ },
+ "red-agora": {
+  "status": "pass"
+ },
+ "remetente": {
+  "status": "pass"
+ },
+ "rendercv": {
+  "status": "pass"
+ },
+ "reprobe": {
+  "status": "pass"
+ },
+ "resumania": {
+  "status": "pass"
+ },
+ "resume-ng": {
+  "status": "pass"
+ },
+ "resume-ofa": {
+  "status": "pass"
+ },
+ "rewind-note": {
+  "status": "pass"
+ },
+ "rezvan-chalmers-cse-thesis": {
+  "status": "pass"
+ },
+ "rirekisho-ofa": {
+  "status": "pass"
+ },
+ "rubber-article": {
+  "status": "pass"
+ },
+ "rut-physica-labs": {
+  "status": "pass"
+ },
+ "s6t5-page-bordering": {
+  "status": "pass"
+ },
+ "sano-presentation-template": {
+  "status": "pass"
+ },
+ "scarif": {
+  "status": "pass"
+ },
+ "scholarly-epfl-thesis": {
+  "status": "pass"
+ },
+ "scholarly-tauthesis": {
+  "status": "pass"
+ },
+ "scholia": {
+  "status": "pass"
+ },
+ "sci-brain-slides": {
+  "status": "pass"
+ },
+ "screen-scripted": {
+  "status": "pass"
+ },
+ "scribbling-hm": {
+  "status": "pass"
+ },
+ "scripst": {
+  "status": "pass"
+ },
+ "shane-hhu-thesis": {
+  "status": "pass"
+ },
+ "sheetstorm": {
+  "status": "pass"
+ },
+ "shit-journal": {
+  "status": "pass"
+ },
+ "shokumu-keirekisho-ofa": {
+  "status": "pass"
+ },
+ "shuimu-touying": {
+  "status": "pass"
+ },
+ "shuosc-shu-bachelor-thesis": {
+  "status": "pass"
+ },
+ "signal-resume": {
+  "status": "pass"
+ },
+ "silky-letter-insa": {
+  "status": "pass"
+ },
+ "silky-report-insa": {
+  "status": "pass"
+ },
+ "silky-slides-insa": {
+  "status": "pass"
+ },
+ "silver-dev-cv": {
+  "status": "pass"
+ },
+ "simple-bupt-report": {
+  "status": "pass"
+ },
+ "simple-cheatsheet": {
+  "status": "pass"
+ },
+ "simple-cvut-report": {
+  "status": "pass"
+ },
+ "simple-handout": {
+  "status": "pass"
+ },
+ "simple-hust-report": {
+  "status": "pass"
+ },
+ "simple-inria-touying-theme": {
+  "status": "pass"
+ },
+ "simple-nwu-year-paper": {
+  "status": "pass"
+ },
+ "simple-preavis": {
+  "status": "pass"
+ },
+ "simple-research-poster": {
+  "status": "pass"
+ },
+ "simple-soc-report": {
+  "status": "pass"
+ },
+ "simple-technical-resume": {
+  "status": "pass"
+ },
+ "simple-thesis-ger-host": {
+  "status": "pass"
+ },
+ "simple-ve-thesis": {
+  "status": "pass"
+ },
+ "simple-xd-resume": {
+  "status": "pass"
+ },
+ "simply-ysu-touying": {
+  "status": "pass"
+ },
+ "sleek-university-assignment": {
+  "status": "pass"
+ },
+ "sleiden-lei": {
+  "status": "pass"
+ },
+ "slydekit": {
+  "status": "pass"
+ },
+ "slydst": {
+  "status": "pass"
+ },
+ "smooth-tmlr": {
+  "status": "pass"
+ },
+ "sns-polylux-template": {
+  "status": "pass"
+ },
+ "solo-lu-df": {
+  "status": "pass"
+ },
+ "soviet-matrix": {
+  "status": "differs"
+ },
+ "spicky": {
+  "status": "pass"
+ },
+ "splendid-mdpi": {
+  "status": "pass"
+ },
+ "ssrn-scribe": {
+  "status": "pass"
+ },
+ "stagehand": {
+  "status": "pass"
+ },
+ "starchy-junia": {
+  "status": "pass"
+ },
+ "starry-ulfg": {
+  "status": "pass"
+ },
+ "starter-journal-article": {
+  "status": "pass"
+ },
+ "std-sjtu-bachelor-thesis-midterm": {
+  "status": "pass"
+ },
+ "std-sjtu-bachelor-thesis-proposal": {
+  "status": "pass"
+ },
+ "std-sjtu-doctoral-annual-progress": {
+  "status": "pass"
+ },
+ "std-sjtu-graduate-thesis-proposal": {
+  "status": "pass"
+ },
+ "std-sjtu-master-midterm-report": {
+  "status": "pass"
+ },
+ "steady-rvl-slides": {
+  "status": "pass"
+ },
+ "stellar-iac": {
+  "status": "pass"
+ },
+ "stellar-springer-nature": {
+  "status": "pass"
+ },
+ "storytiles": {
+  "status": "pass"
+ },
+ "strangelion": {
+  "status": "pass"
+ },
+ "strath-maestrum": {
+  "status": "pass"
+ },
+ "strict-modern-uestc-thesis": {
+  "status": "pass"
+ },
+ "structured-mse-thesis": {
+  "status": "pass"
+ },
+ "structured-uib": {
+  "status": "pass"
+ },
+ "stux-assignment": {
+  "status": "pass"
+ },
+ "stv-vub-huisstijl": {
+  "status": "pass"
+ },
+ "sudo-docs": {
+  "status": "pass"
+ },
+ "summy": {
+  "status": "pass"
+ },
+ "sunny-orasis": {
+  "status": "pass"
+ },
+ "superb-pci": {
+  "status": "pass"
+ },
+ "supercharged-dhbw": {
+  "status": "pass"
+ },
+ "swe-cv": {
+  "status": "pass"
+ },
+ "swec-slides": {
+  "status": "pass"
+ },
+ "sweet-graduate-resume": {
+  "status": "pass"
+ },
+ "tapestry": {
+  "status": "pass"
+ },
+ "tatras-ieee": {
+  "status": "pass"
+ },
+ "telepresentation": {
+  "status": "pass"
+ },
+ "telereport": {
+  "status": "pass"
+ },
+ "texam": {
+  "status": "pass"
+ },
+ "texst": {
+  "status": "pass"
+ },
+ "tfgei": {
+  "status": "pass"
+ },
+ "tfguf": {
+  "status": "pass"
+ },
+ "tgm-hit-protocol": {
+  "status": "pass"
+ },
+ "tgm-hit-sew-lecture": {
+  "status": "pass"
+ },
+ "tgm-hit-thesis": {
+  "status": "pass"
+ },
+ "thesist": {
+  "status": "pass"
+ },
+ "thusliding": {
+  "status": "pass"
+ },
+ "thwildau-telematics": {
+  "status": "pass"
+ },
+ "tidbit-uoc": {
+  "status": "pass"
+ },
+ "tiefcars": {
+  "status": "pass"
+ },
+ "tieffiction": {
+  "status": "pass"
+ },
+ "tiefletter": {
+  "status": "pass"
+ },
+ "tieflied": {
+  "status": "pass"
+ },
+ "tlacuache-thesis-fc-unam": {
+  "status": "pass"
+ },
+ "tlacuache-thesis-msc-pcm-unam": {
+  "status": "pass"
+ },
+ "toffee-tufte": {
+  "status": "pass"
+ },
+ "tonguetoquill-usaf-memo": {
+  "status": "pass"
+ },
+ "touying-aqua": {
+  "status": "pass"
+ },
+ "touying-au-community": {
+  "status": "pass"
+ },
+ "touying-brandred-uobristol": {
+  "status": "pass"
+ },
+ "touying-buaa": {
+  "status": "pass"
+ },
+ "touying-dids": {
+  "status": "pass"
+ },
+ "touying-endfield": {
+  "status": "pass"
+ },
+ "touying-greyc-ambrosia": {
+  "status": "pass"
+ },
+ "touying-htwk-stripes": {
+  "status": "pass"
+ },
+ "touying-liu-nyckel": {
+  "status": "pass"
+ },
+ "touying-matcha": {
+  "status": "pass"
+ },
+ "touying-ppt-hustvn": {
+  "status": "pass"
+ },
+ "touying-quarto-clean": {
+  "status": "pass"
+ },
+ "touying-quick": {
+  "status": "pass"
+ },
+ "touying-simpl-cau": {
+  "status": "pass"
+ },
+ "touying-simpl-cnu": {
+  "status": "pass"
+ },
+ "touying-simpl-ecnu": {
+  "status": "pass"
+ },
+ "touying-simpl-hkustgz": {
+  "status": "pass"
+ },
+ "touying-simpl-neu": {
+  "status": "pass"
+ },
+ "touying-simpl-nudt": {
+  "status": "pass"
+ },
+ "touying-simpl-sjtu": {
+  "status": "pass"
+ },
+ "touying-simpl-swufe": {
+  "status": "pass"
+ },
+ "touying-simpres": {
+  "status": "pass"
+ },
+ "touying-ufac-unofficial": {
+  "status": "pass"
+ },
+ "touying-unistra-pristine": {
+  "status": "pass"
+ },
+ "touying-wave-hhu": {
+  "status": "pass"
+ },
+ "toy-cv": {
+  "status": "pass"
+ },
+ "tracl": {
+  "status": "pass"
+ },
+ "tressym-dnd": {
+  "status": "pass"
+ },
+ "triple-aaai": {
+  "status": "pass"
+ },
+ "ttq-classic-resume": {
+  "status": "pass"
+ },
+ "ttuile": {
+  "status": "pass"
+ },
+ "tud-corporate-design-slides": {
+  "status": "pass"
+ },
+ "tudelft-prime-presentation": {
+  "status": "pass"
+ },
+ "tufted": {
+  "status": "pass"
+ },
+ "tum-tastic-thesis": {
+  "status": "pass"
+ },
+ "tuwien-geo-masterthesis": {
+  "status": "pass"
+ },
+ "twilight-book": {
+  "status": "pass"
+ },
+ "tyniverse": {
+  "status": "pass"
+ },
+ "typographic-resume": {
+  "status": "pass"
+ },
+ "typographix-polytechnique-reports": {
+  "status": "pass"
+ },
+ "typographix-polytechnique-slides": {
+  "status": "pass"
+ },
+ "typsidian": {
+  "status": "pass"
+ },
+ "typxidian": {
+  "status": "pass"
+ },
+ "u3tudo": {
+  "status": "pass"
+ },
+ "ucpc-solutions": {
+  "status": "pass"
+ },
+ "ucph-nielsine-touying": {
+  "status": "pass"
+ },
+ "uepg-tcc-unofficial": {
+  "status": "pass"
+ },
+ "ufpr-unofficial": {
+  "status": "pass"
+ },
+ "ufscholar": {
+  "status": "pass"
+ },
+ "ugm-presentation-unofficial": {
+  "status": "pass"
+ },
+ "ukw-bipg-unofficial-thesis": {
+  "status": "pass"
+ },
+ "unequivocal-ams": {
+  "status": "pass"
+ },
+ "uni-ms-pres-schloss": {
+  "status": "pass"
+ },
+ "unified-uia-thesis": {
+  "status": "pass"
+ },
+ "unilab": {
+  "status": "pass"
+ },
+ "universal-hit-thesis": {
+  "status": "pass"
+ },
+ "universal-jlu-thesis": {
+  "status": "pass"
+ },
+ "universal-tongji-thesis": {
+  "status": "pass"
+ },
+ "unofficial-cambridge-polylux-theme": {
+  "status": "pass"
+ },
+ "unofficial-cambridge-thesis": {
+  "status": "pass"
+ },
+ "unofficial-cityu-phd-thesis": {
+  "status": "pass"
+ },
+ "unofficial-cityuhk-thesis": {
+  "status": "pass"
+ },
+ "unofficial-eirb-report": {
+  "status": "pass"
+ },
+ "unofficial-fhict-document-template": {
+  "status": "pass"
+ },
+ "unofficial-fhs-thesis": {
+  "status": "pass"
+ },
+ "unofficial-fontys-paper-template": {
+  "status": "pass"
+ },
+ "unofficial-hka-thesis": {
+  "status": "pass"
+ },
+ "unofficial-hso-thesis": {
+  "status": "pass"
+ },
+ "unofficial-icl-doc-thesis": {
+  "status": "pass"
+ },
+ "unofficial-iitkgp-thesis": {
+  "status": "pass"
+ },
+ "unofficial-jascome-34j": {
+  "status": "pass"
+ },
+ "unofficial-kth-thesis-proposal": {
+  "status": "pass"
+ },
+ "unofficial-monash-touying": {
+  "status": "pass"
+ },
+ "unofficial-ouc-bachelor-thesis": {
+  "status": "pass"
+ },
+ "unofficial-sdu-lab-report": {
+  "status": "pass"
+ },
+ "unofficial-sdu-thesis": {
+  "status": "pass"
+ },
+ "unofficial-sorbonne-presentation": {
+  "status": "pass"
+ },
+ "unofficial-stu-bachelor-thesis": {
+  "status": "pass"
+ },
+ "unofficial-tyut-thesis": {
+  "status": "pass"
+ },
+ "unofficial-ucy-thesis": {
+  "status": "pass"
+ },
+ "unofficial-ukim-thesis": {
+  "status": "pass"
+ },
+ "unofficial-ulb-report": {
+  "status": "pass"
+ },
+ "unofficial-uninsubria-thesis": {
+  "status": "pass"
+ },
+ "unofficial-uo-dissertation-2024": {
+  "status": "pass"
+ },
+ "unofficial-whu-lab-report": {
+  "status": "pass"
+ },
+ "upb-cn-templates": {
+  "status": "pass"
+ },
+ "upb-corporate-design-slides": {
+  "status": "pass"
+ },
+ "utfpr-tcc-unofficial": {
+  "status": "pass"
+ },
+ "vanilla": {
+  "status": "pass"
+ },
+ "versatile-apa": {
+  "status": "pass"
+ },
+ "vibrant-color": {
+  "status": "pass"
+ },
+ "vienna-tech": {
+  "status": "pass"
+ },
+ "vintage-fiit-thesis": {
+  "status": "pass"
+ },
+ "visillos-excelencia": {
+  "status": "pass"
+ },
+ "vivid-cv": {
+  "status": "pass"
+ },
+ "vocabulo": {
+  "status": "pass"
+ },
+ "volt-internship-ensea": {
+  "status": "pass"
+ },
+ "volt-lab-ensea": {
+  "status": "pass"
+ },
+ "wenyuan-campaign": {
+  "status": "pass"
+ },
+ "wired-ieee": {
+  "status": "pass"
+ },
+ "wonderous-book": {
+  "status": "pass"
+ },
+ "wut-thesis": {
+  "status": "pass"
+ },
+ "xmdjy-simple-report-template": {
+  "status": "pass"
+ },
+ "xwysyy": {
+  "status": "pass"
+ },
+ "yaes": {
+  "status": "pass"
+ },
+ "yuan-resume": {
+  "status": "pass"
+ },
+ "yuuko-report": {
+  "status": "pass"
+ },
+ "zen-utbm-report": {
+  "status": "pass"
+ },
+ "zen-zine": {
+  "status": "pass"
+ },
+ "zettyp-core": {
+  "status": "pass"
+ },
+ "zhaji": {
+  "status": "pass"
+ }
+}

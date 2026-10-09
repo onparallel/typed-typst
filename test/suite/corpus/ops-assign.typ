@@ -1,0 +1,12 @@
+// Typst 0.15.1 test suite: tests/suite/scripting/ops.typ, case ops-assign, attributes: eval.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// Test assignment operators.
+
+#let x = 0
+#(x = 10)       #test(x, 10)
+#(x -= 5)       #test(x, 5)
+#(x += 1)       #test(x, 6)
+#(x *= x)       #test(x, 36)
+#(x /= 2.0)     #test(x, 18.0)
+#(x = "some")   #test(x, "some")
+#(x += "thing") #test(x, "something")

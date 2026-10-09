@@ -1,0 +1,1 @@
+#text("Text") #linebreak() #text(fill: red, "Text") #linebreak() #text(font: "Ubuntu", fill: blue, "Text") #linebreak() #text(font: "IBM Plex Serif", fill: teal, "Text") #linebreak() #text(font: "New Computer Modern", fill: rgb("#43a127"), "Text") #linebreak()

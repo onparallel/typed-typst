@@ -1,0 +1,15 @@
+// Typst 0.15.1 test suite: tests/suite/layout/grid/colspan.typ, case grid-colspan-over-all-fr-columns-page-width-auto.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// On infinite pages, colspan over all fractional columns SHOULD expand auto columns
+#set page(width: auto)
+#table(
+  columns: (1fr, 1fr, auto),
+  [A], [B], [C],
+  [D], [E], [F]
+)
+#table(
+  columns: (1fr, 1fr, auto),
+  table.cell(colspan: 3, lorem(8)),
+  [A], [B], [C],
+  [D], [E], [F]
+)

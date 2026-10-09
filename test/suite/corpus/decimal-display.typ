@@ -1,0 +1,17 @@
+// Typst 0.15.1 test suite: tests/suite/foundations/decimal.typ, case decimal-display.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// Test decimals.
+#set page(width: auto)
+#decimal("12.0") \
+#decimal("3.14") \
+#decimal("1234567890.0") \
+#decimal("0123456789.0") \
+#decimal("0.0") \
+#decimal("-0.0") \
+#decimal("-1.0") \
+#decimal("-9876543210.0") \
+#decimal("-0987654321.0") \
+#decimal("-3.14") \
+#decimal("-3.9191919191919191919191919195") \
+#decimal("5.0000000000") \
+#(decimal("4.0") - decimal("8.0"))

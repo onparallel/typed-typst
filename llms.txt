@@ -1,0 +1,212 @@
+# typed-typst
+
+> Type-safe TypeScript for writing Typst source code. Build a document from typed function calls and `render()` prints the Typst source. Data passed in is always escaped and does not become code (outside the `unsafeRaw` escape hatch). The bindings are generated from Typst 0.15.1 and only target that version. Compile the output with the `typst` CLI.
+
+Every code block in this file is type-checked and run by `test/llms.test.ts`.
+
+## Rules a model cannot guess
+
+1. **Import everything from `typed-typst`.** Typst names keep their names: `text`, `table`, `heading`, `grid`, `page`, `par`, `figure`, `image`, `counter`, `datetime`… JS reserved words get a trailing underscore: `enum_`, `function_`.
+2. **Named arguments come first, as one object, in camelCase.** Positional arguments follow. Typst `table(columns: 2, column-gutter: 4pt, [a], [b])` is `table({ columns: 2, columnGutter: pt(4) }, 'a', 'b')`.
+3. **Lengths and other units are functions, never strings.** Use `pt(11)`, `mm(20)`, `cm(2)`, `inches(1)`, `em(1.2)`, `pct(50)`, `fr(1)`, `deg(90)`. Use `auto` for `auto` and JS `null` for `none`.
+4. **A JS string is text or a Typst string, never code.** `'*hi*'` prints the characters `*hi*`. For bold, write `strong('hi')`.
+5. **A file is named only with `path('literal')`.** Applies to `image`, `bibliography`, `read`, `json`, `csv` and similar. A computed string is a TypeScript error, and at runtime a file parameter takes only a file the library knows: `path(…)`, `unsafePath(…)`, bytes (`bytes(…)`, `read(…, { encoding: null })`), a `let_` of those, or a `T.path` / `T.bytes` parameter of a `define`. A value computed in Typst (`data(record).at('logo')`, a `T.any` parameter, `sys.inputs`) throws, so data can never choose which file is read; so does a function that reads a file it is given, as a value anywhere (`.map(json)`, `csv.with()`, a `define` with a `T.path`, `T.bytes` or `T.oneOf` parameter by position), except as a selector or a figure kind. A name bound to a file cannot be bound to anything else in the document. Where Typst also takes fixed names (`bibliography({ style: 'apa' })`), those literal names are allowed. For a path the program computes itself (`assets/${hash}.png`, never user input), or one a trusted template computes (`unsafePath(external('logo'))`), use `unsafePath(p)`. In a direct call it prints as a string (`#image("a.png")`); passed to a template's function it stays `path("a.png")`, so it still resolves from the document.
+6. **Do not try to write `if`, `for` or `while` in Typst.** Use TypeScript instead: `.map`, `&&`, ternaries. Parts that are `false`, `null` or `undefined` are skipped.
+7. **Functions marked contextual need a context token.** `here`, `query`, `counter(…).get` and `state(…).get` are examples. Get the token with `context((ctx) => …)`, as in `counter(page).get(ctx)`, or as the second parameter of a `show` callback.
+8. **Markup structure has its own builders.** Use `doc(…)` for the document, `inline(…)` for one line of markup (also as a template: ``inline`Thank you, ${strong(name)}.` ``, where the text is plain text, never Typst, line breaks are spaces, and its own text gets Typst's typography: smart quotes, `--`/`---` dashes, `...`; the values are data, shown exactly), `prose(value)` for data that is prose and should get that typography too (a line; `prose.paragraphs(value)` makes blank lines paragraphs), `blocks(…)` for block content, and `m.heading`, `m.list`, `m.enum`, `m.terms`, `m.item`, `m.term`, `m.lines` for headings and lists.
+9. **`unsafeRaw` is the only way to write raw Typst.** Its text must be a template literal with no `${}`. Values enter only as named variables (also functions from `define`), and ESLint enforces the form: add the plugin from `typed-typst/eslint` with its rules `typed-typst/unsafe-raw` and `typed-typst/literal-path` (which keeps `path()`, `includeFile()` and `importFile()` to literals). Use it for what the API cannot express: loops inside Typst, fields Typst computes, methods on values of unknown type.
+
+## A complete document
+
+```ts
+import { auto, doc, fr, inline, link, m, mm, page, pt, render, set, strong, table, text } from 'typed-typst'
+
+const invoice = {
+  customer: 'ACME <script>#panic()</script>',
+  url: 'https://example.com/i/42',
+  items: [{ name: 'Widgets *x2*', price: '$40' }],
+}
+
+const source = render(
+  doc(
+    set(page, { paper: 'a4', margin: mm(20) }),
+    set(text, { size: pt(11), lang: 'en' }),
+    m.heading(1, 'Invoice for ', invoice.customer),
+    inline('Thank you, ', strong(invoice.customer), '. Details: ', link(invoice.url, 'online'), '.'),
+    table({ columns: [fr(1), auto] }, strong('Item'), strong('Price'), ...invoice.items.flatMap((i) => [i.name, i.price])),
+    m.list('Paid by card', m.item('Shipping', m.list('Express', 'Insured'))),
+  ),
+)
+```
+
+## Markup
+
+```ts
+import { blocks, doc, emph, heading, inline, label, labelled, lineSpace, linebreak, m, ref, set, space, strong } from 'typed-typst'
+
+doc(
+  set(heading, { numbering: '1.' }), // a reference needs numbered headings
+  m.heading(2, 'Results'), // == Results
+  inline('Plain ', emph('emphasis'), space, strong('strong'), linebreak(), 'next line'),
+  inline`The same as a template: ${emph('emphasis')}, then ${strong('strong')}.
+    A line break in the template is a space; *stars* and #hashes here are plain text.`,
+  m.enum('first', 'second'), // + first / + second
+  m.enum({ tight: false }, 'spaced', 'items'), // a blank line between items
+  m.terms(m.term('Typst', 'a typesetting system')), // / Typst: a typesetting system
+  m.lines(inline('two lines'), inline('without a paragraph break')),
+  m.list(m.item('Item', 'a second paragraph', m.list('nested'))), // blocks in an item are new paragraphs
+  m.list(m.item(m.lines('Item', 'continued on the next line'))), // an m.lines body follows the item's text
+  labelled(heading({ depth: 1 }, 'Intro'), label('intro')), // #heading(depth: 1)[Intro]<intro>, the same as `= Intro <intro>`
+  inline('See ', ref(label('intro')), '.'),
+  inline('日本', lineSpace, '語'), // a source line break: Typst drops it between CJK characters
+  blocks(inline('a paragraph'), inline('another one')),
+)
+```
+
+## Set and show rules
+
+```ts
+import { block, blue, doc, heading, link, pt, rgb, set, show, strong, text, underline, where } from 'typed-typst'
+
+doc(
+  set(heading, { numbering: '1.' }),
+  show(where(heading, { level: 1 }), set(text, { size: pt(16) })),
+  show(link, (it) => underline(it)),
+  // `it` has the element's fields, typed; the second parameter is the context token.
+  show(heading, (it, ctx) => block({ below: pt(6) }, text({ fill: blue }, it.body))),
+  show(strong, set(text, { fill: rgb('#aa0000') })),
+  show('Typst', strong('Typst')), // a text selector
+)
+```
+
+## Bindings, functions and context
+
+```ts
+import { block, context, counter, define, doc, heading, inline, let_, page, pt, strong, T, text } from 'typed-typst'
+
+// `let_` returns the statement and a typed reference to the binding.
+const [totalDecl, total] = let_('total', 42)
+
+// `define` declares a Typst function (`#let card(title, note: []) = …`) with a typed caller.
+const card = define('card')
+  .pos('title', T.content)
+  .named('note', T.content, [])
+  .named('font-size', T.length, pt(10)) // declared with its Typst name, passed in camelCase
+  .body(({ title, note, fontSize }) => block({ inset: pt(4) }, text({ size: fontSize }, [strong(title), note])))
+
+doc(
+  totalDecl,
+  card.decl, // the #let statement must be part of the document
+  card({ note: 'optional', fontSize: pt(9) }, 'A card'),
+  inline('Total: ', total),
+  context((ctx) => inline('Page ', counter(page).display(ctx, '1'))),
+)
+```
+
+Arithmetic: `add`, `minus`, `times`, `div` (`a / b`) and `neg` (`-a`); there are no comparison or logic helpers, since they belong to `if` and `for`, which are `unsafeRaw`. A code block runs statements and expressions in order, and its value joins theirs: `codeBlock([letStatement, strong(x), 'text'])`. A set rule can carry a condition that only Typst knows: `set(page, { width: pt(200) }, { if: wide })` prints `#set page(width: 200pt) if wide`. `f.with(…)` also takes the first positional arguments: `show(columns.with(2))`.
+
+`T` has `content`, `str`, `int`, `float`, `bool`, `length`, `relative`, `color`, `label`, `path`, `bytes`, `any`, `nullable(t)` (or `none`), `orAuto(t)` (or `auto`) and `oneOf('a', 'b')`. `NamedOf<typeof f>` is the type of the named-arguments object of any function, generated or from `define`. Use `.rest('items', T.any)` for `..items` and `.returns(T.any)` when the body is not content.
+
+## Templates, packages and files
+
+```ts
+import { define, doc, external, importFile, importPackage, includeFile, show, T } from 'typed-typst'
+
+// A function defined in a package or a .typ file: declare its parameters, then import it.
+const ieee = define('ieee').named('title', T.content, []).named('authors', T.any, null).external()
+
+// A module: `#import "@preview/pkg:1.0.0" as apa`, and its member `apa.title-page`.
+const apa = external('apa')
+const titlePage = define('title-page').external(apa)
+
+doc(
+  importPackage('@preview/charged-ieee:0.1.4', [ieee]),
+  importPackage('@preview/versatile-apa:7.2.0', apa),
+  importFile('template.typ', [external('accent')]),
+  show(ieee.with({ title: 'A paper', authors: [{ name: 'Ada' }] })), // #show: ieee.with(…)
+  titlePage(),
+  includeFile('chapters/intro.typ'),
+)
+```
+
+To forward a fixed name, such as a citation style, to a parameter that otherwise takes a file, declare it with `T.oneOf('apa', 'ieee')`.
+
+A template's own functions often come from destructuring and are called by name: `const [decl, [cover, abstract_]] = let_(['cover', 'abstract'], call(documentclass, { title: 'T' }))` prints `#let (cover, abstract) = documentclass(title: "T")`; `call(cover)` and `call(abstract_, inline('…'))` call them (`null` in the names is `_`). `call(f, { named }, …positional)` calls a name only Typst knows (a `let_` of a closure, an `external`, a parameter) or a field of one (`m.f`), never a function value computed in Typst (`f.with(…)`, `it.func()`, `it.kind`); its arguments are named first (ASCII names), then positional, and a JS array there is content (use `data([…])` for an array value). A define is called directly, not through `call(external(…))`. A define's `.with` takes positional arguments after the named object: `show(theme.with({ aspect: '16-9' }, config))`. The standard functions that read files or run code (`eval`, `image`, `json`, `read`, `cite`, `raw`, `pdf`…) can only be names the document imports: `external('json')` or `define('image')….external()` without a module throws when rendered unless an import (or a `let_`) at the top level of the document, before the use, binds that name. A label attached in markup (`labelled`) is ASCII; the variables of an `unsafeRaw` snippet are no names of Typst's (`text`, `pi`).
+
+## Values
+
+```ts
+import {
+  add, assume, aqua, calc, data, datetime, dict, doc, external, fr, gradient, color, grid, inline, let_, luma, metadata,
+  minus, pct, pt, rect, rgb, spread, strong, sym, times,
+} from 'typed-typst'
+
+// A JS array of strings or markup is content; `data` makes it a Typst array.
+const [, names] = let_('names', data(['a', 'b']))
+
+doc(
+  rect({ fill: rgb('#ff8800'), stroke: add(pt(1), luma(40)), width: minus(pct(100), pt(10)) }),
+  rect({ fill: aqua.lighten(pct(50)) }), // values have the methods of their Typst type
+  inline(datetime.today().display('[year]'), names.join(', '), sym.arrow.r),
+  grid({ columns: times([fr(1)], 3) }, spread(data(['x', 'y', 'z']))), // (1fr,) * 3 and ..("x", "y", "z")
+  rect({ fill: gradient.linear(spread(color.map.rainbow)) }),
+  metadata(data({ 'any key': 1, nested: [true, null] })), // JSON-like data, keys quoted
+  inline(data([pt(1), strong('x')]).len(), calc.pi), // data may hold Typst values; constants like calc.pi, float.inf
+  metadata(dict({ showTitle: true })), // keys as written (a plain object turns camelCase into kebab-case)
+  inline(assume<'array'>(external('items')).len()), // narrow a value only Typst knows
+)
+```
+
+## The escape hatch
+
+```ts
+import { data, doc, inline, unsafeRaw } from 'typed-typst'
+
+const people = data(['Ada', 'Grace'])
+doc(
+  // Values only as named variables; the snippet text is literal. \` and \${ are escapes.
+  inline(unsafeRaw.code({ people })<'content'>`people.map(p => strong(p)).join(", ")`),
+  unsafeRaw.markup`#for i in range(3) [#i ]`,
+  unsafeRaw.math`x^2 + y^2 = r^2`,
+  unsafeRaw.math.block`sum_(k=1)^n k = (n(n+1)) / 2`,
+)
+```
+
+## Check the result with Typst
+
+Types catch most mistakes, but only Typst knows some of them: a missing file, a value whose type only Typst knows, a reference to an unnumbered heading. In Node, `check` prints the document, compiles it with the `typst` binary (reading the source from stdin and writing nothing into the project), and returns Typst's diagnostics. Each diagnostic has the line of the printed source and Typst's hints. Run it after building a document and fix what it reports.
+
+```ts
+import { doc, heading, inline, label, labelled, ref } from 'typed-typst'
+import { check } from 'typed-typst/node'
+
+const result = await check(doc(labelled(heading({ depth: 1 }, 'Intro'), label('intro')), inline(ref(label('intro')))), {
+  root: '.', // where relative files (images, bibliographies, imports) resolve from
+})
+if (!result.ok) {
+  for (const d of result.diagnostics) console.error(`${d.severity}: ${d.message}`, d.sourceLine, d.hints)
+  // error: cannot reference heading without numbering  #ref(<intro>)
+  //   ['you can enable heading numbering with `#set heading(numbering: "1.")`']
+}
+// result.pdf holds the PDF when result.ok; result.source is the printed Typst.
+```
+
+`checkSource(source)` does the same for printed source. Options: `root`, `fontPaths`, `ignoreSystemFonts`, `packageCachePath`, `packagePath`, `inputs` (`sys.inputs`), `bin`, `timeout` (milliseconds; Typst is killed after it) and `signal` (an `AbortSignal`). Only `ok` is reliable: data the document shows in a message can shape the diagnostics.
+
+## Errors and what they mean
+
+- **A TypeScript error on a named argument.** The name is not camelCase, the argument does not exist, or its type is wrong. Check the editor's tooltip: the bindings carry Typst's own documentation.
+- **"is no name this parameter takes … a string is never read as a file".** Use `path('file.csl')` for a file, a literal name, or `T.oneOf(…)` for a name that comes from a parameter.
+- **"a value computed in Typst could hold any string".** A file parameter got a value only Typst knows. Pass `path('…')`, a `T.path` parameter, or `unsafePath(value)` if your program or a trusted template computes it.
+- **Objects from outside.** Pass JSON from users through `data(…)`: a plain object given first is taken as named arguments when its keys are parameter names.
+- **"this element has no field … known to the bindings".** The field is computed by Typst. Use `unsafeRaw.code({ el: it })` with `` `el.field` ``, or `assume`.
+- **"block content … cannot go inside a line".** A heading or list was put in `inline(…)`. Put it in `doc(…)` or `blocks(…)`.
+- **"a heading is one line".** A heading cannot contain a `lineSpace`.
+- **Typst says `unknown variable`.** A `define(…).body(…)` or `let_` statement (`.decl`, or the first element of `let_`) was not added to the document, or an import is missing.
+
+## Optional
+
+- [README](README.md): overview, scope, what the project is not about.
+- [Design notes](docs/design.md): the node model, the printer rules and every design decision.
+- [Examples](examples/): `report.ts` and `scripting.ts`, with their printed sources in `examples/out/`.
+- [Typst documentation](https://typst.app/docs): the meaning of every function and parameter.

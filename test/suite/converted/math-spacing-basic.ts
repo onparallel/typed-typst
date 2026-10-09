@@ -1,0 +1,53 @@
+// Converted from test/suite/corpus/math-spacing-basic.typ by scripts/convert-suite.ts — do not edit.
+/* eslint-disable */
+import { doc, inline, linebreak, space, unsafeRaw } from '../../../src/index.ts'
+
+export default () => {
+  return doc(
+    inline(
+      unsafeRaw.math`ä, +, c, (, )`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`=), (+), {times}`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`⟧<⟦, abs(-), [=`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`a=b, a==b`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`-a, +a`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`a not b`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`a+b, a*b`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`sum x, sum(x)`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`sum product x`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`f(x), zeta(x), "frac"(x)`,
+      space,
+      linebreak(),
+      space,
+      unsafeRaw.math`a+dots.c+b`,
+      space,
+      unsafeRaw.math`f(x) sin(y)`,
+    ),
+  )
+}

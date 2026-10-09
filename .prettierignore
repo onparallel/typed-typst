@@ -1,0 +1,18 @@
+# Generated or copied files: their generators own their format.
+dist/
+node_modules/
+src/gen/
+spec/*.json
+test/.out/
+test/suite/corpus/
+test/suite/original/
+test/suite/out/
+test/suite/converted/
+examples/out/
+examples/.build/
+tools/reflect/target/
+pnpm-lock.yaml
+docs/
+test/suite/converted.results.json
+test/universe/converted/
+test/universe/converted.results.json

@@ -1,0 +1,10 @@
+// Typst 0.15.1 test suite: tests/suite/text/raw.typ, case raw-blocky-dedent, attributes: eval.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// A blocky raw should handle dedents.
+#let raw = {
+```
+test
+```
+}
+#test(raw.text, "test")
+#test(raw.block, true)

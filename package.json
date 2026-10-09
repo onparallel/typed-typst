@@ -1,0 +1,75 @@
+{
+  "name": "typed-typst",
+  "version": "0.15.100",
+  "license": "MIT",
+  "description": "Type-safe builder for Typst source code, generated from Typst's own definitions.",
+  "keywords": [
+    "typst",
+    "typesetting",
+    "pdf",
+    "document",
+    "report",
+    "code-generation",
+    "type-safe",
+    "typescript"
+  ],
+  "author": "Santi Albo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onparallel/typed-typst.git"
+  },
+  "homepage": "https://github.com/onparallel/typed-typst#readme",
+  "bugs": {
+    "url": "https://github.com/onparallel/typed-typst/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@12.9.1+sha512.06b055fff5cd20dc12781de173ced3310ce0951bf2ec620211a16045d5444d5c93a663210764ef29a653a610459ba0368f0e74f84d80c54723cf95aae7bc0d6d",
+  "exports": {
+    ".": "./dist/index.js",
+    "./node": "./dist/node.js",
+    "./eslint": "./dist/eslint.js"
+  },
+  "sideEffects": [
+    "./dist/gen/std.js",
+    "./src/gen/std.ts"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "llms.txt",
+    "LICENSES",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "docs:api": "typedoc",
+    "prepack": "pnpm build",
+    "reflect": "tools/reflect/reflect.sh spec/typst-0.15.1.json",
+    "gen": "node scripts/generate.ts",
+    "gen:check": "node scripts/generate.ts && git diff --exit-code -- src/gen",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "typst:check": "node scripts/typst-check.ts",
+    "test:package": "scripts/check-package.sh",
+    "test:corpus": "tools/dev-assets.sh && node scripts/check-converted.ts --check",
+    "test:universe": "tools/dev-assets.sh && node scripts/extract-universe.ts && node scripts/check-converted.ts --universe --check"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "esbuild": "0.28.2",
+    "eslint": "10.12.0",
+    "fast-check": "4.10.2",
+    "prettier": "^3.9.9",
+    "typedoc": "0.28.20",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.1",
+    "vitest": "5.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+// Typst 0.15.1 test suite: tests/suite/math/frac.typ, case math-frac-precedence, attributes: paged html.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// Test precedence.
+$ a_1/b_2, 1/f(x), zeta(x)/2, "foo"[|x|]/2 \
+  1.2/3.7, 2.3^3.4 \
+  f [x]/2, phi [x]/2 \
+  +[x]/2, 1(x)/2, 2[x]/2, 🏳️‍🌈[x]/2 \
+  (a)b/2, b(a)[b]/2 \
+  n!/2, 5!/2, n !/2, 1/n!, 1/5! $

@@ -1,0 +1,4965 @@
+[
+  {
+    "name": "abiding-ifacconf",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "abntly",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "academi-notes-gr",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "components"]
+  },
+  {
+    "name": "academic-alt",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "academicv",
+    "version": "1.1.0",
+    "entrypoint": "template.typ",
+    "license": "Apache-2.0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "acadennial-cv",
+    "version": "0.1.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "acorn-resume",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "adaptable-pset",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["report"]
+  },
+  {
+    "name": "aero-check",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "aero-dhbw",
+    "version": "0.4.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "aero-navigator",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["utility"]
+  },
+  {
+    "name": "agregyst",
+    "version": "1.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility", "report"]
+  },
+  {
+    "name": "aio-studi-and-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "algotel",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "almost-tud-letter",
+    "version": "0.1.0",
+    "entrypoint": "letter.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "altacv",
+    "version": "1.6.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "ambivalent-amcis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "anr-aapg-fanmade",
+    "version": "0.1.0",
+    "entrypoint": "second-proposal.typ",
+    "license": "ISC",
+    "categories": ["report"]
+  },
+  {
+    "name": "apa7-ish",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "ape",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "utility", "report"]
+  },
+  {
+    "name": "appreciated-letter",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "approximate-acmsmall",
+    "version": "0.2.1",
+    "entrypoint": "example.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "appunti",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "araby-book",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "BSD-3-Clause AND 0BSD",
+    "categories": ["book", "languages", "layout"]
+  },
+  {
+    "name": "arkheion",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "aspirationally",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "athena-tu-darmstadt-exercise",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "athena-tu-darmstadt-thesis",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "ats-friendly-resume",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "atsthetic-cv",
+    "version": "0.1.0",
+    "entrypoint": "with-image.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "awesome-mff-cuni",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "axiomst",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "presentation"]
+  },
+  {
+    "name": "azubinachweis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "office"]
+  },
+  {
+    "name": "badformer",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["fun"]
+  },
+  {
+    "name": "bamdone-aiaa",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "bamdone-ieeeconf",
+    "version": "0.1.4",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "bamdone-rebuttal",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office", "report"]
+  },
+  {
+    "name": "bananote",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "barcala",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "basic-academic-letter",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "basic-cv-with-photo",
+    "version": "0.2.11",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "basic-document-props",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "basic-polylux",
+    "version": "0.1.0",
+    "entrypoint": "slides.typ",
+    "license": "Unlicense",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "basic-postcard",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["fun", "flyer"]
+  },
+  {
+    "name": "basic-report",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "basic-resume",
+    "version": "0.2.9",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "beago-suite",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "paper", "book"]
+  },
+  {
+    "name": "bean-upm",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "beautiful-abs",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "benplate",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "bhs-school-bundle",
+    "version": "0.3.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "bht-thesis-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "biz-report",
+    "version": "0.3.1",
+    "entrypoint": "example.typ",
+    "license": "Apache-2.0",
+    "categories": ["report", "office"]
+  },
+  {
+    "name": "bizu-sheet",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["components", "layout"]
+  },
+  {
+    "name": "black-angular-frame",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "blind-cvpr",
+    "version": "0.7.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "bloated-neurips",
+    "version": "0.8.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "bluenote-ist",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "bme-vik-azslab-thesis",
+    "version": "1.0.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "bone-resume",
+    "version": "0.3.1",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "bookly",
+    "version": "5.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "model"]
+  },
+  {
+    "name": "boxed-sheet",
+    "version": "0.1.2",
+    "entrypoint": "boxedsheet.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "breezy-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "briefs",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "brilliant-cv",
+    "version": "4.1.1",
+    "entrypoint": "cv.typ",
+    "license": "Apache-2.0",
+    "categories": ["cv", "languages", "layout"]
+  },
+  {
+    "name": "bubble",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "bubble-sysu",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "bubble-zju",
+    "version": "0.1.0",
+    "entrypoint": "report.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "butterick-resume",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "bye-ubc",
+    "version": "0.2.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "bypst",
+    "version": "0.5.0",
+    "entrypoint": "basic.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "caidan",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["flyer"]
+  },
+  {
+    "name": "calligraphics",
+    "version": "1.0.0",
+    "entrypoint": "resume.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "calmly-touying",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "layout"]
+  },
+  {
+    "name": "campanile",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "cardinal-su-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "casson-uom-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "casual-szu-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "catiche",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "celluloid",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["book"]
+  },
+  {
+    "name": "cereal-words",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["fun"]
+  },
+  {
+    "name": "cetramed-polylux",
+    "version": "0.1.0",
+    "entrypoint": "slides.typ",
+    "license": "Unlicense",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "charged-ieee",
+    "version": "0.1.4",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "charged-pace",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "charged-vde",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "chatter",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout"]
+  },
+  {
+    "name": "check-six",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility", "layout", "office"]
+  },
+  {
+    "name": "cheda-seu-thesis",
+    "version": "0.3.4",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "chef-cookbook",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "chengsi",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book", "report"]
+  },
+  {
+    "name": "chicv",
+    "version": "0.1.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "chicv-ripoff",
+    "version": "1.1.4",
+    "entrypoint": "resume.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "chordish",
+    "version": "0.2.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "clari-docs",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation", "layout", "components"]
+  },
+  {
+    "name": "classic-aau-report",
+    "version": "0.3.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "classic-jmlr",
+    "version": "0.7.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "classic-msc-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "classic-ppgsi",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "classic-tud-math-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "classic-uni-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "classicthesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "thesis", "report"]
+  },
+  {
+    "name": "classy-german-invoice",
+    "version": "0.3.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "classy-tudelft-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "clean-acmart",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "clean-agh-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "clean-barm",
+    "version": "1.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis", "layout"]
+  },
+  {
+    "name": "clean-cnam-template",
+    "version": "1.6.6",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility", "model"]
+  },
+  {
+    "name": "clean-dhbw",
+    "version": "0.6.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "clean-ensam",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "clean-esi",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "clean-fuh",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "clean-hda",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "clean-htl",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "clean-hwr",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "clean-math-paper",
+    "version": "0.2.8",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "clean-math-presentation",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "clean-math-thesis",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "clean-othaw",
+    "version": "0.3.7",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "clean-print-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "clean-ualberta-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "clean-uoft-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "cleanified-hpi-research-proposal",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "cleanified-hpi-thesis",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "clear-tub",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "clearly-hm",
+    "version": "0.1.1",
+    "entrypoint": "slides.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "clickworthy-resume",
+    "version": "1.1.0",
+    "entrypoint": "resume.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "cobalt-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "cogsci-conference",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "community-cnam-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "model"]
+  },
+  {
+    "name": "community-fmi-jena-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "community-gzqy-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "community-itu-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "community-ostfalia-thesis",
+    "version": "0.2.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report", "paper"]
+  },
+  {
+    "name": "community-pens-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "community-urban-housing-lease-contract",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["text"]
+  },
+  {
+    "name": "comozeidex",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office", "layout"]
+  },
+  {
+    "name": "complete-unsaac",
+    "version": "0.2.3",
+    "entrypoint": "tarea.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report", "presentation"]
+  },
+  {
+    "name": "conch",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["integration", "fun"]
+  },
+  {
+    "name": "conforming-uio-master",
+    "version": "1.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "coquille-st-jacques",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["report"]
+  },
+  {
+    "name": "coral-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "covered-cs-thesis",
+    "version": "0.1.5",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "cram-snap",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["flyer"]
+  },
+  {
+    "name": "crisp-cv",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "cthesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "curriculo-acad",
+    "version": "0.1.2",
+    "entrypoint": "curriculo.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "cv-soft-and-hard",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "cyberschool-errorteaplate",
+    "version": "0.1.12",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "cycle-ensaj",
+    "version": "0.1.0",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "dashing-dept-news",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "deal-us-tfc-template",
+    "version": "1.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "report", "thesis"]
+  },
+  {
+    "name": "definitely-not-isec-slides",
+    "version": "1.1.0",
+    "entrypoint": "slides.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "definitely-not-isec-thesis",
+    "version": "2.0.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "definitely-not-tue-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "definitely-not-tuw-thesis",
+    "version": "0.2.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "delegis",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "desk-tagger",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["utility"]
+  },
+  {
+    "name": "dhbw-oderso",
+    "version": "2.4.0",
+    "entrypoint": "main-dhbw-ka.typ",
+    "license": "MIT",
+    "categories": ["thesis", "paper", "report"]
+  },
+  {
+    "name": "diatypst",
+    "version": "0.9.3",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "diprint",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "dmi-basilea-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "documenting-tbre",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "report"]
+  },
+  {
+    "name": "dudi-colorful-slides",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["visualization", "presentation"]
+  },
+  {
+    "name": "dvdtyp",
+    "version": "1.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["fun", "layout", "text"]
+  },
+  {
+    "name": "easy-abi-ausarbeitung",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "easy-hgb-thesis",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "easy-paper",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "easy-wi-hwr",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "econ-working-paper",
+    "version": "0.6.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "efter-plugget",
+    "version": "0.1.1",
+    "entrypoint": "report.typ",
+    "license": "0BSD",
+    "categories": ["report"]
+  },
+  {
+    "name": "electify",
+    "version": "0.2.0",
+    "entrypoint": "main-de.typ",
+    "license": "MIT",
+    "categories": ["fun", "visualization"]
+  },
+  {
+    "name": "electrocentrale",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "elegant-culsc-record",
+    "version": "0.11.0",
+    "entrypoint": "example.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "elsearticle",
+    "version": "3.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "elsevier-replica",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "model", "report"]
+  },
+  {
+    "name": "elspub",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "model", "report"]
+  },
+  {
+    "name": "endfield-doc",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "ens-rennes-presentation",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "enseeiht-internship-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "ensl-internship",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "enunciado-facil-fcfm",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "epsi-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "eskd-drafting",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["layout", "model", "text"]
+  },
+  {
+    "name": "ethz-cadmo-inspired-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "ethz-iis-assignment",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["report"]
+  },
+  {
+    "name": "ethz-iis-dissertation",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "ethz-iis-research-plan",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["report"]
+  },
+  {
+    "name": "ethz-iis-thesis",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "etykett",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "euler-math",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "components"]
+  },
+  {
+    "name": "examify",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "examine-ib",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["layout"]
+  },
+  {
+    "name": "examora",
+    "version": "0.2.0",
+    "entrypoint": "exam.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "exm",
+    "version": "0.1.0",
+    "entrypoint": "exam.typ",
+    "license": "MIT",
+    "categories": ["layout", "model", "utility"]
+  },
+  {
+    "name": "exp-resume",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "exzellenz-tum-thesis",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "faithful-acmart",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "fancy-cookbook",
+    "version": "2.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "fdu-bubble",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "fei-thesis",
+    "version": "0.0.8",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "fernmind",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "fh-joanneum-iit-thesis",
+    "version": "2.4.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "fine-lncs",
+    "version": "0.6.5",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "finely-crafted-cv",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "fireside",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "flow-way",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "flyingcircus",
+    "version": "4.0.1",
+    "entrypoint": "Main.typ",
+    "license": "MIT",
+    "categories": ["book", "fun", "layout"]
+  },
+  {
+    "name": "folklore",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "book"]
+  },
+  {
+    "name": "fom-thesis-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "formal",
+    "version": "0.2.0",
+    "entrypoint": "formal-cv.typ",
+    "license": "MIT",
+    "categories": ["layout", "utility"]
+  },
+  {
+    "name": "formalettre",
+    "version": "0.3.1",
+    "entrypoint": "exemple.typ",
+    "license": "BSD-3-Clause",
+    "categories": ["office"]
+  },
+  {
+    "name": "forum-acusticum-2026",
+    "version": "0.1.1",
+    "entrypoint": "fa2026_template.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "fsb-thesis-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "fubell",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis"]
+  },
+  {
+    "name": "fun-article",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "fuzzy-cnoi-statement",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "g-exam",
+    "version": "0.4.5",
+    "entrypoint": "1er exam.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "gakusyun-doc",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "gallus-hsg",
+    "version": "1.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "gbt9704-gongwen",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "german-fx-invoice",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "gh-minimal-slides",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "components"]
+  },
+  {
+    "name": "gibz-script",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "components", "report"]
+  },
+  {
+    "name": "gloat",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "golixp-resume-zh-cn",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "govern",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "graceful-genetics",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["paper"]
+  },
+  {
+    "name": "grape-suite",
+    "version": "4.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "paper", "presentation"]
+  },
+  {
+    "name": "grid-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "grotesk-cv",
+    "version": "1.0.5",
+    "entrypoint": "cv.typ",
+    "license": "Unlicense",
+    "categories": ["cv", "layout"]
+  },
+  {
+    "name": "gru",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["fun"]
+  },
+  {
+    "name": "guided-resume-starter-cgc",
+    "version": "2.0.0",
+    "entrypoint": "starter.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "guido",
+    "version": "0.2.0",
+    "entrypoint": "handbook.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "gwanak-snu-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "gzu-thesis-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "h-brs-thesis-unofficial",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "habaneraa-one-page-resume-zh",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "hadronic-rirekisho",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "hand-in",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "hanko-kitei",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "hannes-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "hanqing",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "hanzi-calligraphy",
+    "version": "0.2.0",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["fun"]
+  },
+  {
+    "name": "harvard-gsas-thesis-oat",
+    "version": "0.1.6",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "heading-resume",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "hei-synd-report",
+    "version": "0.4.0",
+    "entrypoint": "report.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "hei-synd-thesis",
+    "version": "0.4.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report", "paper"]
+  },
+  {
+    "name": "hetvid",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "hitec",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "report"]
+  },
+  {
+    "name": "homiework",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["components"]
+  },
+  {
+    "name": "hsmz-thesis-unofficial",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "htlium",
+    "version": "1.6.0",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["layout", "paper"]
+  },
+  {
+    "name": "htlwienwest-da",
+    "version": "0.3.3",
+    "entrypoint": "diplomarbeit.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "humanistically",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "humble-dtu-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "husky-uw-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "iarticle",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "icicle",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["fun"]
+  },
+  {
+    "name": "ieee-vgtc",
+    "version": "0.0.4",
+    "entrypoint": "journal.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "ijimai",
+    "version": "3.0.0",
+    "entrypoint": "paper.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "ilm",
+    "version": "2.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book", "report"]
+  },
+  {
+    "name": "impaginato",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["flyer"]
+  },
+  {
+    "name": "imprecv",
+    "version": "1.0.1",
+    "entrypoint": "template.typ",
+    "license": "Apache-2.0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "impressive-impression",
+    "version": "0.2.1",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "inboisu",
+    "version": "0.1.0",
+    "entrypoint": "invoice.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "inelegant-note",
+    "version": "0.9.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "ineris-print",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office", "report"]
+  },
+  {
+    "name": "ineris-slide",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["visualization", "presentation"]
+  },
+  {
+    "name": "infodoc-unr10",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "innovative-skoltech-slides",
+    "version": "0.8.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "invicta-thesis",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "invoice-maker",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "ISC",
+    "categories": ["office"]
+  },
+  {
+    "name": "invoice-pro",
+    "version": "0.5.0",
+    "entrypoint": "invoice.typ",
+    "license": "MIT",
+    "categories": ["layout", "office", "integration"]
+  },
+  {
+    "name": "ioppub",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "model", "report"]
+  },
+  {
+    "name": "isc-hei-bthesis",
+    "version": "0.8.1",
+    "entrypoint": "bachelor_thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "isc-hei-document",
+    "version": "0.8.1",
+    "entrypoint": "document.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "isc-hei-exec-summary",
+    "version": "0.8.1",
+    "entrypoint": "exec_summary.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "isc-hei-poster",
+    "version": "0.8.1",
+    "entrypoint": "poster.typ",
+    "license": "MIT",
+    "categories": ["poster"]
+  },
+  {
+    "name": "isc-hei-report",
+    "version": "0.8.1",
+    "entrypoint": "report.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "isc-hei-tb-assignment",
+    "version": "0.8.1",
+    "entrypoint": "tb_assignment.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "iut-orsay-report-flat",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "jabiz",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "jaconf",
+    "version": "0.7.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "jaconf-mscs",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "jastylest",
+    "version": "0.2.0",
+    "entrypoint": "document.typ",
+    "license": "MIT-0",
+    "categories": ["report", "paper", "presentation"]
+  },
+  {
+    "name": "jastylest-zh",
+    "version": "0.1.2",
+    "entrypoint": "document.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "jiangcai-jufe-master-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "jilid",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "jotter-polylux",
+    "version": "0.1.0",
+    "entrypoint": "slides.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "js",
+    "version": "0.1.4",
+    "entrypoint": "example.typ",
+    "license": "MIT-0",
+    "categories": ["book", "paper"]
+  },
+  {
+    "name": "jsume",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "juti",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "kamk-thesis",
+    "version": "0.0.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "kdl-unofficial-template",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "kinetic-kit",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "kiresume",
+    "version": "0.1.17",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "klaro-ifsc-sj",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "knowledge-key",
+    "version": "1.0.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["flyer"]
+  },
+  {
+    "name": "kthesis",
+    "version": "0.1.8",
+    "entrypoint": "thesis.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "kunskap",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "kzn-ma",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "labtyp",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "lacy-ubc-math-project",
+    "version": "0.2.0",
+    "entrypoint": "project-1.typ",
+    "license": "MIT",
+    "categories": ["office", "layout", "components"]
+  },
+  {
+    "name": "lambda",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "paper"]
+  },
+  {
+    "name": "lambda-notes",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "report"]
+  },
+  {
+    "name": "laskutys",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "latexy-book",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book", "layout", "model"]
+  },
+  {
+    "name": "lavandula",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "ledger-rail",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "leetcode-livebook",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility", "scripting"]
+  },
+  {
+    "name": "leonux",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "letter-pro",
+    "version": "3.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "letterloom",
+    "version": "3.0.2",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["office"]
+  },
+  {
+    "name": "light-cv",
+    "version": "0.2.1",
+    "entrypoint": "cv-en.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "light-report-uia",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "linedx2-sjtu",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "text", "layout"]
+  },
+  {
+    "name": "ling",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "linked-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "lion-ecl",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "lumen",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "luminar-cv",
+    "version": "0.1.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "lyceum",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "scripting", "book"]
+  },
+  {
+    "name": "machiatto",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "magic-isprs",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "magnificent-misq",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "mahou-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "malos-book-style",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "malos-presets",
+    "version": "1.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "manuscr-ismin",
+    "version": "0.3.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "marina-uol-thesis",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "marius-dhbw-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "master-piece-ntnu",
+    "version": "0.3.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "may",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office", "report", "presentation"]
+  },
+  {
+    "name": "measured-jair",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "medieval-resume",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "meppp",
+    "version": "0.2.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "meridian-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "metronic",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "metropolis-polylux",
+    "version": "0.1.0",
+    "entrypoint": "slides.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "metropolyst",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "layout"]
+  },
+  {
+    "name": "min-book",
+    "version": "1.5.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "book"]
+  },
+  {
+    "name": "min-manual",
+    "version": "0.3.0",
+    "entrypoint": "manual.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "utility"]
+  },
+  {
+    "name": "min-resume",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv", "office"]
+  },
+  {
+    "name": "min-writing",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "minerva-report-fcfm",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "minerva-thesis",
+    "version": "0.3.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["model", "layout", "thesis"]
+  },
+  {
+    "name": "minicise",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "report"]
+  },
+  {
+    "name": "minimal-cv",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "minimal-note",
+    "version": "0.10.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book", "report", "paper"]
+  },
+  {
+    "name": "minimal-presentation",
+    "version": "0.7.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "minimal-thesis-luebeck",
+    "version": "0.9.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "minimal-unilim-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "minimalbc",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "minimalistic-latex-cv",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "minimalyst-academic-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "mkuipers-ulusofona",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "modern-acad-cv",
+    "version": "0.1.5",
+    "entrypoint": "example.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "modern-bnu-course-paper",
+    "version": "0.1.0",
+    "entrypoint": "paper.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "modern-buaa-thesis",
+    "version": "0.4.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-class-presentation",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "modern-cug-report",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "report"]
+  },
+  {
+    "name": "modern-cug-thesis",
+    "version": "0.2.6",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-cv",
+    "version": "0.10.0",
+    "entrypoint": "resume.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "modern-ecnu-thesis",
+    "version": "0.3.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-fzu-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-hfut-report",
+    "version": "0.1.1",
+    "entrypoint": "report.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "modern-hkust-thesis",
+    "version": "0.1.1",
+    "entrypoint": "sample.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-hsh-thesis",
+    "version": "1.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-innopolis-thesis",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-ipsy-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "0BSD",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "modern-iu-thesis",
+    "version": "0.1.5",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-jakarta-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "modern-mla",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "modern-nenu-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-nju-thesis",
+    "version": "0.4.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-npu-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-pku-thesis",
+    "version": "0.2.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-project-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "modern-report-umfds",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "modern-resume",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["cv"]
+  },
+  {
+    "name": "modern-ruc-thesis",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "modern-scut-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-se-kul-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-shu-thesis",
+    "version": "0.3.3",
+    "entrypoint": "thesis.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-sjtu-report",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["report"]
+  },
+  {
+    "name": "modern-sjtu-thesis",
+    "version": "0.6.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-sustech-thesis",
+    "version": "0.2.0",
+    "entrypoint": "bachelor.main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-swjtu-thesis",
+    "version": "0.1.4",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-sysu-thesis",
+    "version": "0.4.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-sysu-touying",
+    "version": "0.1.0",
+    "entrypoint": "touying.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "modern-szu-slides",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "modern-szu-thesis",
+    "version": "0.4.0",
+    "entrypoint": "bachelor-thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-tongji-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-tud-thesis",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "ISC",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-tust-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-ucas-thesis",
+    "version": "0.3.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-uestc-thesis",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-um-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-unimib-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-upc-thesis",
+    "version": "0.2.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-whs-assignment",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "modern-whs-thesis",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-wku-thesis",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-xdu-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-xmu-thesis",
+    "version": "0.2.2",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "modern-zhaw-thesis",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "report", "paper"]
+  },
+  {
+    "name": "moderner-cv",
+    "version": "0.2.1",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "modernpro-coverletter",
+    "version": "1.0.3",
+    "entrypoint": "coverletter.typ",
+    "license": "MIT",
+    "categories": ["cv", "utility"]
+  },
+  {
+    "name": "modernpro-cv",
+    "version": "2.1.2",
+    "entrypoint": "cv-single.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "moin-uni-slides",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "monofolio",
+    "version": "0.1.1",
+    "entrypoint": "resume.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "mousse-notes",
+    "version": "2.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book"]
+  },
+  {
+    "name": "mrbogo-cv",
+    "version": "1.0.5",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "muddy-mit-thesis",
+    "version": "0.2.0",
+    "entrypoint": "MIT-Thesis.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "muw-community-templates",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "office"]
+  },
+  {
+    "name": "muw-touying-community",
+    "version": "0.1.0",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["presentation", "office"]
+  },
+  {
+    "name": "mythographer-5e",
+    "version": "0.0.2",
+    "entrypoint": "TheDarkTypst.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "nabcv",
+    "version": "0.1.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "ncku-later",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis"]
+  },
+  {
+    "name": "neat-cv",
+    "version": "1.2.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "neat-tu-dublin",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "nidaros-ntnu-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "nifty-ntnu-thesis",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "nikonova",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "0BSD",
+    "categories": ["fun", "report"]
+  },
+  {
+    "name": "non-boring-notes",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report", "layout"]
+  },
+  {
+    "name": "normale-internship",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "not-jku-thesis",
+    "version": "0.2.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "not-tudabeamer-2023",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "noteworks",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "noteworthy",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "nova-pset",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["report"]
+  },
+  {
+    "name": "now-radboud-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "BSD-2-Clause",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "ntnu-physics-report-replica",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "ntust-thesis-unofficial",
+    "version": "1.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "obelisk",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "layout"]
+  },
+  {
+    "name": "obsidius",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "components"]
+  },
+  {
+    "name": "october",
+    "version": "1.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["office"]
+  },
+  {
+    "name": "ohdsi-symposium-submission",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "onyx-itu-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis", "paper"]
+  },
+  {
+    "name": "optimal-ovgu-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "orange-book",
+    "version": "0.7.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book"]
+  },
+  {
+    "name": "ori",
+    "version": "0.2.5",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "orionotes",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "report"]
+  },
+  {
+    "name": "ost-ifs-thesis",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "ostfriesen-layout",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "owl-lst-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "ox-scholar",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "parcio-slides",
+    "version": "0.2.0",
+    "entrypoint": "slides.typ",
+    "license": "0BSD",
+    "categories": ["presentation", "thesis"]
+  },
+  {
+    "name": "parcio-thesis",
+    "version": "0.3.1",
+    "entrypoint": "thesis.typ",
+    "license": "0BSD",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "paris-saclay-thesis-flat",
+    "version": "1.0.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "pasquino",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["poster", "layout"]
+  },
+  {
+    "name": "pc-letter",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "peace-of-posters",
+    "version": "0.6.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["poster"]
+  },
+  {
+    "name": "pepentation",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "pesha",
+    "version": "0.4.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "pg-thesis-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "pioneering-rlj",
+    "version": "0.7.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "pku-thesis-pass",
+    "version": "0.3.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "placard",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["poster", "layout"]
+  },
+  {
+    "name": "playwright",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["layout"]
+  },
+  {
+    "name": "pmetrika",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "politemplate",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["report"]
+  },
+  {
+    "name": "polito-thesis",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "pollux",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["poster"]
+  },
+  {
+    "name": "polycv",
+    "version": "0.1.1",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "porygon",
+    "version": "0.1.1",
+    "entrypoint": "porygon_template.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "precis-upb-cs",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "preprintx",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "layout"]
+  },
+  {
+    "name": "pretty-hdm-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis"]
+  },
+  {
+    "name": "primeone",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "pro-academic-cv",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "pro-letter",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "problemst",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "project-isi-zac",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "prometeu-thesis",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "psl-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "put-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "qooklet",
+    "version": "0.7.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "layout"]
+  },
+  {
+    "name": "quest",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["components", "layout", "report"]
+  },
+  {
+    "name": "quic-style",
+    "version": "0.0.1",
+    "entrypoint": "progress_report.typ",
+    "license": "Unlicense",
+    "categories": ["paper"]
+  },
+  {
+    "name": "quick-minutes",
+    "version": "1.2.5",
+    "entrypoint": "preview.typ",
+    "license": "MIT",
+    "categories": ["layout"]
+  },
+  {
+    "name": "quick-sip",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "quill-assignment",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["components", "report"]
+  },
+  {
+    "name": "quizforge",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["components", "utility"]
+  },
+  {
+    "name": "quizst",
+    "version": "0.3.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "rasko-europass",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "ready-acm-dtu-ux",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "rectangles-polylux",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "red-agora",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "remetente",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "rendercv",
+    "version": "0.3.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "reprobe",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "resumania",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "resume-ng",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "resume-ofa",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "rewind-note",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["visualization", "model"]
+  },
+  {
+    "name": "rezvan-chalmers-cse-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "rirekisho-ofa",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "rubber-article",
+    "version": "0.5.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "rut-physica-labs",
+    "version": "0.1.0",
+    "entrypoint": "lab.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "s6t5-page-bordering",
+    "version": "1.0.0",
+    "entrypoint": "s6t5-page-bordering.typ",
+    "license": "MIT",
+    "categories": ["layout", "office", "report"]
+  },
+  {
+    "name": "sano-presentation-template",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "scarif",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT OR Apache-2.0",
+    "categories": ["report"]
+  },
+  {
+    "name": "scholarly-epfl-thesis",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "scholarly-tauthesis",
+    "version": "0.23.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "scholia",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "components"]
+  },
+  {
+    "name": "sci-brain-slides",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "components"]
+  },
+  {
+    "name": "screen-scripted",
+    "version": "0.1.0",
+    "entrypoint": "example.typ",
+    "license": "MIT-0",
+    "categories": ["layout"]
+  },
+  {
+    "name": "scribbling-hm",
+    "version": "0.1.12",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report", "paper"]
+  },
+  {
+    "name": "scripst",
+    "version": "1.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "report", "components"]
+  },
+  {
+    "name": "shane-hhu-thesis",
+    "version": "0.6.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "sheetstorm",
+    "version": "0.5.1",
+    "entrypoint": "assignment.typ",
+    "license": "MIT",
+    "categories": ["layout", "report"]
+  },
+  {
+    "name": "shit-journal",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "shokumu-keirekisho-ofa",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "shuimu-touying",
+    "version": "0.4.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "shuosc-shu-bachelor-thesis",
+    "version": "1.0.0",
+    "entrypoint": "thesis.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "signal-resume",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "silky-letter-insa",
+    "version": "0.2.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "silky-report-insa",
+    "version": "0.5.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "silky-slides-insa",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "silver-dev-cv",
+    "version": "1.0.2",
+    "entrypoint": "cv.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "simple-bupt-report",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "simple-cheatsheet",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["flyer"]
+  },
+  {
+    "name": "simple-cvut-report",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "paper", "thesis"]
+  },
+  {
+    "name": "simple-handout",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "simple-hust-report",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "simple-inria-touying-theme",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "simple-nwu-year-paper",
+    "version": "0.1.0",
+    "entrypoint": "paper.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "simple-preavis",
+    "version": "0.1.0",
+    "entrypoint": "example.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "simple-research-poster",
+    "version": "0.2.0",
+    "entrypoint": "poster.typ",
+    "license": "MIT-0",
+    "categories": ["poster"]
+  },
+  {
+    "name": "simple-soc-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "simple-technical-resume",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "simple-thesis-ger-host",
+    "version": "1.0.1",
+    "entrypoint": "0_main.typ",
+    "license": "MIT",
+    "categories": ["layout", "thesis"]
+  },
+  {
+    "name": "simple-ve-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "simple-xd-resume",
+    "version": "0.1.0",
+    "entrypoint": "resume-example.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "simply-ysu-touying",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "sleek-university-assignment",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "sleiden-lei",
+    "version": "1.0.0",
+    "entrypoint": "slides.typ",
+    "license": "Unlicense",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "slydekit",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "slydst",
+    "version": "0.1.5",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "layout", "components"]
+  },
+  {
+    "name": "smooth-tmlr",
+    "version": "0.7.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "sns-polylux-template",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "solo-lu-df",
+    "version": "2.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "soviet-matrix",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["fun"]
+  },
+  {
+    "name": "spicky",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["components", "layout"]
+  },
+  {
+    "name": "splendid-mdpi",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["paper"]
+  },
+  {
+    "name": "ssrn-scribe",
+    "version": "0.10.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "stagehand",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book"]
+  },
+  {
+    "name": "starchy-junia",
+    "version": "0.2.1",
+    "entrypoint": "squelette.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "starry-ulfg",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "starter-journal-article",
+    "version": "0.5.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "std-sjtu-bachelor-thesis-midterm",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "office", "report"]
+  },
+  {
+    "name": "std-sjtu-bachelor-thesis-proposal",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "office", "report"]
+  },
+  {
+    "name": "std-sjtu-doctoral-annual-progress",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office", "report"]
+  },
+  {
+    "name": "std-sjtu-graduate-thesis-proposal",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office", "report"]
+  },
+  {
+    "name": "std-sjtu-master-midterm-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office", "report"]
+  },
+  {
+    "name": "steady-rvl-slides",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "stellar-iac",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "stellar-springer-nature",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "storytiles",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "poster", "presentation"]
+  },
+  {
+    "name": "strangelion",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "strath-maestrum",
+    "version": "0.0.1",
+    "entrypoint": "example.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "strict-modern-uestc-thesis",
+    "version": "2.0.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "structured-mse-thesis",
+    "version": "0.1.1",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "structured-uib",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "stux-assignment",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["components", "report"]
+  },
+  {
+    "name": "stv-vub-huisstijl",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "sudo-docs",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report", "layout"]
+  },
+  {
+    "name": "summy",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "sunny-orasis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "superb-pci",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "supercharged-dhbw",
+    "version": "3.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "swe-cv",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv", "layout"]
+  },
+  {
+    "name": "swec-slides",
+    "version": "0.1.0",
+    "entrypoint": "slides.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "sweet-graduate-resume",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "tapestry",
+    "version": "0.0.4",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["report", "layout", "utility"]
+  },
+  {
+    "name": "tatras-ieee",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "telepresentation",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "components"]
+  },
+  {
+    "name": "telereport",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["report", "layout"]
+  },
+  {
+    "name": "texam",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["components", "office"]
+  },
+  {
+    "name": "texst",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["model", "layout"]
+  },
+  {
+    "name": "tfgei",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "tfguf",
+    "version": "0.0.5",
+    "entrypoint": "tfg.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "tgm-hit-protocol",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "tgm-hit-sew-lecture",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["office"]
+  },
+  {
+    "name": "tgm-hit-thesis",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "thesist",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "thusliding",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "thwildau-telematics",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "tidbit-uoc",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "report"]
+  },
+  {
+    "name": "tiefcars",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "fun"]
+  },
+  {
+    "name": "tieffiction",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "fun", "book"]
+  },
+  {
+    "name": "tiefletter",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "tieflied",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "fun"]
+  },
+  {
+    "name": "tlacuache-thesis-fc-unam",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "tlacuache-thesis-msc-pcm-unam",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "toffee-tufte",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "tonguetoquill-usaf-memo",
+    "version": "2.0.0",
+    "entrypoint": "usaf-template.typ",
+    "license": "MIT",
+    "categories": ["office", "report"]
+  },
+  {
+    "name": "touying-aqua",
+    "version": "0.8.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-au-community",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-brandred-uobristol",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-buaa",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-dids",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-endfield",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-greyc-ambrosia",
+    "version": "0.1.0",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-htwk-stripes",
+    "version": "1.0.1",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-liu-nyckel",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-matcha",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-ppt-hustvn",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-quarto-clean",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-quick",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "layout"]
+  },
+  {
+    "name": "touying-simpl-cau",
+    "version": "0.2.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-cnu",
+    "version": "0.0.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-ecnu",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-hkustgz",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-neu",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-nudt",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-sjtu",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpl-swufe",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-simpres",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-ufac-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-unistra-pristine",
+    "version": "1.4.3",
+    "entrypoint": "template.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "touying-wave-hhu",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "toy-cv",
+    "version": "0.1.0",
+    "entrypoint": "cv.typ",
+    "license": "MIT-0",
+    "categories": ["cv"]
+  },
+  {
+    "name": "tracl",
+    "version": "0.8.1",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "tressym-dnd",
+    "version": "0.2.4",
+    "entrypoint": "empty.typ",
+    "license": "MIT",
+    "categories": ["layout", "fun"]
+  },
+  {
+    "name": "triple-aaai",
+    "version": "0.8.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "ttq-classic-resume",
+    "version": "0.1.0",
+    "entrypoint": "resume.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "ttuile",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "tud-corporate-design-slides",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "tudelft-prime-presentation",
+    "version": "0.1.3",
+    "entrypoint": "Linear Algebra Lecture 5.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "tufted",
+    "version": "0.1.1",
+    "entrypoint": "config.typ",
+    "license": "MIT",
+    "categories": ["layout", "utility"]
+  },
+  {
+    "name": "tum-tastic-thesis",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "tuwien-geo-masterthesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "twilight-book",
+    "version": "0.1.8",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "layout"]
+  },
+  {
+    "name": "tyniverse",
+    "version": "0.2.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "typographic-resume",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "typographix-polytechnique-reports",
+    "version": "0.2.1",
+    "entrypoint": "report.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "typographix-polytechnique-slides",
+    "version": "0.2.0",
+    "entrypoint": "slide.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "typsidian",
+    "version": "0.0.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "components"]
+  },
+  {
+    "name": "typxidian",
+    "version": "1.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "u3tudo",
+    "version": "0.2.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "ucpc-solutions",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "ucph-nielsine-touying",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "uepg-tcc-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "ufpr-unofficial",
+    "version": "2022.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["layout", "thesis", "report"]
+  },
+  {
+    "name": "ufscholar",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "ugm-presentation-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "ukw-bipg-unofficial-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "unequivocal-ams",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "uni-ms-pres-schloss",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "unified-uia-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unilab",
+    "version": "0.0.4",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "universal-hit-thesis",
+    "version": "0.3.0",
+    "entrypoint": "universal-bachelor.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "universal-jlu-thesis",
+    "version": "0.1.7",
+    "entrypoint": "jlu-bachelor-thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "universal-tongji-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-cambridge-polylux-theme",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "presentation"]
+  },
+  {
+    "name": "unofficial-cambridge-thesis",
+    "version": "0.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "presentation"]
+  },
+  {
+    "name": "unofficial-cityu-phd-thesis",
+    "version": "1.0.0",
+    "entrypoint": "cityu_thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-cityuhk-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-eirb-report",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "unofficial-fhict-document-template",
+    "version": "1.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "layout", "thesis"]
+  },
+  {
+    "name": "unofficial-fhs-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-fontys-paper-template",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis"]
+  },
+  {
+    "name": "unofficial-hka-thesis",
+    "version": "1.0.2",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-hso-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "unofficial-icl-doc-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-iitkgp-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "unofficial-jascome-34j",
+    "version": "1.0.4",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["paper"]
+  },
+  {
+    "name": "unofficial-kth-thesis-proposal",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "unofficial-monash-touying",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "unofficial-ouc-bachelor-thesis",
+    "version": "0.3.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-sdu-lab-report",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "unofficial-sdu-thesis",
+    "version": "1.0.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-sorbonne-presentation",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "unofficial-stu-bachelor-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-tyut-thesis",
+    "version": "0.2.2",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-ucy-thesis",
+    "version": "0.1.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT",
+    "categories": ["thesis", "report"]
+  },
+  {
+    "name": "unofficial-ukim-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-ulb-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "unofficial-uninsubria-thesis",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper", "thesis", "report"]
+  },
+  {
+    "name": "unofficial-uo-dissertation-2024",
+    "version": "1.0.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "unofficial-whu-lab-report",
+    "version": "0.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "upb-cn-templates",
+    "version": "0.2.0",
+    "entrypoint": "seminar-report.typ",
+    "license": "MIT-0",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "upb-corporate-design-slides",
+    "version": "0.1.3",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation"]
+  },
+  {
+    "name": "utfpr-tcc-unofficial",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "Unlicense",
+    "categories": ["thesis", "layout"]
+  },
+  {
+    "name": "vanilla",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["paper"]
+  },
+  {
+    "name": "versatile-apa",
+    "version": "7.2.0",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["paper", "report", "thesis"]
+  },
+  {
+    "name": "vibrant-color",
+    "version": "0.2.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "vienna-tech",
+    "version": "1.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "vintage-fiit-thesis",
+    "version": "1.1.1",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "visillos-excelencia",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "thesis"]
+  },
+  {
+    "name": "vivid-cv",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "vocabulo",
+    "version": "0.2.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["layout", "office"]
+  },
+  {
+    "name": "volt-internship-ensea",
+    "version": "0.2.0",
+    "entrypoint": "main-internship.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "volt-lab-ensea",
+    "version": "0.1.1",
+    "entrypoint": "main-lab.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "wenyuan-campaign",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "Apache-2.0",
+    "categories": ["layout", "text", "book"]
+  },
+  {
+    "name": "wired-ieee",
+    "version": "1.0.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report", "paper"]
+  },
+  {
+    "name": "wonderous-book",
+    "version": "0.1.2",
+    "entrypoint": "main.typ",
+    "license": "MIT-0",
+    "categories": ["book"]
+  },
+  {
+    "name": "wut-thesis",
+    "version": "0.2.0",
+    "entrypoint": "thesis.typ",
+    "license": "MIT-0",
+    "categories": ["thesis"]
+  },
+  {
+    "name": "xmdjy-simple-report-template",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "xwysyy",
+    "version": "0.5.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["presentation", "components"]
+  },
+  {
+    "name": "yaes",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["utility"]
+  },
+  {
+    "name": "yuan-resume",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["cv"]
+  },
+  {
+    "name": "yuuko-report",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT AND MIT-0",
+    "categories": ["report"]
+  },
+  {
+    "name": "zen-utbm-report",
+    "version": "0.1.0",
+    "entrypoint": "example.typ",
+    "license": "MIT",
+    "categories": ["report"]
+  },
+  {
+    "name": "zen-zine",
+    "version": "0.5.1",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["fun", "layout"]
+  },
+  {
+    "name": "zettyp-core",
+    "version": "0.1.0",
+    "entrypoint": "index.typ",
+    "license": "MIT",
+    "categories": ["model"]
+  },
+  {
+    "name": "zhaji",
+    "version": "0.1.0",
+    "entrypoint": "main.typ",
+    "license": "MIT",
+    "categories": ["book", "components"]
+  }
+]

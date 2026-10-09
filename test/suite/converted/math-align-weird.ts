@@ -1,0 +1,19 @@
+// Converted from test/suite/corpus/math-align-weird.typ by scripts/convert-suite.ts — do not edit.
+/* eslint-disable */
+import { codeBlock, context, doc, inline, m, page, pt, set, show, unsafeRaw } from '../../../src/index.ts'
+
+export default () => {
+  return doc(
+    m.lines(
+      show((it, ctx) =>
+        context((ctx_2) =>
+          codeBlock([set(page, { width: pt(225) }, { if: unsafeRaw.code<any>`target() == "paged"` })], it),
+        ),
+      ),
+      inline(unsafeRaw.math.block`a &= c \\
+  &= c + 1 & "By definition" \\
+  &= d + 100 + 1000 \\
+  &= x && "Even longer" \\`),
+    ),
+  )
+}
