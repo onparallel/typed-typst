@@ -6,10 +6,8 @@ Versions name the Typst version of the bindings: Typst `a.b.c` is
 
 ## [0.15.101](https://github.com/onparallel/typed-typst/compare/v0.15.100...v0.15.101) (2026-10-09)
 
-
-### Miscellaneous Chores
-
-* release 0.15.101, the first one published from CI with provenance ([38abb06](https://github.com/onparallel/typed-typst/commit/38abb06ff2adef3714cf6e2d030c35d3f677d49e))
+No changes to the API. The first release published from CI, with npm provenance; the GitHub
+Actions and pnpm are on their latest versions.
 
 ## [0.15.100](https://github.com/onparallel/typed-typst/releases/tag/v0.15.100) (2026-10-09)
 
