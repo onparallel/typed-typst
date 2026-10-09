@@ -1,5 +1,5 @@
 {
-  "name": "typed-typst",
+  "name": "@onparallel/typed-typst",
   "version": "0.15.100",
   "license": "MIT",
   "description": "Type-safe builder for Typst source code, generated from Typst's own definitions.",

@@ -6,7 +6,7 @@
   "bootstrap-sha": "263c47b6ea78f04bb631ebb6d8778c4d6c9bd304",
   "packages": {
     ".": {
-      "package-name": "typed-typst",
+      "package-name": "@onparallel/typed-typst",
       "changelog-path": "CHANGELOG.md",
       "versioning": "always-bump-patch"
     }

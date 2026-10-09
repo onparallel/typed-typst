@@ -3,7 +3,7 @@
   "entryPoints": ["src/index.ts", "src/node.ts", "src/eslint.ts"],
   "tsconfig": "tsconfig.build.json",
   "out": "docs/api",
-  "name": "typed-typst",
+  "name": "@onparallel/typed-typst",
   "readme": "none",
   "defaultCategory": "Library",
   "categoryOrder": ["Library", "Standard library", "Standard library signatures"],

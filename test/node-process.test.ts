@@ -1,5 +1,5 @@
 /**
- * What SECURITY.md says about `typed-typst/node`: Typst runs without a shell, options stay values,
+ * What SECURITY.md says about `@onparallel/typed-typst/node`: Typst runs without a shell, options stay values,
  * and no Typst process or temporary directory outlives `check()`, whatever way it ends.
  */
 import { execFile, execFileSync } from 'node:child_process'

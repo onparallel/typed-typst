@@ -14,7 +14,7 @@ TypeScript compile errors instead of broken documents.
 > as limits (see [SECURITY.md](SECURITY.md)).
 
 ```ts
-import { doc, set, page, text, mm, pt, m, inline, strong, table, fr, auto, render } from 'typed-typst'
+import { doc, set, page, text, mm, pt, m, inline, strong, table, fr, auto, render } from '@onparallel/typed-typst'
 
 const customer = 'ACME <script>#panic()</script>' // untrusted data
 const items = [{ name: 'Widgets *x2*', price: '$40' }]
@@ -44,7 +44,7 @@ Thank you, #strong("ACME <script>#panic()</script>");.
 ```
 
 Compile the result with the `typst` CLI (or any Typst compiler) as usual. In
-Node, `check(document)` from `typed-typst/node` does it for you: it compiles
+Node, `check(document)` from `@onparallel/typed-typst/node` does it for you: it compiles
 with the `typst` binary and returns the PDF, or Typst's errors and warnings
 with the line of the printed source they point at.
 
@@ -93,7 +93,7 @@ with the line of the printed source they point at.
   converter in `scripts/` exists to test the library against existing
   documents. It is not a supported tool.
 - **Not multi-version.** The bindings target exactly one Typst version.
-  `checkTypstVersion()` (from `typed-typst/node`) and `versionGuard()` catch a mismatch instead of
+  `checkTypstVersion()` (from `@onparallel/typed-typst/node`) and `versionGuard()` catch a mismatch instead of
   producing documents that fail in subtle ways.
 - **Not a full type checker for Typst.** Values whose type only Typst knows
   (a field Typst computes, a function from a package) are `Expr<any>`. You

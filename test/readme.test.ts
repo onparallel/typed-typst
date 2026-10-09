@@ -6,7 +6,9 @@ const root = new URL('..', import.meta.url).pathname
 const readme = readFileSync(`${root}README.md`, 'utf8')
 
 it('prints the source the README shows', async () => {
-  const code = /```ts\n([\s\S]*?)```/.exec(readme)![1]!.replaceAll("from 'typed-typst'", "from '../../src/index.ts'")
+  const code = /```ts\n([\s\S]*?)```/
+    .exec(readme)![1]!
+    .replaceAll("from '@onparallel/typed-typst'", "from '../../src/index.ts'")
   const shown = /```typst\n([\s\S]*?)```/.exec(readme)![1]!
   mkdirSync(`${root}test/.out`, { recursive: true })
   const file = `${root}test/.out/readme.ts`

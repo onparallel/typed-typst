@@ -352,7 +352,7 @@ unsafeRaw.code<'length'>`page.width - 2cm`      // Expr<'length'>
 
 - The signature is `(s: TemplateStringsArray, ...values: never[])`, so a `${x}` interpolation does
   not compile.
-- The ESLint rule `typed-typst/unsafe-raw` (from `typed-typst/eslint`) allows only a tagged
+- The ESLint rule `typed-typst/unsafe-raw` (from `@onparallel/typed-typst/eslint`) allows only a tagged
   template written in the source, so `unsafeRaw.code(arr as any)`, an alias, a renamed import or
   `Reflect.apply` fail lint. `typed-typst/literal-path` keeps `path()`, `includeFile()` and
   `importFile()` to literals.
@@ -537,7 +537,7 @@ rules, `let`, `context`, labels, references, imports of a `.typ`, `unsafeRaw` an
   forwards it as `OneOf<…>`, which the parameter accepts if all its names are its own. An arbitrary
   string never becomes a path. Error messages say what to do instead (camelCase, `path('…')`,
   `T.oneOf`, `unsafeRaw` for fields Typst computes).
-- **`check(doc)` in `typed-typst/node`:** prints the document, compiles it with the Typst binary (the
+- **`check(doc)` in `@onparallel/typed-typst/node`:** prints the document, compiles it with the Typst binary (the
   source goes in on stdin, so nothing is written into the project) and returns the PDF or Typst's
   diagnostics, each with its line of the printed source and its hints. It is the feedback loop that
   someone who generates documents without seeing them, like an agent, needs.
@@ -560,7 +560,7 @@ rules, `let`, `context`, labels, references, imports of a `.typ`, `unsafeRaw` an
   `246.20000000000002mm`); `rgb('#A0AEC0')` keeps the case it was given; `T.orAuto(t)` for
   `length | auto` parameters; `NamedOf<F>` names the object of named arguments of a function
   (`Parameters<typeof f>` does not work on overloaded callers); `unsafePath(p)` is the explicit,
-  greppable way for a computed path (`assets/${hash}.png`); and `typed-typst/eslint` exports the
+  greppable way for a computed path (`assets/${hash}.png`); and `@onparallel/typed-typst/eslint` exports the
   `unsafeRaw` lint rules for projects that use the library.
 - **`inline` as a template:** ``inline`Thank you, ${strong(name)}.` `` is the same as
   `inline('Thank you, ', strong(name), '.')`. The text of the template is text, escaped like any
@@ -653,7 +653,7 @@ rules, `let`, `context`, labels, references, imports of a `.typ`, `unsafeRaw` an
     arrays throw, values nest at most 256 levels (Typst's parser stops before), `-2^63` prints as
     `(-9223372036854775807 - 1)`, an async closure throws, and a value that is not an expression
     where one is required fails clearly.
-  - The ESLint rules are a plugin (`typed-typst/eslint`): `unsafe-raw` is an allowlist (a
+  - The ESLint rules are a plugin (`@onparallel/typed-typst/eslint`): `unsafe-raw` is an allowlist (a
     `no-restricted-syntax` selector matched names, so an alias, a renamed or namespace import,
     `Reflect.apply` or a cast got past it) and `literal-path` is new. `unsafeRawRules` is removed.
     The runtime check of a template also requires a frozen, non-enumerable `raw`.

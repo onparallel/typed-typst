@@ -21,9 +21,9 @@ import {
   table,
   text,
   unsafeRaw,
-} from 'typed-typst'
-import typedTypst from 'typed-typst/eslint'
-import { check, checkTypstVersion } from 'typed-typst/node'
+} from '@onparallel/typed-typst'
+import typedTypst from '@onparallel/typed-typst/eslint'
+import { check, checkTypstVersion } from '@onparallel/typed-typst/node'
 
 const [total, totalRef] = let_('total', 42)
 const source: string = render(

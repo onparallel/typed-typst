@@ -14,7 +14,7 @@ mkdir "$work/consumer"
 cp test/package/consumer.ts "$work/consumer/"
 cd "$work/consumer"
 echo '{ "name": "consumer", "private": true, "type": "module" }' >package.json
-deps=("$work"/typed-typst-*.tgz @types/node@24.19.1)
+deps=("$work"/onparallel-typed-typst-*.tgz @types/node@24.19.1)
 for v in "${TS_VERSIONS[@]}"; do deps+=("ts-$v@npm:typescript@$v"); done
 npm install --silent --no-audit --no-fund --ignore-scripts "${deps[@]}"
 
@@ -37,5 +37,5 @@ done
 echo "Node $(node --version)"
 node consumer.ts >/dev/null
 echo "require() of the entry points"
-node -e "require('typed-typst'); require('typed-typst/node'); require('typed-typst/eslint')"
+node -e "require('@onparallel/typed-typst'); require('@onparallel/typed-typst/node'); require('@onparallel/typed-typst/eslint')"
 echo ok

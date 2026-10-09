@@ -3,7 +3,7 @@
  * that use it:
  *
  * ```js
- * import typedTypst from 'typed-typst/eslint'
+ * import typedTypst from '@onparallel/typed-typst/eslint'
  * export default [
  *   {
  *     plugins: { 'typed-typst': typedTypst },
@@ -23,7 +23,7 @@
  *   `unsafePath` is the explicit, greppable way.
  *
  * The rules follow names, not values: a function that leaves the module other
- * than through its name (`Object.values(await import('typed-typst'))`) is not
+ * than through its name (`Object.values(await import('@onparallel/typed-typst'))`) is not
  * seen. They are a tripwire for review, with the runtime checks behind them.
  */
 
@@ -58,7 +58,7 @@ const specName = (n: Node): unknown => (n.type === 'Identifier' ? n.name : n.typ
 
 /** A library module, as users import it. */
 const isLibrary = (source: unknown): boolean =>
-  typeof source === 'string' && (source === 'typed-typst' || source.startsWith('typed-typst/'))
+  typeof source === 'string' && (source === '@onparallel/typed-typst' || source.startsWith('@onparallel/typed-typst/'))
 
 /** Keys of types, classes and enums: names, not references. */
 const KEY_OF = new Set([
@@ -205,7 +205,8 @@ const unsafeRawRule: Rule = {
         if (!ok)
           context.report({
             node,
-            message: "import('typed-typst') only as (await import(…)).name or const { name } = await import(…)",
+            message:
+              "import('@onparallel/typed-typst') only as (await import(…)).name or const { name } = await import(…)",
           })
       },
       // tt['unsafeRaw'], tt[`unsafeRaw`]
@@ -285,7 +286,7 @@ const literalPathRule: Rule = {
           (def?.type === 'ImportBinding' && def.node.type === 'TSImportEqualsDeclaration')
         if (ns) check(node, node.property.name)
       },
-      // const { path: p } = await import('typed-typst')
+      // const { path: p } = await import('@onparallel/typed-typst')
       Property(node) {
         const pattern = node.parent
         const init =
@@ -315,7 +316,7 @@ const plugin: {
   readonly meta: { readonly name: string }
   readonly rules: { readonly 'unsafe-raw': Rule; readonly 'literal-path': Rule }
 } = {
-  meta: { name: 'typed-typst' },
+  meta: { name: '@onparallel/typed-typst' },
   rules: { 'unsafe-raw': unsafeRawRule, 'literal-path': literalPathRule },
 }
 export default plugin

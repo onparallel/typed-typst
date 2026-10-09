@@ -10,8 +10,8 @@ const root = new URL('..', import.meta.url).pathname
 const dir = `${root}test/.out/llms/`
 const blocks = [...readFileSync(`${root}llms.txt`, 'utf8').matchAll(/```ts\n([\s\S]*?)```/g)].map((m) =>
   m[1]!
-    .replaceAll("from 'typed-typst'", "from '../../../src/index.ts'")
-    .replaceAll("from 'typed-typst/node'", "from '../../../src/node.ts'"),
+    .replaceAll("from '@onparallel/typed-typst'", "from '../../../src/index.ts'")
+    .replaceAll("from '@onparallel/typed-typst/node'", "from '../../../src/node.ts'"),
 )
 
 describe('llms.txt', () => {

@@ -1,7 +1,7 @@
 # Security
 
 typed-typst prints Typst source from TypeScript. It compiles nothing, except through the optional
-`typed-typst/node` helpers (`check`, `checkSource`), which run the `typst` binary. This page says
+`@onparallel/typed-typst/node` helpers (`check`, `checkSource`), which run the `typst` binary. This page says
 what the library guarantees, what it leaves to Typst and to you, and how to report a problem.
 
 Supported versions: the latest release. The bindings target one Typst version (`TYPST_VERSION`);
@@ -67,19 +67,19 @@ literal cannot be told from a computed string, so that part of the check is in t
 lint rule `typed-typst/literal-path`: `as never`, `Reflect.apply` or plain JavaScript gets past the
 types, and the lint rule catches what it can see. The rest of the list above holds at run time.
 
-**Lint rules.** `typed-typst/eslint` is an ESLint plugin with two rules: `unsafe-raw` allows
+**Lint rules.** `@onparallel/typed-typst/eslint` is an ESLint plugin with two rules: `unsafe-raw` allows
 `unsafeRaw` only as a tagged template written in the source (no alias, renamed or namespace
 import, name written as a string, `.call`, `Reflect.apply`, cast, `${…}`, or spread or computed
 variable names; a namespace of the library is read only as `tt.name`), and `literal-path` makes
 every reference to `path()`, `includeFile()` and `importFile()` a direct call with a literal. `unsafe-raw` also reports the name `unsafeRaw` kept in a variable (`const k = 'unsafeRaw'`), and
 `literal-path` a type argument (`path<'a.png'>(value)`, which lets a value of type `any` pass as the
-literal). They follow names, not values: `require('typed-typst')` destructured, a dynamic `import()`
+literal). They follow names, not values: `require('@onparallel/typed-typst')` destructured, a dynamic `import()`
 of a name the rule cannot read, a module of yours that re-exports the library (`export * from
-'typed-typst'`, then `ns[key]`), a name built from parts (`'unsafe' + 'Raw'`), or a value that leaves
+'@onparallel/typed-typst'`, then `ns[key]`), a name built from parts (`'unsafe' + 'Raw'`), or a value that leaves
 the module other than by its name, is not seen. Enable both, for every script extension:
 
 ```js
-import typedTypst from 'typed-typst/eslint'
+import typedTypst from '@onparallel/typed-typst/eslint'
 export default [
   {
     plugins: { 'typed-typst': typedTypst },
@@ -174,7 +174,7 @@ symbolic links, also ones that point outside the root.
 - Diagnostics can contain absolute paths and computed values: do not show them to end users as
   they are.
 
-## `typed-typst/node`
+## `@onparallel/typed-typst/node`
 
 - `check` and `checkSource` run Typst with an argument list, never a shell, and pass options as
   `--flag=value`, so a value that starts with `-` stays a value; input names with `=` and input

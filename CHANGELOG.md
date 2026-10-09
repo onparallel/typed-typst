@@ -4,15 +4,15 @@ Versions name the Typst version of the bindings: Typst `a.b.c` is
 `a.b.(c × 100 + r)`, where `r` counts the releases for that Typst version
 (see the README). Each entry says whether it changes the library's API.
 
-## Unreleased
+## 0.15.100 (2026-10-09)
 
-The first release, 0.15.100, for Typst 0.15.1: the bindings of Typst 0.15.1's standard
-library, the markup and scripting API, `unsafeRaw`, `typed-typst/node` (`check`,
-`checkTypstVersion`) and the ESLint plugin `typed-typst/eslint`.
+The first release, for Typst 0.15.1: the bindings of Typst 0.15.1's standard
+library, the markup and scripting API, `unsafeRaw`, `@onparallel/typed-typst/node` (`check`,
+`checkTypstVersion`) and the ESLint plugin `@onparallel/typed-typst/eslint`.
 
 Changes to the API since the security review (docs/design.md §11, SECURITY.md):
 
-- `typed-typst/eslint` exports an ESLint plugin with the rules `unsafe-raw` and `literal-path`;
+- `@onparallel/typed-typst/eslint` exports an ESLint plugin with the rules `unsafe-raw` and `literal-path`;
   `unsafeRawRules` is removed.
 - `path`, `includeFile`, `importFile`, `importPackage` and the names of `define`, `let_` and
   `external` no longer accept template literal types (`` `uploads/${string}` ``).

@@ -6,7 +6,7 @@ Every code block in this file is type-checked and run by `test/llms.test.ts`.
 
 ## Rules a model cannot guess
 
-1. **Import everything from `typed-typst`.** Typst names keep their names: `text`, `table`, `heading`, `grid`, `page`, `par`, `figure`, `image`, `counter`, `datetime`… JS reserved words get a trailing underscore: `enum_`, `function_`.
+1. **Import everything from `@onparallel/typed-typst`.** Typst names keep their names: `text`, `table`, `heading`, `grid`, `page`, `par`, `figure`, `image`, `counter`, `datetime`… JS reserved words get a trailing underscore: `enum_`, `function_`.
 2. **Named arguments come first, as one object, in camelCase.** Positional arguments follow. Typst `table(columns: 2, column-gutter: 4pt, [a], [b])` is `table({ columns: 2, columnGutter: pt(4) }, 'a', 'b')`.
 3. **Lengths and other units are functions, never strings.** Use `pt(11)`, `mm(20)`, `cm(2)`, `inches(1)`, `em(1.2)`, `pct(50)`, `fr(1)`, `deg(90)`. Use `auto` for `auto` and JS `null` for `none`.
 4. **A JS string is text or a Typst string, never code.** `'*hi*'` prints the characters `*hi*`. For bold, write `strong('hi')`.
@@ -14,12 +14,12 @@ Every code block in this file is type-checked and run by `test/llms.test.ts`.
 6. **Do not try to write `if`, `for` or `while` in Typst.** Use TypeScript instead: `.map`, `&&`, ternaries. Parts that are `false`, `null` or `undefined` are skipped.
 7. **Functions marked contextual need a context token.** `here`, `query`, `counter(…).get` and `state(…).get` are examples. Get the token with `context((ctx) => …)`, as in `counter(page).get(ctx)`, or as the second parameter of a `show` callback.
 8. **Markup structure has its own builders.** Use `doc(…)` for the document, `inline(…)` for one line of markup (also as a template: ``inline`Thank you, ${strong(name)}.` ``, where the text is plain text, never Typst, line breaks are spaces, and its own text gets Typst's typography: smart quotes, `--`/`---` dashes, `...`; the values are data, shown exactly), `prose(value)` for data that is prose and should get that typography too (a line; `prose.paragraphs(value)` makes blank lines paragraphs), `blocks(…)` for block content, and `m.heading`, `m.list`, `m.enum`, `m.terms`, `m.item`, `m.term`, `m.lines` for headings and lists.
-9. **`unsafeRaw` is the only way to write raw Typst.** Its text must be a template literal with no `${}`. Values enter only as named variables (also functions from `define`), and ESLint enforces the form: add the plugin from `typed-typst/eslint` with its rules `typed-typst/unsafe-raw` and `typed-typst/literal-path` (which keeps `path()`, `includeFile()` and `importFile()` to literals). Use it for what the API cannot express: loops inside Typst, fields Typst computes, methods on values of unknown type.
+9. **`unsafeRaw` is the only way to write raw Typst.** Its text must be a template literal with no `${}`. Values enter only as named variables (also functions from `define`), and ESLint enforces the form: add the plugin from `@onparallel/typed-typst/eslint` with its rules `typed-typst/unsafe-raw` and `typed-typst/literal-path` (which keeps `path()`, `includeFile()` and `importFile()` to literals). Use it for what the API cannot express: loops inside Typst, fields Typst computes, methods on values of unknown type.
 
 ## A complete document
 
 ```ts
-import { auto, doc, fr, inline, link, m, mm, page, pt, render, set, strong, table, text } from 'typed-typst'
+import { auto, doc, fr, inline, link, m, mm, page, pt, render, set, strong, table, text } from '@onparallel/typed-typst'
 
 const invoice = {
   customer: 'ACME <script>#panic()</script>',
@@ -42,7 +42,7 @@ const source = render(
 ## Markup
 
 ```ts
-import { blocks, doc, emph, heading, inline, label, labelled, lineSpace, linebreak, m, ref, set, space, strong } from 'typed-typst'
+import { blocks, doc, emph, heading, inline, label, labelled, lineSpace, linebreak, m, ref, set, space, strong } from '@onparallel/typed-typst'
 
 doc(
   set(heading, { numbering: '1.' }), // a reference needs numbered headings
@@ -66,7 +66,7 @@ doc(
 ## Set and show rules
 
 ```ts
-import { block, blue, doc, heading, link, pt, rgb, set, show, strong, text, underline, where } from 'typed-typst'
+import { block, blue, doc, heading, link, pt, rgb, set, show, strong, text, underline, where } from '@onparallel/typed-typst'
 
 doc(
   set(heading, { numbering: '1.' }),
@@ -82,7 +82,7 @@ doc(
 ## Bindings, functions and context
 
 ```ts
-import { block, context, counter, define, doc, heading, inline, let_, page, pt, strong, T, text } from 'typed-typst'
+import { block, context, counter, define, doc, heading, inline, let_, page, pt, strong, T, text } from '@onparallel/typed-typst'
 
 // `let_` returns the statement and a typed reference to the binding.
 const [totalDecl, total] = let_('total', 42)
@@ -110,7 +110,7 @@ Arithmetic: `add`, `minus`, `times`, `div` (`a / b`) and `neg` (`-a`); there are
 ## Templates, packages and files
 
 ```ts
-import { define, doc, external, importFile, importPackage, includeFile, show, T } from 'typed-typst'
+import { define, doc, external, importFile, importPackage, includeFile, show, T } from '@onparallel/typed-typst'
 
 // A function defined in a package or a .typ file: declare its parameters, then import it.
 const ieee = define('ieee').named('title', T.content, []).named('authors', T.any, null).external()
@@ -139,7 +139,7 @@ A template's own functions often come from destructuring and are called by name:
 import {
   add, assume, aqua, calc, data, datetime, dict, doc, external, fr, gradient, color, grid, inline, let_, luma, metadata,
   minus, pct, pt, rect, rgb, spread, strong, sym, times,
-} from 'typed-typst'
+} from '@onparallel/typed-typst'
 
 // A JS array of strings or markup is content; `data` makes it a Typst array.
 const [, names] = let_('names', data(['a', 'b']))
@@ -160,7 +160,7 @@ doc(
 ## The escape hatch
 
 ```ts
-import { data, doc, inline, unsafeRaw } from 'typed-typst'
+import { data, doc, inline, unsafeRaw } from '@onparallel/typed-typst'
 
 const people = data(['Ada', 'Grace'])
 doc(
@@ -177,8 +177,8 @@ doc(
 Types catch most mistakes, but only Typst knows some of them: a missing file, a value whose type only Typst knows, a reference to an unnumbered heading. In Node, `check` prints the document, compiles it with the `typst` binary (reading the source from stdin and writing nothing into the project), and returns Typst's diagnostics. Each diagnostic has the line of the printed source and Typst's hints. Run it after building a document and fix what it reports.
 
 ```ts
-import { doc, heading, inline, label, labelled, ref } from 'typed-typst'
-import { check } from 'typed-typst/node'
+import { doc, heading, inline, label, labelled, ref } from '@onparallel/typed-typst'
+import { check } from '@onparallel/typed-typst/node'
 
 const result = await check(doc(labelled(heading({ depth: 1 }, 'Intro'), label('intro')), inline(ref(label('intro')))), {
   root: '.', // where relative files (images, bibliographies, imports) resolve from
