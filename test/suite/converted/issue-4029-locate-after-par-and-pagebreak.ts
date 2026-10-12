@@ -1,0 +1,29 @@
+// Converted from test/suite/corpus/issue-4029-locate-after-par-and-pagebreak.typ by scripts/convert-suite.ts — do not edit.
+import {
+  T,
+  add,
+  context,
+  define,
+  doc,
+  heading,
+  inline,
+  locate,
+  m,
+  page,
+  pagebreak,
+  pt,
+  set,
+  show,
+} from '../../../src/index.ts'
+
+export default () => {
+  const test = define('test').pos('arg1', T.any).pos('arg2', T.any).returns(T.any).external()
+  return doc(
+    m.lines(
+      set(page, { margin: pt(10) }),
+      inline`Par ${show(heading, (it, ctx) => add(pagebreak(), it))}`,
+      heading({ depth: 1 }, inline('Introduction')),
+      inline(context((ctx_2) => test(locate(ctx_2, heading).page(), 2))),
+    ),
+  )
+}

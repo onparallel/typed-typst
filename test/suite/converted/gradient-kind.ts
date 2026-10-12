@@ -1,0 +1,7 @@
+// Converted from test/suite/corpus/gradient-kind.typ by scripts/convert-suite.ts — do not edit.
+import { T, blue, define, doc, gradient, green, inline, red } from '../../../src/index.ts'
+
+export default () => {
+  const test = define('test').pos('arg1', T.any).pos('arg2', T.any).returns(T.any).external()
+  return doc(inline(test(gradient.linear(red, green, blue).kind(), gradient.linear)))
+}

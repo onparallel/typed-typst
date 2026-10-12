@@ -1,0 +1,13 @@
+// Typst 0.15.1 test suite: tests/suite/visualize/gradient.typ, case gradient-math-dir.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// Test a different direction
+#show math.equation: set text(fill: gradient.linear(..color.map.rainbow, dir: ttb))
+#show math.equation: box
+
+$ A = mat(
+  1, 2, 3;
+  4, 5, 6;
+  7, 8, 9
+) $
+
+$ x_"1,2" = frac(-b plus.minus sqrt(b^2 - 4 a c), 2 a) $

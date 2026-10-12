@@ -1,0 +1,9 @@
+[package]
+name = "typst-reflect-dump"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+typst = "=0.15.1"
+serde_json = "1"

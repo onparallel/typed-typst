@@ -1,0 +1,6 @@
+// Converted from test/suite/corpus/linebreak-overflow.typ by scripts/convert-suite.ts — do not edit.
+import { doc } from '../../../src/index.ts'
+
+export default () => {
+  return doc('This is a spaceexceedinglylongy.')
+}

@@ -1,0 +1,6 @@
+// Converted from test/suite/corpus/gradient-conic-hsl.typ by scripts/convert-suite.ts — do not edit.
+import { color, doc, gradient, page, pt, purple, red, set } from '../../../src/index.ts'
+
+export default () => {
+  return doc(set(page, { width: pt(100), height: pt(100), fill: gradient.conic({ space: color.hsl }, red, purple) }))
+}

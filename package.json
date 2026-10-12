@@ -1,0 +1,70 @@
+{
+  "name": "@onparallel/typed-typst",
+  "version": "0.15.101",
+  "license": "MIT",
+  "description": "Type-safe builder for Typst source code, generated from Typst's own definitions.",
+  "keywords": [
+    "typst",
+    "typesetting",
+    "pdf",
+    "document",
+    "report",
+    "code-generation",
+    "type-safe",
+    "typescript"
+  ],
+  "author": "Santi Albo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onparallel/typed-typst.git"
+  },
+  "homepage": "https://github.com/onparallel/typed-typst#readme",
+  "bugs": {
+    "url": "https://github.com/onparallel/typed-typst/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@12.10.1+sha512.ba40a37eb1a370d60fea8c4cf1d364c13bcccef518e98ad2bcee954f539d38da37458e58261a3fa55e06523450ea0ffff9f497b135be41f2c15c1642bacace6c",
+  "exports": {
+    ".": "./dist/index.js",
+    "./node": "./dist/node.js"
+  },
+  "sideEffects": [
+    "./dist/gen/std.js",
+    "./src/gen/std.ts"
+  ],
+  "files": [
+    "dist",
+    "llms.txt",
+    "LICENSES",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "docs:api": "typedoc",
+    "prepack": "pnpm build",
+    "reflect": "tools/reflect/reflect.sh spec/typst-0.15.1.json",
+    "gen": "node scripts/generate.ts",
+    "gen:check": "node scripts/generate.ts && git diff --exit-code -- src/gen",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "typst:check": "node scripts/typst-check.ts",
+    "test:package": "scripts/check-package.sh",
+    "test:corpus": "tools/dev-assets.sh && node scripts/check-converted.ts --check",
+    "test:universe": "tools/dev-assets.sh && node scripts/extract-universe.ts && node scripts/check-converted.ts --universe --check"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "esbuild": "0.28.2",
+    "fast-check": "4.10.2",
+    "prettier": "^3.9.9",
+    "typedoc": "0.28.20",
+    "typescript": "6.0.3",
+    "vitest": "5.0.3"
+  }
+}

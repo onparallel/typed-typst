@@ -1,0 +1,6 @@
+// Converted from test/suite/corpus/math-op-predefined.typ by scripts/convert-suite.ts — do not edit.
+import { doc, inline, unsafeRaw } from '../../../src/index.ts'
+
+export default () => {
+  return doc(inline(unsafeRaw.math.block`max_(1<=n<=m) n`))
+}

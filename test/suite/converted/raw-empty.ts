@@ -1,0 +1,6 @@
+// Converted from test/suite/corpus/raw-empty.typ by scripts/convert-suite.ts — do not edit.
+import { doc, inline, raw } from '../../../src/index.ts'
+
+export default () => {
+  return doc(inline`Empty raw block:${raw('')}.`)
+}

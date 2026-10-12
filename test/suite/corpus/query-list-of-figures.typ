@@ -1,0 +1,39 @@
+// Typst 0.15.1 test suite: tests/suite/introspection/query.typ, case query-list-of-figures.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+#set page(
+  paper: "a8",
+  numbering: "1 / 1",
+  margin: (bottom: 1cm, rest: 0.5cm),
+)
+
+#set figure(numbering: "I")
+#show figure: set image(width: 80%)
+
+= List of Figures
+#context {
+  let elements = query(selector(figure).after(here()))
+  for it in elements [
+    Figure
+    #counter(figure).display(at: it.location()):
+    #it.caption.body
+    #box(width: 1fr, repeat[.])
+    #counter(page).at(it.location()).first() \
+  ]
+}
+
+#figure(
+  image("/assets/images/cylinder.svg", width: 50%),
+  caption: [Cylinder],
+)
+
+#figure(
+  rect[Just some stand-in text],
+  kind: image,
+  supplement: "Figure",
+  caption: [Stand-in text],
+)
+
+#figure(
+  image("/assets/images/tetrahedron.svg", width: 50%),
+  caption: [Tetrahedron],
+)

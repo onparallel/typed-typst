@@ -1,0 +1,12 @@
+// Typst 0.15.1 test suite: tests/suite/layout/inline/shaping.typ, case shaping-script-separation.
+// Copyright Typst contributors, Apache-2.0 (https://github.com/typst/typst).
+// Test separation by script.
+#set text(font: ("Libertinus Serif", "IBM Plex Sans Devanagari"))
+ABCअपार्टमेंट
+
+// This is how it should look like.
+अपार्टमेंट
+
+// This (without the spaces) is how it would look
+// if we didn't separate by script.
+अ पा र् ट में ट

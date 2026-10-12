@@ -1,0 +1,51 @@
+// Converted from test/universe/corpus/unofficial-kth-thesis-proposal.typ by scripts/convert-suite.ts — do not edit.
+import {
+  T,
+  define,
+  doc,
+  emph,
+  external,
+  heading,
+  importPackage,
+  inline,
+  linebreak,
+  link,
+  show,
+} from '../../../src/index.ts'
+
+export default () => {
+  const proposal = external('proposal')
+  const proposal_with = define('with').named('title', T.any, null).returns(T.any).external(proposal)
+  return doc(
+    importPackage('@preview/unofficial-kth-thesis-proposal:0.2.0', [proposal]),
+    show(proposal_with({ title: 'DEGREE PROJECT PROPOSAL' })),
+    heading({ depth: 1 }, inline('Name and e-mail address of the student')),
+    inline`John Doe ${linebreak()} ${link('mailto:john.doe@kth.se')}`,
+    heading({ depth: 1 }, inline('Thesis title')),
+    'Provide a preliminary title, which gives an indication of what the degree project will be about.',
+    heading({ depth: 1 }, inline('Background')),
+    'Name and briefly describe the research area within which the project is being carried out. Describe how the project is connected to current research or development. Describe why the project is of interest and to whom, and in particular explain the interest of the organization or company within which the project is carried out.',
+    heading({ depth: 1 }, inline('Research question')),
+    'A degree project must investigate a specific research/technical question. Provisionally state the question that the project will target.',
+    heading({ depth: 1 }, inline('Hypothesis')),
+    'What is the expected outcome of the investigation?',
+    heading({ depth: 1 }, inline('Research method')),
+    'What method will be used for answering the research question, e.g., how will observations be collected and conclusions drawn?',
+    heading({ depth: 1 }, inline('Background of the student')),
+    'Describe the knowledge (courses and/or experiences) you have that makes this an appropriate project for you.',
+    heading({ depth: 1 }, inline('Supervisor at the company/external organization')),
+    inline`${emph(inline`For degree projects at companies/external organizations:`)} ${linebreak()} List
+the person/s who will supervise you at the company and their role and involvement in the degree
+project.`,
+    heading({ depth: 1 }, inline('Suggested examiner at KTH')),
+    'You may suggest an examiner at KTH. State if you have been in contact with the examiner and received a preliminary expression of interest to serve as examiner.',
+    heading({ depth: 1 }, inline('Suggested supervisor at KTH')),
+    'You may suggest a supervisor at KTH. State if you have been in contact with the supervisor and received a preliminary expression of interest to serve as supervisor.',
+    heading({ depth: 1 }, inline('Resources')),
+    'What is already available at the company (or other host institution) in the form of previous projects, software, expertise, etc. that the project can build on?',
+    heading({ depth: 1 }, inline('Eligibility')),
+    'Verify that you are eligible to start your degree project, that is, that you fulfill the basic requirements of starting the project, and also have completed all the courses that are relevant for the project.',
+    heading({ depth: 1 }, inline('Study planning')),
+    'List all the courses that you will need to complete during or after the degree project, and describe how and when you plan to complete those courses. This is aimed to ensure that the thesis really is one of the last elements of your education.',
+  )
+}
