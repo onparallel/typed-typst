@@ -52,8 +52,11 @@ describe('typst() leaves no process or directory behind', () => {
     await nothingLeft()
   })
 
-  it('after the timeout', async () => {
-    await expect(compileSource(loop, { timeout: 300 })).rejects.toThrow(/did not finish within 300 ms/)
+  it('after the timeout, with a TimeoutError', async () => {
+    await expect(compileSource(loop, { timeout: 300 })).rejects.toMatchObject({
+      name: 'TimeoutError',
+      message: 'Typst did not finish within 300 ms',
+    })
     await nothingLeft()
   })
 
@@ -77,11 +80,13 @@ describe('typst() leaves no process or directory behind', () => {
     await nothingLeft()
   })
 
-  it('after an abort, also one before it starts', async () => {
+  it("after an abort, also one before it starts, with the signal's reason", async () => {
     const controller = new AbortController()
     setTimeout(() => controller.abort(), 300)
-    await expect(compileSource(loop, { signal: controller.signal })).rejects.toThrow(/aborted/)
-    await expect(compileSource(loop, { signal: AbortSignal.abort() })).rejects.toThrow(/aborted/)
+    await expect(compileSource(loop, { signal: controller.signal })).rejects.toMatchObject({ name: 'AbortError' })
+    await expect(compileSource(loop, { signal: AbortSignal.abort() })).rejects.toMatchObject({ name: 'AbortError' })
+    const reason = new Error('the user left')
+    await expect(compileSource(loop, { signal: AbortSignal.abort(reason) })).rejects.toBe(reason)
     await nothingLeft()
   })
 

@@ -44,9 +44,9 @@ export interface TypstOptions {
   readonly inputs?: Readonly<Record<string, string>> | undefined
   /** The Typst binary. Default: `typst`. */
   readonly bin?: string | undefined
-  /** Milliseconds before Typst is killed and the promise rejects. Default: no limit. */
+  /** Milliseconds before Typst is killed and the promise rejects with a `TimeoutError`. Default: no limit. */
   readonly timeout?: number | undefined
-  /** Aborting it kills Typst and rejects the promise. */
+  /** Aborting it kills Typst and rejects the promise with the signal's reason (an `AbortError` by default). */
   readonly signal?: AbortSignal | undefined
 }
 
@@ -196,7 +196,9 @@ async function run<R>(
       }),
     ]
     const done = await new Promise<{ code: number; stdout: string; stderr: string }>((resolve, reject) => {
-      if (options.signal?.aborted) return reject(new Error('the compilation was aborted'))
+      // Rejected as `fetch` does: an abort with the signal's reason (an `AbortError` by default), a timeout
+      // with a `TimeoutError`, so a caller can retry one and not the other.
+      if (options.signal?.aborted) return reject(options.signal.reason)
       // Its own process group (`detached`), so that a kill also reaches what `bin` starts (a wrapper,
       // a sandbox). stdout and stderr are kept up to 64 MB each.
       const child = spawn(options.bin ?? 'typst', args, { detached: true, stdio: ['pipe', 'pipe', 'pipe'] })
@@ -204,12 +206,12 @@ async function run<R>(
       let err = ''
       child.stdout.setEncoding('utf8')
       child.stdout.on('data', (chunk: string) => {
-        if (stdout.length + chunk.length > 64 << 20) kill('Typst wrote more than 64 MB of output')
+        if (stdout.length + chunk.length > 64 << 20) kill(new Error('Typst wrote more than 64 MB of output'))
         else stdout += chunk
       })
       child.stderr.setEncoding('utf8')
       child.stderr.on('data', (chunk: string) => {
-        if (err.length + chunk.length > 64 << 20) kill('Typst wrote more than 64 MB of diagnostics')
+        if (err.length + chunk.length > 64 << 20) kill(new Error('Typst wrote more than 64 MB of diagnostics'))
         else err += chunk
       })
       child.on('error', (error) => {
@@ -218,12 +220,13 @@ async function run<R>(
       })
       child.on('close', (code) => {
         stop()
-        if (stopped) reject(new Error(stopped))
+        if (stopped) reject(stopped.error)
         else resolve({ code: code ?? 1, stdout, stderr: err })
       })
-      let stopped: string | null = null
-      const kill = (why: string) => {
-        stopped ??= why
+      // Boxed: a signal's reason may be any value, `undefined` too.
+      let stopped: { error: unknown } | null = null
+      const kill = (why: unknown) => {
+        stopped ??= { error: why }
         try {
           process.kill(-child.pid!, 'SIGKILL')
         } catch {
@@ -231,12 +234,15 @@ async function run<R>(
         }
       }
       const timer = options.timeout
-        ? setTimeout(() => kill(`Typst did not finish within ${options.timeout} ms`), options.timeout)
+        ? setTimeout(
+            () => kill(new DOMException(`Typst did not finish within ${options.timeout} ms`, 'TimeoutError')),
+            options.timeout,
+          )
         : undefined
-      const onAbort = () => kill('the compilation was aborted')
+      const onAbort = () => kill(options.signal!.reason)
       // When this process exits, no `finally` runs: kill Typst and remove the directory here.
       const onExit = () => {
-        kill('the process exited')
+        kill(new Error('the process exited'))
         rmSync(out, { recursive: true, force: true })
       }
       options.signal?.addEventListener('abort', onAbort, { once: true })
