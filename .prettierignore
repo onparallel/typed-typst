@@ -12,6 +12,7 @@ examples/out/
 examples/.build/
 tools/reflect/target/
 pnpm-lock.yaml
+CHANGELOG.md
 docs/
 test/suite/converted.results.json
 test/universe/converted/
