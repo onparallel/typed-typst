@@ -1,11 +1,11 @@
 # Security
 
 typed-typst prints Typst source from TypeScript. It compiles nothing, except through the optional
-`@onparallel/typed-typst/node` helpers (`check`, `checkSource`, `query`, `querySource`), which run the `typst` binary. This page says
+`@onparallel/typed-typst/node` helper `typst()`, which runs the `typst` binary. This page says
 what the library guarantees, what it leaves to Typst and to you, and how to report a problem.
 
 Supported versions: the latest release. The bindings target one Typst version (`TYPST_VERSION`);
-`checkTypstVersion()` fails on another.
+`typst().checkVersion()` fails on another.
 
 ## What the library guarantees
 
@@ -96,14 +96,14 @@ obj)`, a define's `.with(obj)`): data can pick which of the real parameters it s
 - **Strings that Typst rejects.** Some arguments fail the whole compilation when Typst rejects the
   value: an empty text selector or numbering pattern, a language or region code of the wrong length,
   a regular expression Rust does not accept, a `datetime.display` pattern. The library prints them as
-  data and does not check them. Validate such strings from data, or let `check()` fail.
+  data and does not check them. Validate such strings from data, or let `compile()` fail.
 - **Typst itself.** Fonts, images, PDFs, SVG, bibliographies and data formats are parsed by the
   Typst binary; report its bugs to the Typst project. Typst can panic on some rare text, also data
-  shown as text; `check()` reports it as a failed compilation.
+  shown as text; `compile()` reports it as a failed compilation.
 - **Output.** Links (`link(url)`) are written as given: validate URLs from untrusted sources (Typst
   rejects an empty one and one of 8 kB or more).
 - **Diagnostics.** Typst repeats values of the document in its messages (`float(s)`, a font name),
-  newlines included, so data can shape what `check()` parses as diagnostics: a forged error, file
+  newlines included, so data can shape what `compile()` and `eval()` parse as diagnostics: a forged error, file
   or hint. Only `ok` is reliable.
 - **Code that runs in your process.** A `Proxy` built to answer every property can pass as a node
   of the library; that takes running code, not passing data.
@@ -122,38 +122,38 @@ symbolic links, also ones that point outside the root.
 - This is what keeps data from reading other files: the library does not (see "Files" above). Give
   each compilation a new root with only that document's files (the template and its assets), copied
   there for the job: never a checkout of your repository, a directory with secrets (`.env`) or other
-  customers' files, symlinks you did not create, or a directory users can write to. `check()`
+  customers' files, symlinks you did not create, or a directory users can write to. `typst()`
   defaults to a new empty directory.
 - Pass fonts with `fontPaths` and `ignoreSystemFonts: true`, so documents see only your fonts.
 - Pin packages: set both `packageCachePath` and `packagePath` to directories you control (Typst
   looks for `@preview` packages in the local package path first), and block the network at the
   process or container level, so that a document cannot fetch a package (Typst 0.15 has no
   offline flag).
-- Limit time and memory: `check()` takes `timeout` and `signal` and then kills Typst; cap memory
+- Limit time and memory: `typst()` takes `timeout` and `signal` and then kills Typst; cap memory
   with the OS (cgroups, a container), and the size of input data before building the document.
 - Run Typst as an unprivileged user in a sandbox when inputs come from people you do not trust.
-- `check()` passes your environment on, and variables change what Typst reads: `TYPST_FONT_PATHS`,
+- `typst()` passes your environment on, and variables change what Typst reads: `TYPST_FONT_PATHS`,
   `TYPST_IGNORE_SYSTEM_FONTS`, `TYPST_IGNORE_EMBEDDED_FONTS`, `TYPST_PACKAGE_PATH`,
   `TYPST_PACKAGE_CACHE_PATH`, `TYPST_FEATURES`, `TYPST_CERT`, `SOURCE_DATE_EPOCH`, `HOME` and
   `XDG_*` (the default package and font directories) and the proxy variables. (`TYPST_ROOT` does
-  not apply: `check()` always passes `--root`.) A `fontPaths` entry with `:` is split by Typst.
+  not apply: `typst()` always passes `--root`.) A `fontPaths` entry with `:` is split by Typst.
 - Diagnostics can contain absolute paths and computed values: do not show them to end users as
   they are.
 
 ## `@onparallel/typed-typst/node`
 
-- `check`, `checkSource`, `query` and `querySource` run Typst with an argument list, never a shell, and pass options as
+- The commands of `typst()` run Typst with an argument list, never a shell, and pass options as
   `--flag=value`, so a value that starts with `-` stays a value; input names with `=` and input
   values that are not strings throw. The source goes in on stdin; the PDF goes to a private
   temporary directory (`mkdtemp`) that is removed afterwards.
 - Typst runs in a process group of its own. On `timeout`, on `signal` and when your process exits,
   the whole group is killed (also what a wrapper given as `bin` started) and the directory removed;
   a process killed by a signal (SIGKILL) cannot clean up. `timeout` is a whole number of
-  milliseconds; stderr is kept up to 64 MB. This is tested on Linux and macOS; on Windows, where
-  there are no process groups, only the process `check()` started is killed.
-- `checkSource(source)` and `querySource(source, …)` compile any Typst source: pass them only what
-  `render` printed or what you wrote. The target of `query` prints as code, like any value: a string
-  from data stays a string.
+  milliseconds; stdout and stderr are kept up to 64 MB each. This is tested on Linux and macOS; on Windows, where
+  there are no process groups, only the process a command started is killed.
+- `{ source }` compiles any Typst source: pass only what `render` printed or what you wrote. The
+  expression of `eval` prints as code, like any value: a string from data stays a string, and
+  Typst code there comes from `unsafeRaw`.
 - `bin`, `root`, `fontPaths`, `packageCachePath` and `inputs` are configuration, not input: `bin`
   runs that program.
 

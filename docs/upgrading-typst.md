@@ -103,4 +103,4 @@ counts in README.md, `test/suite/README.md` and `test/universe/README.md`.
   user sees (removed or renamed functions and parameters), and any change to
   the library's own API.
 - Tell the projects that use the package: their documents may print
-  differently, and `checkTypstVersion()` will reject their old binary.
+  differently, and `typst().checkVersion()` will reject their old binary.

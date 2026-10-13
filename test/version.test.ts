@@ -1,13 +1,13 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { doc, render, unsafeRaw, versionGuard } from '../src/index.ts'
-import { checkTypstVersion, installedTypstVersion, TYPST_VERSION } from '../src/node.ts'
+import { TYPST_VERSION, typst } from '../src/node.ts'
 import { typstCompile } from './helpers/typst.ts'
 
 describe('version pinning', () => {
   it('matches the installed binary', () => {
-    expect(installedTypstVersion()).toBe(TYPST_VERSION)
-    expect(() => checkTypstVersion()).not.toThrow()
+    expect(typst().version()).toBe(TYPST_VERSION)
+    expect(() => typst().checkVersion()).not.toThrow()
   })
 
   it('names the Typst version in the package version', () => {
@@ -21,7 +21,7 @@ describe('version pinning', () => {
   })
 
   it('fails for another binary', () => {
-    expect(() => checkTypstVersion('/usr/bin/false')).toThrow()
+    expect(() => typst({ bin: '/usr/bin/false' }).checkVersion()).toThrow()
   })
 
   it('guards the document', async () => {

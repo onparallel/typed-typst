@@ -1,4 +1,4 @@
-import { checkTypstVersion, TYPST_VERSION } from '../src/node.ts'
+import { TYPST_VERSION, typst } from '../src/node.ts'
 
-checkTypstVersion(process.env.TYPST_BIN ?? 'typst')
+typst({ bin: process.env.TYPST_BIN ?? 'typst' }).checkVersion()
 console.log(`typst ${TYPST_VERSION}: ok`)

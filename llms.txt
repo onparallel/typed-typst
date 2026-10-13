@@ -185,15 +185,14 @@ doc(
 
 ## Check the result with Typst
 
-Types catch most mistakes, but only Typst knows some of them: a missing file, a value whose type only Typst knows, a reference to an unnumbered heading. In Node, `check` prints the document, compiles it with the `typst` binary (reading the source from stdin and writing nothing into the project), and returns Typst's diagnostics. Each diagnostic has the line of the printed source and Typst's hints. Run it after building a document and fix what it reports.
+Types catch most mistakes, but only Typst knows some of them: a missing file, a value whose type only Typst knows, a reference to an unnumbered heading. In Node, `typst(options)` from `@onparallel/typed-typst/node` runs the `typst` binary with the commands of its CLI. `compile` prints the document, compiles it (reading the source from stdin and writing nothing into the project) and returns the PDF and Typst's diagnostics. Each diagnostic has the line of the printed source and Typst's hints. Run it after building a document and fix what it reports.
 
 ```ts
 import { doc, heading, inline, label, labelled, ref } from '@onparallel/typed-typst'
-import { check } from '@onparallel/typed-typst/node'
+import { typst } from '@onparallel/typed-typst/node'
 
-const result = await check(doc(labelled(heading('Intro'), label('intro')), inline(ref(label('intro')))), {
-  root: '.', // where relative files (images, bibliographies, imports) resolve from
-})
+const t = typst({ root: '.' }) // where relative files (images, bibliographies, imports) resolve from
+const result = await t.compile(doc(labelled(heading('Intro'), label('intro')), inline(ref(label('intro')))))
 if (!result.ok) {
   for (const d of result.diagnostics) console.error(`${d.severity}: ${d.message}`, d.sourceLine, d.hints)
   // error: cannot reference heading without numbering  #ref(<intro>)
@@ -202,16 +201,13 @@ if (!result.ok) {
 // result.pdf holds the PDF when result.ok; result.source is the printed Typst.
 ```
 
-`checkSource(source)` does the same for printed source.
+The commands of `typst(options)`:
 
-`query(document, target, options)` compiles the document and returns the elements Typst's `query`
-finds, in `elements` (`{ func, label?, value?, … }[]`, the JSON of `typst eval 'query(…)'`).
-`target` is an element function (`metadata`, `heading`), a `label('…')` or a selector. It takes the
-same options as `check`, so a query and a compile can share a `root`: query, write the files the
-document asked for into the root, then `check` with the same options. `querySource` takes printed
-source.
+- `compile(input, options?)` returns `{ ok, source, diagnostics, pdf }`.
+- `eval(input, expression, options?)` evaluates an expression in the context of the document (`typst eval … --in`) and returns `{ ok, source, diagnostics, value }`, the value as JSON. The expression is a value of the library, usually `unsafeRaw.code`: `` t.eval(document, unsafeRaw.code`query(metadata)`) `` returns the `metadata` the document places, `{ func, label?, value }[]`.
+- `version()` returns the version of the binary; `checkVersion()` throws unless it is `TYPST_VERSION`.
 
-Options of `check` and `query`: `root`, `fontPaths`, `ignoreSystemFonts`, `packageCachePath`, `packagePath`, `inputs` (`sys.inputs`), `bin`, `timeout` (milliseconds; Typst is killed after it) and `signal` (an `AbortSignal`). Only `ok` is reliable: data the document shows in a message can shape the diagnostics.
+`input` is a document, or `{ source }` for Typst source that is already printed. Options: `root`, `fontPaths`, `ignoreSystemFonts`, `packageCachePath`, `packagePath`, `inputs` (`sys.inputs`), `bin`, `timeout` (milliseconds; Typst is killed after it) and `signal` (an `AbortSignal`). Options given to a command replace the ones of `typst()`, so a query and the compilation that follows it can share a `root`: evaluate the query, write the files the document asked for into the root, then compile. Only `ok` is reliable: data the document shows in a message can shape the diagnostics.
 
 ## Errors and what they mean
 

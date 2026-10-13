@@ -55,7 +55,7 @@ import {
 } from '../src/index.ts'
 import type { Expr } from '../src/index.ts'
 import * as lib from '../src/index.ts'
-import { checkSource } from '../src/node.ts'
+import { typst } from '../src/node.ts'
 import { RT } from '../src/element.ts'
 import { PLAIN, typstEval } from './helpers/typst.ts'
 
@@ -372,13 +372,13 @@ describe('unsafeRaw', () => {
   })
 })
 
-describe('check()', () => {
+describe('typst().compile()', () => {
   it('kills Typst after the timeout', async () => {
     const loop = '#let n = 0\n#for i in range(100000000) { n = n + 1 }'
-    await expect(checkSource(loop, { timeout: 300 })).rejects.toThrow(/did not finish/)
+    await expect(typst().compile({ source: loop }, { timeout: 300 })).rejects.toThrow(/did not finish/)
   })
 
   it('rejects an input name Typst would split', async () => {
-    await expect(checkSource('x', { inputs: { 'a=b': 'c' } })).rejects.toThrow(/input name/)
+    await expect(typst().compile({ source: 'x' }, { inputs: { 'a=b': 'c' } })).rejects.toThrow(/input name/)
   })
 })

@@ -1,5 +1,5 @@
-import { checkTypstVersion } from '../src/node.ts'
+import { typst } from '../src/node.ts'
 
 export default function setup(): void {
-  checkTypstVersion()
+  typst().checkVersion()
 }

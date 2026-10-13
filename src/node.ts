@@ -1,31 +1,16 @@
 /**
- * Node-only helpers: checking the installed Typst binary, compiling a document to see what Typst says
- * (and get the PDF), and querying its elements.
+ * Node-only: `typst(options)` runs the Typst binary on a document, with the commands of its CLI
+ * (`compile`, `eval`, `--version`).
  */
 import { execFileSync, spawn } from 'node:child_process'
 import { mkdtempSync, rmSync } from 'node:fs'
 import { readFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
+import type { Expr } from './core.ts'
 import { toCode } from './convert.ts'
-import { type QuerySig, TYPST_VERSION } from './gen/std.ts'
+import { TYPST_VERSION } from './gen/std.ts'
 import { printCode, render } from './printer.ts'
-
-/** The version of the Typst binary, as `0.15.1`. */
-export function installedTypstVersion(bin = 'typst'): string {
-  const out = execFileSync(bin, ['--version'], { encoding: 'utf8', timeout: 10_000, killSignal: 'SIGKILL' })
-  const m = /^typst (\d+\.\d+\.\d+)(?: |\n|$)/.exec(out)
-  if (!m) throw new Error(`cannot read the version from ${JSON.stringify(out.trim())}`)
-  return m[1]!
-}
-
-/** Throws unless the installed Typst binary is the version the bindings were generated for. */
-export function checkTypstVersion(bin = 'typst'): void {
-  const installed = installedTypstVersion(bin)
-  if (installed !== TYPST_VERSION) {
-    throw new Error(`Typst ${installed} is installed, but these bindings are for Typst ${TYPST_VERSION}`)
-  }
-}
 
 /** What Typst reported about the document. */
 export interface Diagnostic {
@@ -41,7 +26,8 @@ export interface Diagnostic {
   readonly hints: readonly string[]
 }
 
-export interface CheckOptions {
+/** Options of `typst()`; each command also takes them, and they replace the ones `typst()` got. */
+export interface TypstOptions {
   /** The project directory: relative paths (`path('logo.png')`, imports) resolve from it. Default: an empty directory. */
   readonly root?: string | undefined
   /** Directories with fonts, in addition to the system's (unless `ignoreSystemFonts`). */
@@ -56,7 +42,7 @@ export interface CheckOptions {
   readonly packagePath?: string | undefined
   /** `sys.inputs`. */
   readonly inputs?: Readonly<Record<string, string>> | undefined
-  /** The Typst binary. */
+  /** The Typst binary. Default: `typst`. */
   readonly bin?: string | undefined
   /** Milliseconds before Typst is killed and the promise rejects. Default: no limit. */
   readonly timeout?: number | undefined
@@ -64,30 +50,106 @@ export interface CheckOptions {
   readonly signal?: AbortSignal | undefined
 }
 
-export interface CheckResult {
+/** A document of the library, or Typst source that is already printed (`{ source }`). */
+export type TypstInput = Parameters<typeof render>[0] | { readonly source: string }
+
+interface Result {
   /** Whether Typst compiled the document. Warnings do not make it fail. */
   readonly ok: boolean
   /** The printed Typst source that was compiled. */
   readonly source: string
   readonly diagnostics: readonly Diagnostic[]
+}
+
+export interface CompileResult extends Result {
   /** The PDF, when the document compiled. */
   readonly pdf: Uint8Array | null
 }
 
-/** What `query` can find: an element function (`metadata`), a label, or a selector. */
-export type QueryTarget = QuerySig['pos'][0]
+export interface EvalResult extends Result {
+  /** The value of the expression, as JSON, when the document compiled. */
+  readonly value: unknown
+}
 
-export interface QueryResult {
-  /** Whether Typst compiled the document. Warnings do not make it fail. */
-  readonly ok: boolean
-  /** The printed Typst source that was compiled. */
-  readonly source: string
-  readonly diagnostics: readonly Diagnostic[]
+/** The commands of `typst()`. */
+export interface Typst {
   /**
-   * The elements found, as Typst serializes them to JSON (`{ func, label?, …fields }`; a `metadata`
-   * has its `value`), when the document compiled.
+   * Compiles the document to PDF, to get it or to find out what the types could not: a missing file, a
+   * wrong value only Typst knows, an unknown font. The diagnostics point into the printed source
+   * (`sourceLine`).
    */
-  readonly elements: readonly Readonly<Record<string, unknown>>[] | null
+  compile(input: TypstInput, options?: TypstOptions): Promise<CompileResult>
+  /**
+   * Evaluates an expression in the context of the document (`typst eval … --in`), such as a query of
+   * the `metadata` it places: `` t.eval(doc, unsafeRaw.code`query(metadata)`) ``. The value comes back
+   * as JSON.
+   */
+  eval(input: TypstInput, expression: Expr<string>, options?: TypstOptions): Promise<EvalResult>
+  /** The version of the Typst binary, as `0.15.1`. */
+  version(): string
+  /** Throws unless the Typst binary is the version the bindings were generated for. */
+  checkVersion(): void
+}
+
+/**
+ * Runs the Typst binary with these options. Give a query and the compilation that follows it the same
+ * `root`, to compile with the files the query asked for.
+ *
+ * ```ts
+ * const t = typst({ root, fontPaths: ['fonts'], timeout: 60_000 })
+ * const { value } = await t.eval(doc, unsafeRaw.code`query(metadata)`, { inputs: { draft: 'true' } })
+ * const { ok, pdf, diagnostics } = await t.compile(doc)
+ * ```
+ */
+export function typst(options: TypstOptions = {}): Typst {
+  const version = () => {
+    const out = execFileSync(options.bin ?? 'typst', ['--version'], {
+      encoding: 'utf8',
+      timeout: 10_000,
+      killSignal: 'SIGKILL',
+    })
+    const m = /^typst (\d+\.\d+\.\d+)(?: |\n|$)/.exec(out)
+    if (!m) throw new Error(`cannot read the version from ${JSON.stringify(out.trim())}`)
+    return m[1]!
+  }
+  return {
+    async compile(input, more) {
+      return run(sourceOf(input), { ...options, ...more }, async (out) => {
+        const pdf = join(out, 'document.pdf')
+        return {
+          args: ['compile', '-', pdf],
+          result: async (ok) => ({ pdf: ok ? new Uint8Array(await readFile(pdf)) : null }),
+        }
+      })
+    },
+    async eval(input, expression, more) {
+      // The expression prints as code, like any value: a string from data stays a string.
+      const code = printCode(toCode(expression), 0)
+      return run(sourceOf(input), { ...options, ...more }, async () => ({
+        args: ['eval', '--in=-', code],
+        result: async (ok, stdout) => ({ value: ok ? (JSON.parse(stdout) as unknown) : null }),
+      }))
+    },
+    version,
+    checkVersion() {
+      const installed = version()
+      if (installed !== TYPST_VERSION)
+        throw new Error(`Typst ${installed} is installed, but these bindings are for Typst ${TYPST_VERSION}`)
+    },
+  }
+}
+
+/** `{ source }` (an object with only that key) is printed source; anything else is a document. */
+function sourceOf(input: TypstInput): string {
+  if (typeof input === 'object' && input !== null && Object.getPrototypeOf(input) === Object.prototype) {
+    const keys = Object.keys(input)
+    if (keys.length === 1 && keys[0] === 'source') {
+      const { source } = input as { source: unknown }
+      if (typeof source !== 'string') throw new TypeError(`source is a string, not ${typeof source}`)
+      return source
+    }
+  }
+  return render(input)
 }
 
 /**
@@ -105,67 +167,10 @@ function listenForExit(): void {
   })
 }
 
-/**
- * Prints a document and compiles it with the Typst binary, to find out what
- * the types could not: a missing file, a wrong value only Typst knows, an
- * unknown font. The diagnostics point into the printed source (`sourceLine`).
- * The PDF comes back in `pdf`.
- *
- * ```ts
- * const result = await check(doc(heading('Hi')))
- * if (!result.ok) console.error(result.diagnostics)
- * ```
- */
-export async function check(document: Parameters<typeof render>[0], options: CheckOptions = {}): Promise<CheckResult> {
-  return checkSource(render(document), options)
-}
-
-/** Like `check`, for Typst source that is already printed. */
-export async function checkSource(source: string, options: CheckOptions = {}): Promise<CheckResult> {
-  return run(source, options, async (out) => {
-    const pdf = join(out, 'document.pdf')
-    return {
-      args: ['compile', '-', pdf],
-      result: async (ok) => ({ pdf: ok ? new Uint8Array(await readFile(pdf)) : null }),
-    }
-  })
-}
-
-/**
- * Compiles a document and returns the elements that match `target`, as Typst's `query` finds them
- * (`typst eval 'query(…)'`): the `metadata` a template places, labelled elements, headings. It takes the
- * options of `check`; give both the same `root` to compile with the files a query asked for.
- *
- * ```ts
- * const { elements } = await query(document, label('signature'), { root })
- * ```
- */
-export async function query(
-  document: Parameters<typeof render>[0],
-  target: QueryTarget,
-  options: CheckOptions = {},
-): Promise<QueryResult> {
-  return querySource(render(document), target, options)
-}
-
-/** Like `query`, for Typst source that is already printed. */
-export async function querySource(
-  source: string,
-  target: QueryTarget,
-  options: CheckOptions = {},
-): Promise<QueryResult> {
-  // The target prints as code, like any value: a string from data stays a string.
-  const expression = `query(${printCode(toCode(target), 0)})`
-  return run(source, options, async () => ({
-    args: ['eval', '--in=-', expression],
-    result: async (ok, stdout) => ({ elements: ok ? (JSON.parse(stdout) as QueryResult['elements']) : null }),
-  }))
-}
-
 /** Runs Typst on `source` (on stdin) in a temporary directory, with the arguments `command` gives. */
 async function run<R>(
   source: string,
-  options: CheckOptions,
+  options: TypstOptions,
   command: (out: string) => Promise<{ args: string[]; result: (ok: boolean, stdout: string) => Promise<R> }>,
 ): Promise<R & { ok: boolean; source: string; diagnostics: Diagnostic[] }> {
   const { timeout } = options

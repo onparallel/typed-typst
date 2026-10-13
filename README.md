@@ -61,10 +61,10 @@ Thank you, #strong("ACME <script>#panic()</script>");.
 ```
 
 Compile the result with the `typst` CLI (or any Typst compiler) as usual. In
-Node, `check(document)` from `@onparallel/typed-typst/node` does it for you: it compiles
-with the `typst` binary and returns the PDF, or Typst's errors and warnings
-with the line of the printed source they point at. `query(document, metadata)` returns the
-elements Typst's `query` finds, such as the `metadata` a template places.
+Node, `typst().compile(document)` from `@onparallel/typed-typst/node` does it for you: it
+compiles with the `typst` binary and returns the PDF, or Typst's errors and warnings
+with the line of the printed source they point at. `typst().eval(document, expression)`
+evaluates an expression in the context of the document, such as a query of its `metadata`.
 
 ## What this project is about
 
@@ -119,7 +119,7 @@ elements Typst's `query` finds, such as the `metadata` a template places.
   converter in `scripts/` exists to test the library against existing
   documents. It is not a supported tool.
 - **Not multi-version.** The bindings target exactly one Typst version.
-  `checkTypstVersion()` (from `@onparallel/typed-typst/node`) and `versionGuard()` catch a mismatch instead of
+  `typst().checkVersion()` (from `@onparallel/typed-typst/node`) and `versionGuard()` catch a mismatch instead of
   producing documents that fail in subtle ways.
 - **Not a full type checker for Typst.** Values whose type only Typst knows
   (a field Typst computes, a function from a package) are `Expr<any>`. You

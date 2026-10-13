@@ -23,7 +23,7 @@ import {
   text,
   unsafeRaw,
 } from '@onparallel/typed-typst'
-import { check, checkTypstVersion } from '@onparallel/typed-typst/node'
+import { typst } from '@onparallel/typed-typst/node'
 
 const [total, totalRef] = let_('total', 42)
 const source: string = render(
@@ -57,7 +57,10 @@ void (() => set(text, { size: source ? pt(1) : undefined }))
 // @ts-expect-error no such named argument
 void (() => set(text, { sizee: pt(1) }))
 
-checkTypstVersion()
-const result = await check(doc(heading('Report')))
+const t = typst()
+t.checkVersion()
+const result = await t.compile(doc(heading('Report')))
 if (!result.ok) throw new Error(`Typst rejected the document: ${JSON.stringify(result)}`)
+const found = await t.eval({ source: '#metadata(1) <n>' }, unsafeRaw.code`query(<n>).map(m => m.value)`)
+if (JSON.stringify(found.value) !== '[1]') throw new Error(`eval: ${JSON.stringify(found)}`)
 console.log(source)

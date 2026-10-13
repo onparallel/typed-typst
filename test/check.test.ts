@@ -1,14 +1,14 @@
-/** `check`: printing a document, compiling it, and reporting what Typst says. */
+/** `typst().compile`: printing a document, compiling it, and reporting what Typst says. */
 import { mkdtempSync, readdirSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { doc, heading, image, inline, label, labelled, m, path, ref, text } from '../src/index.ts'
-import { check, checkSource, parseDiagnostics } from '../src/node.ts'
+import { parseDiagnostics, typst } from '../src/node.ts'
 
-describe('check', () => {
+describe('typst().compile', () => {
   it('returns the PDF of a document that compiles', async () => {
-    const result = await check(doc(heading('Hello')))
+    const result = await typst().compile(doc(heading('Hello')))
     expect(result.ok).toBe(true)
     expect(result.diagnostics).toEqual([])
     expect(new TextDecoder().decode(result.pdf!.slice(0, 5))).toBe('%PDF-')
@@ -16,7 +16,7 @@ describe('check', () => {
   })
 
   it('reports errors with the line of the printed source and the hints', async () => {
-    const result = await check(doc(labelled(heading({ depth: 1 }, 'A'), label('a')), inline(ref(label('a')))))
+    const result = await typst().compile(doc(labelled(heading({ depth: 1 }, 'A'), label('a')), inline(ref(label('a')))))
     expect(result.ok).toBe(false)
     expect(result.pdf).toBeNull()
     expect(result.diagnostics).toEqual([
@@ -35,15 +35,15 @@ describe('check', () => {
   it('resolves files from the root, and writes nothing there', async () => {
     const root = mkdtempSync(join(tmpdir(), 'check-root-'))
     writeFileSync(join(root, 'logo.svg'), '<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"/>')
-    expect((await check(doc(image(path('logo.svg'))), { root })).ok).toBe(true)
-    const missing = await check(doc(image(path('nope.png'))), { root })
+    expect((await typst().compile(doc(image(path('logo.svg'))), { root })).ok).toBe(true)
+    const missing = await typst().compile(doc(image(path('nope.png'))), { root })
     expect(missing.ok).toBe(false)
     expect(missing.diagnostics[0]!.message).toMatch(/file not found/)
     expect(readdirSync(root)).toEqual(['logo.svg'])
   })
 
   it('reports warnings without failing', async () => {
-    const result = await check(doc(text({ font: 'No Such Font' }, 'x')), { ignoreSystemFonts: true })
+    const result = await typst().compile(doc(text({ font: 'No Such Font' }, 'x')), { ignoreSystemFonts: true })
     expect(result.ok).toBe(true)
     expect(result.diagnostics.map((d) => [d.severity, d.message])).toContainEqual([
       'warning',
@@ -52,7 +52,7 @@ describe('check', () => {
   })
 
   it('checks printed source too', async () => {
-    const result = await checkSource('#unknown')
+    const result = await typst().compile({ source: '#unknown' })
     expect(result.diagnostics.map((d) => d.message)).toEqual(['unknown variable: unknown'])
   })
 })
