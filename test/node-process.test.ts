@@ -66,8 +66,9 @@ describe('check() leaves no process or directory behind', () => {
   it('after the timeout, also what a wrapper given as bin started', async () => {
     // A wrapper (a sandbox, a script) that starts Typst as its child: the whole group is killed.
     const wrapper = join(tmp, 'wrapper.sh')
-    // `<&0`: a job in the background reads /dev/null otherwise, not the source on stdin.
-    writeFileSync(wrapper, `#!/bin/sh\ntypst "$@" <&0 &\nwait\n`)
+    // A job in the background reads /dev/null, not the source on stdin (dash does so even with `<&0`):
+    // the wrapper keeps stdin as fd 3 first.
+    writeFileSync(wrapper, `#!/bin/sh\nexec 3<&0\ntypst "$@" <&3 &\nwait\n`)
     chmodSync(wrapper, 0o755)
     await expect(checkSource(loop, { bin: wrapper, timeout: 300 })).rejects.toThrow(/did not finish within 300 ms/)
     rmSync(wrapper)
