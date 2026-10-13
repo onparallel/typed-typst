@@ -3,11 +3,12 @@
  * and no Typst process or temporary directory outlives `check()`, whatever way it ends.
  */
 import { execFile, execFileSync } from 'node:child_process'
-import { chmodSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { chmodSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
-import { checkSource, installedTypstVersion, parseDiagnostics } from '../src/node.ts'
+import { doc, label, metadata, path, unsafeRaw } from '../src/index.ts'
+import { check, checkSource, installedTypstVersion, parseDiagnostics, query, querySource } from '../src/node.ts'
 
 const fake = new URL('bin/fake-typst.mjs', import.meta.url).pathname
 const node = new URL('../src/node.ts', import.meta.url).pathname
@@ -189,6 +190,56 @@ describe('diagnostics are text Typst writes, document data included', () => {
     const start = performance.now()
     expect(() => parseDiagnostics(hostile + '  ┌─ a:99999999999999999999:1\n\0\r', 'a')).not.toThrow()
     expect(performance.now() - start).toBeLessThan(1000)
+  })
+})
+
+describe('query() and check() share a root', () => {
+  it('finds metadata by element or label, with its labels and values', async () => {
+    const source = '#metadata((url: "a.png")) <web-resource>\n#metadata("x") <signature>\nHi'
+    const all = await querySource(source, metadata)
+    expect(all).toMatchObject({ ok: true, diagnostics: [] })
+    expect(all.elements).toEqual([
+      { func: 'metadata', value: { url: 'a.png' }, label: '<web-resource>' },
+      { func: 'metadata', value: 'x', label: '<signature>' },
+    ])
+    expect((await querySource(source, label('signature'))).elements).toEqual([
+      { func: 'metadata', value: 'x', label: '<signature>' },
+    ])
+    await nothingLeft()
+  })
+
+  it('reports a document that does not compile, with no elements', async () => {
+    const result = await querySource('#panic("x")', metadata)
+    expect(result.ok).toBe(false)
+    expect(result.elements).toBeNull()
+    expect(result.diagnostics[0]?.message).toMatch(/panicked/)
+  })
+
+  it('prints the target as code: a string from data stays a string', async () => {
+    const result = await querySource('Hi', 'x"); read("/etc/passwd' as never)
+    expect(result.diagnostics.map((d) => d.message).join('\n')).not.toMatch(/passwd|root:/)
+    expect(JSON.stringify(result.elements ?? [])).not.toMatch(/root:/)
+  })
+
+  it('compiles with the files a query asked for, written into the same root', async () => {
+    // As a template does: it shows the file only once it is there, so the query does not fail on it.
+    const document = doc(
+      unsafeRaw.markup({ logo: path('logo.svg') })`
+        #metadata("logo.svg") <web-resource>
+        #if sys.inputs.at("query", default: "") != "true" { image(logo) }`,
+    )
+    const root = join(tmp, 'job')
+    mkdirSync(root)
+    const options = { root, timeout: 30_000 }
+    const found = await query(document, label('web-resource'), { ...options, inputs: { query: 'true' } })
+    expect(found.elements).toEqual([{ func: 'metadata', value: 'logo.svg', label: '<web-resource>' }])
+    expect((await check(document, options)).ok).toBe(false)
+    writeFileSync(join(root, 'logo.svg'), '<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"/>')
+    const { ok, pdf } = await check(document, options)
+    expect(ok).toBe(true)
+    expect(new TextDecoder().decode(pdf!.subarray(0, 5))).toBe('%PDF-')
+    rmSync(root, { recursive: true })
+    await nothingLeft()
   })
 })
 

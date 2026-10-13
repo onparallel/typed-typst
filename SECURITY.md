@@ -1,7 +1,7 @@
 # Security
 
 typed-typst prints Typst source from TypeScript. It compiles nothing, except through the optional
-`@onparallel/typed-typst/node` helpers (`check`, `checkSource`), which run the `typst` binary. This page says
+`@onparallel/typed-typst/node` helpers (`check`, `checkSource`, `query`, `querySource`), which run the `typst` binary. This page says
 what the library guarantees, what it leaves to Typst and to you, and how to report a problem.
 
 Supported versions: the latest release. The bindings target one Typst version (`TYPST_VERSION`);
@@ -142,7 +142,7 @@ symbolic links, also ones that point outside the root.
 
 ## `@onparallel/typed-typst/node`
 
-- `check` and `checkSource` run Typst with an argument list, never a shell, and pass options as
+- `check`, `checkSource`, `query` and `querySource` run Typst with an argument list, never a shell, and pass options as
   `--flag=value`, so a value that starts with `-` stays a value; input names with `=` and input
   values that are not strings throw. The source goes in on stdin; the PDF goes to a private
   temporary directory (`mkdtemp`) that is removed afterwards.
@@ -151,8 +151,9 @@ symbolic links, also ones that point outside the root.
   a process killed by a signal (SIGKILL) cannot clean up. `timeout` is a whole number of
   milliseconds; stderr is kept up to 64 MB. This is tested on Linux and macOS; on Windows, where
   there are no process groups, only the process `check()` started is killed.
-- `checkSource(source)` compiles any Typst source: pass it only what `render` printed or what you
-  wrote.
+- `checkSource(source)` and `querySource(source, …)` compile any Typst source: pass them only what
+  `render` printed or what you wrote. The target of `query` prints as code, like any value: a string
+  from data stays a string.
 - `bin`, `root`, `fontPaths`, `packageCachePath` and `inputs` are configuration, not input: `bin`
   runs that program.
 

@@ -1,10 +1,15 @@
-/** Node-only helpers: checking the installed Typst binary, and compiling a document to see what Typst says. */
+/**
+ * Node-only helpers: checking the installed Typst binary, compiling a document to see what Typst says
+ * (and get the PDF), and querying its elements.
+ */
 import { execFileSync, spawn } from 'node:child_process'
-import { mkdtempSync, readFileSync, rmSync } from 'node:fs'
+import { mkdtempSync, rmSync } from 'node:fs'
+import { readFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { TYPST_VERSION } from './gen/std.ts'
-import { render } from './printer.ts'
+import { toCode } from './convert.ts'
+import { type QuerySig, TYPST_VERSION } from './gen/std.ts'
+import { printCode, render } from './printer.ts'
 
 /** The version of the Typst binary, as `0.15.1`. */
 export function installedTypstVersion(bin = 'typst'): string {
@@ -69,6 +74,22 @@ export interface CheckResult {
   readonly pdf: Uint8Array | null
 }
 
+/** What `query` can find: an element function (`metadata`), a label, or a selector. */
+export type QueryTarget = QuerySig['pos'][0]
+
+export interface QueryResult {
+  /** Whether Typst compiled the document. Warnings do not make it fail. */
+  readonly ok: boolean
+  /** The printed Typst source that was compiled. */
+  readonly source: string
+  readonly diagnostics: readonly Diagnostic[]
+  /**
+   * The elements found, as Typst serializes them to JSON (`{ func, label?, …fields }`; a `metadata`
+   * has its `value`), when the document compiled.
+   */
+  readonly elements: readonly Readonly<Record<string, unknown>>[] | null
+}
+
 /**
  * What to do when this process exits, for each compilation still running: one listener on `exit` for
  * all of them (one each would warn past ten at once, `MaxListenersExceededWarning`).
@@ -88,6 +109,7 @@ function listenForExit(): void {
  * Prints a document and compiles it with the Typst binary, to find out what
  * the types could not: a missing file, a wrong value only Typst knows, an
  * unknown font. The diagnostics point into the printed source (`sourceLine`).
+ * The PDF comes back in `pdf`.
  *
  * ```ts
  * const result = await check(doc(heading('Hi')))
@@ -100,17 +122,61 @@ export async function check(document: Parameters<typeof render>[0], options: Che
 
 /** Like `check`, for Typst source that is already printed. */
 export async function checkSource(source: string, options: CheckOptions = {}): Promise<CheckResult> {
+  return run(source, options, async (out) => {
+    const pdf = join(out, 'document.pdf')
+    return {
+      args: ['compile', '-', pdf],
+      result: async (ok) => ({ pdf: ok ? new Uint8Array(await readFile(pdf)) : null }),
+    }
+  })
+}
+
+/**
+ * Compiles a document and returns the elements that match `target`, as Typst's `query` finds them
+ * (`typst eval 'query(…)'`): the `metadata` a template places, labelled elements, headings. It takes the
+ * options of `check`; give both the same `root` to compile with the files a query asked for.
+ *
+ * ```ts
+ * const { elements } = await query(document, label('signature'), { root })
+ * ```
+ */
+export async function query(
+  document: Parameters<typeof render>[0],
+  target: QueryTarget,
+  options: CheckOptions = {},
+): Promise<QueryResult> {
+  return querySource(render(document), target, options)
+}
+
+/** Like `query`, for Typst source that is already printed. */
+export async function querySource(
+  source: string,
+  target: QueryTarget,
+  options: CheckOptions = {},
+): Promise<QueryResult> {
+  // The target prints as code, like any value: a string from data stays a string.
+  const expression = `query(${printCode(toCode(target), 0)})`
+  return run(source, options, async () => ({
+    args: ['eval', '--in=-', expression],
+    result: async (ok, stdout) => ({ elements: ok ? (JSON.parse(stdout) as QueryResult['elements']) : null }),
+  }))
+}
+
+/** Runs Typst on `source` (on stdin) in a temporary directory, with the arguments `command` gives. */
+async function run<R>(
+  source: string,
+  options: CheckOptions,
+  command: (out: string) => Promise<{ args: string[]; result: (ok: boolean, stdout: string) => Promise<R> }>,
+): Promise<R & { ok: boolean; source: string; diagnostics: Diagnostic[] }> {
   const { timeout } = options
   if (timeout !== undefined && !(Number.isInteger(timeout) && timeout >= 1 && timeout <= 2 ** 31 - 1))
     throw new RangeError(`timeout is a whole number of milliseconds from 1 to 2^31 - 1, not ${timeout}`)
   const out = mkdtempSync(join(tmpdir(), 'typed-typst-'))
   try {
-    const pdf = join(out, 'document.pdf')
+    const { args: commandArgs, result } = await command(out)
     // The source goes in on stdin, so nothing is written into the project.
     const args = [
-      'compile',
-      '-',
-      pdf,
+      ...commandArgs,
       // `--flag=value`: a value that starts with `-` stays a value.
       `--root=${options.root ?? out}`,
       ...(options.ignoreSystemFonts ? ['--ignore-system-fonts'] : []),
@@ -124,12 +190,18 @@ export async function checkSource(source: string, options: CheckOptions = {}): P
         return `--input=${k}=${v}`
       }),
     ]
-    const stderr = await new Promise<{ code: number; stderr: string }>((resolve, reject) => {
+    const done = await new Promise<{ code: number; stdout: string; stderr: string }>((resolve, reject) => {
       if (options.signal?.aborted) return reject(new Error('the compilation was aborted'))
       // Its own process group (`detached`), so that a kill also reaches what `bin` starts (a wrapper,
-      // a sandbox). stdout is not read; stderr is kept up to 64 MB.
-      const child = spawn(options.bin ?? 'typst', args, { detached: true, stdio: ['pipe', 'ignore', 'pipe'] })
+      // a sandbox). stdout and stderr are kept up to 64 MB each.
+      const child = spawn(options.bin ?? 'typst', args, { detached: true, stdio: ['pipe', 'pipe', 'pipe'] })
+      let stdout = ''
       let err = ''
+      child.stdout.setEncoding('utf8')
+      child.stdout.on('data', (chunk: string) => {
+        if (stdout.length + chunk.length > 64 << 20) kill('Typst wrote more than 64 MB of output')
+        else stdout += chunk
+      })
       child.stderr.setEncoding('utf8')
       child.stderr.on('data', (chunk: string) => {
         if (err.length + chunk.length > 64 << 20) kill('Typst wrote more than 64 MB of diagnostics')
@@ -142,7 +214,7 @@ export async function checkSource(source: string, options: CheckOptions = {}): P
       child.on('close', (code) => {
         stop()
         if (stopped) reject(new Error(stopped))
-        else resolve({ code: code ?? 1, stderr: err })
+        else resolve({ code: code ?? 1, stdout, stderr: err })
       })
       let stopped: string | null = null
       const kill = (why: string) => {
@@ -175,20 +247,20 @@ export async function checkSource(source: string, options: CheckOptions = {}): P
       child.stdin!.on('error', () => {})
       child.stdin!.end(source)
     })
-    const ok = stderr.code === 0
-    const diagnostics = parseDiagnostics(stderr.stderr, source)
+    const ok = done.code === 0
+    const diagnostics = parseDiagnostics(done.stderr, source)
     // A failure without an error message (Typst panicked, or was killed): its last words.
     if (!ok && !diagnostics.some((d) => d.severity === 'error'))
       diagnostics.push({
         severity: 'error',
-        message: stderr.stderr.trim().split('\n').slice(-3).join('\n') || `Typst exited with code ${stderr.code}`,
+        message: done.stderr.trim().split('\n').slice(-3).join('\n') || `Typst exited with code ${done.code}`,
         file: null,
         line: null,
         column: null,
         sourceLine: null,
         hints: [],
       })
-    return { ok, source, diagnostics, pdf: ok ? new Uint8Array(readFileSync(pdf)) : null }
+    return { ok, source, diagnostics, ...(await result(ok, done.stdout)) }
   } finally {
     rmSync(out, { recursive: true, force: true })
   }

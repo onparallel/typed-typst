@@ -202,7 +202,16 @@ if (!result.ok) {
 // result.pdf holds the PDF when result.ok; result.source is the printed Typst.
 ```
 
-`checkSource(source)` does the same for printed source. Options: `root`, `fontPaths`, `ignoreSystemFonts`, `packageCachePath`, `packagePath`, `inputs` (`sys.inputs`), `bin`, `timeout` (milliseconds; Typst is killed after it) and `signal` (an `AbortSignal`). Only `ok` is reliable: data the document shows in a message can shape the diagnostics.
+`checkSource(source)` does the same for printed source.
+
+`query(document, target, options)` compiles the document and returns the elements Typst's `query`
+finds, in `elements` (`{ func, label?, value?, … }[]`, the JSON of `typst eval 'query(…)'`).
+`target` is an element function (`metadata`, `heading`), a `label('…')` or a selector. It takes the
+same options as `check`, so a query and a compile can share a `root`: query, write the files the
+document asked for into the root, then `check` with the same options. `querySource` takes printed
+source.
+
+Options of `check` and `query`: `root`, `fontPaths`, `ignoreSystemFonts`, `packageCachePath`, `packagePath`, `inputs` (`sys.inputs`), `bin`, `timeout` (milliseconds; Typst is killed after it) and `signal` (an `AbortSignal`). Only `ok` is reliable: data the document shows in a message can shape the diagnostics.
 
 ## Errors and what they mean
 

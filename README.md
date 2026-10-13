@@ -63,7 +63,8 @@ Thank you, #strong("ACME <script>#panic()</script>");.
 Compile the result with the `typst` CLI (or any Typst compiler) as usual. In
 Node, `check(document)` from `@onparallel/typed-typst/node` does it for you: it compiles
 with the `typst` binary and returns the PDF, or Typst's errors and warnings
-with the line of the printed source they point at.
+with the line of the printed source they point at. `query(document, metadata)` returns the
+elements Typst's `query` finds, such as the `metadata` a template places.
 
 ## What this project is about
 

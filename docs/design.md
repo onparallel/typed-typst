@@ -434,7 +434,11 @@ spec/overlay.ts ─┴─ pnpm gen ─▶ src/gen/std.ts, src/gen/sym.ts   (comm
   when the installed binary differs, and the tests call it first. `versionGuard()` prints
   `#assert(sys.version == version(0, 15, 1), …)`, so the document fails with another binary.
 - `check(doc)` in the `node` entry point compiles with the Typst binary from stdin and returns the
-  PDF, or the diagnostics with the line of the printed source each points at.
+  PDF, or the diagnostics with the line of the printed source each points at. `query(doc, target)`
+  runs `typst eval 'query(…)'` the same way and returns the JSON of the elements; the target prints
+  as code, like any value. Both share one runner (timeout, signal, process-group kill, clean-up) and
+  the same options, so a query and a compile can use one `root`. Other outputs (PNG, SVG, pages) are
+  for the `typst` CLI.
 - Typst `a.b.c` is package version `a.b.(c × 100 + r)`, where `r` counts the library's releases for
   that Typst version: an ordinary version, so it sorts and ranges work. `docs/upgrading-typst.md`
   gives the steps for a new Typst version.
